@@ -1,13 +1,15 @@
 {{ define "main" }}
   <main aria-role="main">
-  <section class="section">
-    <header>
-      <h1 class="title is-1">{{.Title}}</h1>
-    </header>
-    
-    <p class="subtitle">
-    {{ .Content }}
-    </p>
+  <section class="hero">
+    <div class="hero-body">
+      <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg">
+      <p class="title">
+        <h1 class="title is-1 has-text-light">{{.Title}}</h1>
+      </p>
+      <p class="subtitle has-text-white">
+      {{ .Content }}
+      </p>
+    </div>
   </section>
 
   <section class="section">
