@@ -3,7 +3,7 @@
   {{- partial "head.html" . -}}
   <body style="background-color:#1c1c1c">
     {{- partial "header.html" . -}}
-    <div id="content">
+    <div id="content" class="container is-max-desktop">
       {{- block "main" . }}{{- end }}
     </div>
     {{- partial "footer.html" . -}}

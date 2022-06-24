@@ -1,6 +1,22 @@
-{{ $urlPre := "https://api.instagram.com/v1/users/self/media/recent?access_token=" }}
-  {{ $id := .Site.Params.inst_access }}
-  {{ $inst := getJSON $urlPre $id }}
-  {{ range first 5 $inst.data }}
-  <li><a href="{{ .link }}" target="_blank"><img src="{{ .images.standard_resolution.url }}" alt="{{ .caption.text }}"></a></li>
-      {{ end }}
+{{ $dataJ := getJSON "https://profilepageimages.usecue.com/images/turningcoffeeintocode/images.json" }}
+
+{{ range $index, $img := first 9 $dataJ }}
+  {{ if (eq (mod $index 3) 0) }}
+    <div class="tile is-ancestor">
+  {{ end }}
+
+  {{ $media_type := .media_type | lower }}
+  {{ $image_small := .image_small }}
+  {{ $permalink := .permalink }}
+  {{ $caption := .caption }}
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <a href="{{ $permalink }}" target="_blank" rel="noopener noreferrer">
+            <img class="{{ $media_type }}" src="{{ $image_small }}" {{ with $caption }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
+          </a>
+        </div>
+      </div>
+  {{ if (eq (mod $index 3) 2) }}
+    </div>
+  {{ end }}
+{{ end }}
