@@ -1,3 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/aurum/assets/bulma"]
+	path = themes/aurum/assets/bulma
+	url = https://github.com/jgthms/bulma.git
