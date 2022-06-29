@@ -1,19 +1,16 @@
 {{ define "main" }}
   <main aria-role="main">
-  <section class="hero">
-    <div class="hero-body">
-      <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg">
+  <div class="container w-75">
+      <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid">
       <p class="title">
         <h1 class="title is-1 has-text-light">{{.Title}}</h1>
       </p>
       <p class="subtitle has-text-white">
       {{ .Content }}
       </p>
-    </div>
-  </section>
-
   <section class="section">
     {{ partial "instafeed.html" }}
   </section>
+  </div>
   </main>
 {{ end }}

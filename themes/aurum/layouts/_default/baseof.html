@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   {{- partial "head.html" . -}}
-  <body style="background-color:#1A171B">
+  <body>
     {{- partial "header.html" . -}}
-    <div id="content" class="container is-max-desktop">
+    <div id="content" class="container">
       {{- block "main" . }}{{- end }}
     </div>
     {{- partial "footer.html" . -}}
