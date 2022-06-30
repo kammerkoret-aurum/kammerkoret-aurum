@@ -1,11 +1,12 @@
 {{ define "main" }}
   <main aria-role="main">
-  <div class="container w-75">
-      <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid">
-      <p class="title">
-        <h1 class="title is-1 has-text-light">{{.Title}}</h1>
-      </p>
-      <p class="subtitle has-text-white">
+  <div class="container container-lg-fluid mb-5 pb-5 text-center w-75">
+    <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid">
+  </div>
+
+  <div class="container w-75 bg-light p-5">
+      <h1 class="title">{{.Title}}</h1>
+      <p class="lead">
       {{ .Content }}
       </p>
   <section class="section">
