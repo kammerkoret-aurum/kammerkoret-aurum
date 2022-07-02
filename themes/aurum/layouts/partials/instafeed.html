@@ -1,16 +1,22 @@
 {{ $dataJ := getJSON "https://profilepageimages.usecue.com/images/kammerkoretaurum/images.json" }}
 
-<div class="container w-75 py-5">
+<div class="container w-50 p-4 my-5 bg-light">
+  <p>
+  Følg oss på <a href="https://www.instagram.com/kammerkoretaurum" class="link-dark">Instagram</a> <i class="fab fa-instagram"></i>
+  </p>
+
 <div class="row g-4">
-{{ range $index, $img := first 9 $dataJ }}
+{{ range $index, $img := first 8 $dataJ }}
 
   {{ $media_type := .media_type | lower }}
   {{ $image_small := .image_small }}
   {{ $permalink := .permalink }}
   {{ $caption := .caption }}
-      <div class="col-md-4">
+      <div class="col-md-3">
           <a href="{{ $permalink }}" target="_blank" rel="noopener noreferrer">
+            <div class="instafeed">
             <img class="img-fluid" src="{{ $image_small }}" {{ with $caption }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
+            </div>
           </a>
       </div>
 {{ end }}

@@ -3,7 +3,20 @@ title: "Kammerkoret Aurum"
 menu: "main"
 ---
 
-Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondheim.
+Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondheim. Kammerkoret Aurum ble stiftet i Trondheim i 2006. Koret ledes av Eva Holm Foosnæs og består av rundt 30 sangere. Koret er opptatt av å holde et høyt musikalsk nivå og er en aktiv bestiller av nykomponerte korverk.
+
+I 2022 slapp vi albumet **Alt hva mødrene har kjempet**, som har fått gode anmeldelser i inn- og utland.
+
+
+### Vil du synge med oss?
+Vi har opptak to ganger i året. Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a> om du har lyst å prøvesynge for oss. 
+
+### Vil du høre oss synge?
+Neste konsert er med Carola på Olavsfestdagene den 1. juli 2022.
+
+Vi kan også ta på oss oppdrag.   Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a>. 
+
+
 
 
 
