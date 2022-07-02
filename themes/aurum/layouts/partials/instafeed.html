@@ -1,22 +1,18 @@
 {{ $dataJ := getJSON "https://profilepageimages.usecue.com/images/kammerkoretaurum/images.json" }}
 
+<div class="container w-75 py-5">
+<div class="row g-4">
 {{ range $index, $img := first 9 $dataJ }}
-  {{ if (eq (mod $index 3) 0) }}
-    <div class="tile is-ancestor">
-  {{ end }}
 
   {{ $media_type := .media_type | lower }}
   {{ $image_small := .image_small }}
   {{ $permalink := .permalink }}
   {{ $caption := .caption }}
-      <div class="tile is-parent">
-        <div class="tile is-child">
+      <div class="col-md-4">
           <a href="{{ $permalink }}" target="_blank" rel="noopener noreferrer">
-            <img class="{{ $media_type }}" src="{{ $image_small }}" {{ with $caption }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
+            <img class="img-fluid" src="{{ $image_small }}" {{ with $caption }}alt="{{ . }}"{{ else }}alt=""{{ end }}>
           </a>
-        </div>
       </div>
-  {{ if (eq (mod $index 3) 2) }}
-    </div>
-  {{ end }}
 {{ end }}
+    </div>
+</div>
