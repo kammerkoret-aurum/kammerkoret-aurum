@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <main aria-role="main">
+
+  <div class="container-fluid bg-light p-5">
+
+    <div class="container">
+    <h1 class="display-1 mx-auto py-4 text-center">{{ .Title }}</h1>
+    
+    <div class="d-flex">
+
+      <div class="flex-grow-1">
+    <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
+      </div>
+
+      <div class="ps-5 p-2">
+    {{- partial "eventinfo.html" . -}}
+    </div>
+
+    </div>
+
+      <p class="lead">
+      {{ .Content | safeHTML }}
+
+      {{ with .Params.eventurl }}
+      <a href="{{ . }}">Les mer hos arrangør</a>
+      {{ end }}
+      </p>
+  </div>
+  </div>
+  </main>
+{{ end }}
