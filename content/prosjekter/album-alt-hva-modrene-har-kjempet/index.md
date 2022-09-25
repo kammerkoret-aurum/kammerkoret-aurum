@@ -1,7 +1,7 @@
 ---
 title: Alt hva mødrene har kjempet
 type: prosjekter
-releasedate: 2022-03-08
+date: 2022-03-08
 venue: Selbu kirke
 eventimg: CD-ARTWORKS-FRONT.jpg
 category: album

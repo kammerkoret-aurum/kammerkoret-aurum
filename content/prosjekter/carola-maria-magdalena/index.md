@@ -2,7 +2,7 @@
 title: Carola - Maria Magdalena
 type: prosjekter
 category: konsert
-concertdate: 2022-08-01T20:00:00Z
+date: 2022-08-01T20:00:00Z
 eventurl: https://olavsfest.no/arrangement/carola-maria-magdalena/
 ticketurl: https://www.ticketmaster.no/event/687445
 eventimg: https://olavsfest.no/wp-content/uploads/2022/03/web_carola.png

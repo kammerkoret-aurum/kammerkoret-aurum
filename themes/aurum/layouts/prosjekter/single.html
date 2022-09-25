@@ -7,10 +7,14 @@
 
       <h1 class="title py-4">{{ .Title }}</h1>
     
-    <div class="row d-flex align-items-start flex-wrap">
+    <div class="row d-flex align-items-center flex-wrap">
 
         <div class="col-lg-6 col-md-6 col-sm-12">
+              {{ if isset .Params "eventimg" }}
     <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
+              {{ else }}
+    <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="" height="auto">
+              {{ end }}
       </div>
 
         <div class="col-lg-6 col-md-6 col-sm-12">

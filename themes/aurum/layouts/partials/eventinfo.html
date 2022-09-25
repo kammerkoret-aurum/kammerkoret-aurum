@@ -1,46 +1,54 @@
-<div class="d-flex justify-content-between text-nowrap flex-wrap"> 
+<div class="d-flex justify-content-evenly text-nowrap flex-wrap"> 
+    {{ with .Date }}
     <div class="p-2">
-    {{ with .Params.concertdate }}
-                <h4>Tid</h4>
 		<p>
-                <time datetime="{{ . }}">
-                    {{ dateFormat "2." . }}
-                    {{ index $.Site.Data.months (dateFormat "1" .) }}
-                    {{ dateFormat "kl 15:04" .}}
-                </time>
-
+      <i class="fa-solid fa-calendar-day text-primary"></i>
+      <br />
+      <time datetime="{{ . }}">
+          {{ dateFormat "2." . }}
+          {{ index $.Site.Data.months (dateFormat "1" .) }}
+      </time>
+      <br />
+      <time datetime="{{ . }}">
+          {{ dateFormat "kl 15:04" .}}
+      </time>
 		</p>
-    {{ end }}
     </div>
-    <div class="p-2">
+    {{ end }}
+
     {{ with .Params.venue }}
-                <h4>Sted</h4>
-		<p>
-      {{ . }}
-		</p>
-    {{ end }}
-    </div>
     <div class="p-2">
-    {{ with .Params.price }}
-                <h4>Pris</h4>
 		<p>
-      {{ . }},-
-		</p>
-    {{ end }}
-    </div>
-</div>
-    {{ with .Params.ticketurl }}
-    <div class="text-center py-4">
-    <a class="btn btn-primary" href="{{ . }}">Kjøp billett</a>
-    </div>
-    {{ end }}
-    {{ with .Params.organizer }}
-    <div class="py-4 text-center">
-                <h4>Arrangør</h4>
-		<p>
+      <i class="fa-solid fa-location-dot text-primary"></i>
+      <br />
       {{ . }}
-
 		</p>
-    {{ end }}
     </div>
+    {{ end }}
+
+    {{ with .Params.price }}
+    <div class="p-2">
+		<p>
+      <i class="fa-solid fa-ticket text-primary"></i>
+      <br />
+        {{ . }},-
+		</p>
+    </div>
+    {{ end }}
+</div>
+
+{{ with .Params.ticketurl }}
+<div class="text-center py-4">
+  <a class="btn btn-primary" href="{{ . }}">Kjøp billett</a>
+</div>
+{{ end }}
+
+{{ with .Params.organizer }}
+<div class="py-4 text-center">
+  <h4>Arrangør</h4>
+  <p>
+    {{ . }}
+  </p>
+</div>
+{{ end }}
 

@@ -12,7 +12,8 @@ I 2022 slapp vi albumet **Alt hva mødrene har kjempet**, som har fått gode anm
 Vi har opptak to ganger i året. Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a> om du har lyst å prøvesynge for oss. 
 
 ### Vil du høre oss synge?
-Neste konsert er med Carola på Olavsfestdagene den 1. juli 2022.
+{{< nextevent >}}
+
 
 Vi kan også ta på oss oppdrag.   Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a>. 
 

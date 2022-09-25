@@ -5,4 +5,5 @@ theme = "aurum"
 
 pluralizelisttitles = false
 summaryLength = 10 
+buildFuture = true
 
