@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main aria-role="main">
 
-  <div class="container-fluid bg-light p-5">
+  <div class="container-fluid bg-light py-3 p-lg-5">
 
     <div class="container-md">
       <h1 class="title">{{.Title}}</h1>
@@ -9,12 +9,12 @@
       {{ .Content }}
       </p>
 
-      <div class="row row-cols-auto g-4">
+      <div class="row justify-content-evenly g-4">
         {{ range .Paginator.Pages }}
         <div class="col">
           <div class="card" style="max-width: 300px">
             <a href="{{ .Permalink }}">
-              <img src="{{if (eq .Params.category "album")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="card-img-top">
+              <img src="{{if (eq .Params.category "album")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid">
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ .Title }}</h5>

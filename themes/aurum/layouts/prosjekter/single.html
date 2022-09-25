@@ -1,18 +1,19 @@
 {{ define "main" }}
   <main aria-role="main">
 
-  <div class="container-fluid bg-light p-5">
+  <div class="container-fluid bg-light py-3 p-lg-5">
 
     <div class="container">
-    <h1 class="display-1 mx-auto py-4 text-center">{{ .Title }}</h1>
-    
-    <div class="d-flex">
 
-      <div class="flex-grow-1">
+      <h1 class="title py-4">{{ .Title }}</h1>
+    
+    <div class="row d-flex align-items-start flex-wrap">
+
+      <div class="">
     <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
       </div>
 
-      <div class="ps-5 p-2">
+      <div class="ps-lg-5 p-2">
         {{ if eq .Params.category "album" }}
     {{- partial "albuminfo.html" . -}}
     {{ else }}
