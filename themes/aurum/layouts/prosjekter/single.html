@@ -9,11 +9,11 @@
     
     <div class="row d-flex align-items-start flex-wrap">
 
-      <div class="">
+        <div class="col-lg-6 col-md-6 col-sm-12">
     <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
       </div>
 
-      <div class="ps-lg-5 p-2">
+        <div class="col-lg-6 col-md-6 col-sm-12">
         {{ if eq .Params.category "album" }}
     {{- partial "albuminfo.html" . -}}
     {{ else }}

@@ -11,7 +11,7 @@
 
       <div class="row justify-content-evenly g-4">
         {{ range .Paginator.Pages }}
-        <div class="col">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="card" style="max-width: 300px">
             <a href="{{ .Permalink }}">
               <img src="{{if (eq .Params.category "album")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid">
