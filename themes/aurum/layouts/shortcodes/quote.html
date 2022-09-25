@@ -1,0 +1,12 @@
+<figure class="text-center">
+  <blockquote class="blockquote"{{with .Get "href"}} cite="{{.}}"{{end}}>
+<p>
+{{ .Inner }}
+</p>
+</blockquote>
+{{ with .Get "source" }}
+<figcaption class="blockquote-footer">
+  {{ . }}
+</figcaption>
+{{ end }}
+</figure>

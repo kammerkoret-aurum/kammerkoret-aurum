@@ -13,7 +13,11 @@
       </div>
 
       <div class="ps-5 p-2">
+        {{ if eq .Params.category "album" }}
+    {{- partial "albuminfo.html" . -}}
+    {{ else }}
     {{- partial "eventinfo.html" . -}}
+    {{ end }}
     </div>
 
     </div>

@@ -3,3 +3,5 @@ languageCode = "nb"
 title = "Kammerkoret Aurum"
 theme = "aurum"
 
+pluralizelisttitles = false
+

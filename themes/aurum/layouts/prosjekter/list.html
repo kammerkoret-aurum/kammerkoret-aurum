@@ -9,11 +9,28 @@
       {{ .Content }}
       </p>
 
-      <ul>
+      <div class="row row-cols-auto g-4">
         {{ range .Paginator.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <div class="col">
+          <div class="card" style="max-width: 300px">
+            <a href="{{ .Permalink }}">
+              <img src="{{if (eq .Params.category "album")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">{{ .Title }}</h5>
+              <h6 class="card-subtitle text-muted">
+                {{ with .Params.concertdate }}{{ dateFormat "02.01.2006" . }}{{end}}
+                {{ with .Params.releasedate }}{{ dateFormat "02.01.2006" . }}{{end}}
+                </h6>
+              <p class="card-text">{{ .Summary }}</p>
+              <a href="{{ .Permalink }}" class="card-link">Les mer</a>
+            </a>
+
+          </div>
+          </div>
+          </div>
         {{end}}
-      <ul>
+          </div>
   </div>
   </main>
 {{ end }}
