@@ -8,12 +8,21 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "booking"
-    label: "Booking"
-    folder: "content/booking"
-    create: false
-    fields:
-      - {label: "Tekst", name: "body", widget: "markdown"}
+  - name: "sider"
+    label: "Sider"
+    files:
+    - name: "booking"
+      label: "Booking"
+      folder: "content/booking"
+      fields:
+        - {label: "Tekst", name: "body", widget: "markdown"}
+    - name: "om-oss"
+      label: "Om oss"
+      folder: "content/om-oss"
+      fields:
+        - {label: "Om koret", name: "about-choir", widget: "markdown"}
+        - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
+
 
 
 
