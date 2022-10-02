@@ -9,7 +9,6 @@
       {{ .Content }}
       </p>
 
-      <h2>Kommende</h2>
       <div class="row justify-content-evenly g-4">
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ $future := ge .Date.Unix now.Unix }}
