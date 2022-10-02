@@ -30,11 +30,11 @@ collections:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
-      - {label: "Omtaler",
-         name: "testimonials",
-         widget: "list",
-         summary: '{{fields.quote}} - {{fields.author}}',
-         fields:
+      - label: "Omtaler"
+        name: "testimonials"
+        widget: "list"
+        summary: '{{fields.quote}} - {{fields.author}}'
+        fields:
            - {label: "Sitat", name: "quote", widget: "string"}
            - {label: "Forfatter", name: "author", widget: "string"}
 
