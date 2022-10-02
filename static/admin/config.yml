@@ -25,6 +25,7 @@ collections:
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
+    slug: "{{slug}}/index.md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
@@ -37,8 +38,4 @@ collections:
         fields:
            - {label: "Sitat", name: "quote", widget: "string"}
            - {label: "Forfatter", name: "author", widget: "string"}
-
-
-
-
 
