@@ -13,12 +13,12 @@ collections:
     files:
     - name: "booking"
       label: "Booking"
-      folder: "content/booking"
+      file: "content/booking/index.md"
       fields:
         - {label: "Tekst", name: "body", widget: "markdown"}
     - name: "om-oss"
       label: "Om oss"
-      folder: "content/om-oss"
+      file: "content/om-oss/index.md"
       fields:
         - {label: "Om koret", name: "about-choir", widget: "markdown"}
         - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
