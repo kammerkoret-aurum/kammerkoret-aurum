@@ -1,9 +1,23 @@
 baseURL = "https://kammerkoretaurum.netlify.app/"
 languageCode = "nb"
-title = "Kammerkoret Aurum"
 theme = "aurum"
 
 pluralizelisttitles = false
 summaryLength = 10 
 buildFuture = true
+
+DefaultContentLanguage = "no"
+[languages]
+  [languages.no]
+    title = "Kammerkoret Aurum"
+    languageName = "Norsk"
+    weight = 1
+  [languages.en]
+    title = "Kammerkoret Aurum"
+    languageName = "English"
+    weight = 2
+
+    
+
+
 

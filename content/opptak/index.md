@@ -1,6 +1,5 @@
 ---
 title: "Opptak"
-menu: "main"
 ---
 
 Kammerkoret Aurum har opptak av nye korister hvert halvår.

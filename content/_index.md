@@ -1,6 +1,5 @@
 ---
 title: "Kammerkoret Aurum"
-menu: "main"
 ---
 
 Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondheim. Kammerkoret Aurum ble stiftet i Trondheim i 2006. Koret ledes av Eva Holm Foosnæs og består av rundt 30 sangere. Koret er opptatt av å holde et høyt musikalsk nivå og er en aktiv bestiller av nykomponerte korverk.
