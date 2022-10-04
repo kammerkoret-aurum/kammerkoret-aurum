@@ -45,6 +45,234 @@ about-Eva: >-
 
 
   Eva Holm Foosnæs has conducted Kammerkoret Aurum since 2012, and in her Aurum has found a conductor that thinks outside the box, sets high goals and expects quality in all that is done. Eva holds a master’s degree in music performance from NTNU Department of Music with piano as her main instrument and in-depth studies in composition. Eva has a regional conductor education from NTNU, and studied in Perugia, Italy in 2008. She also received a scholarship from RWE Deas Scholarship Program and the Norwegian Research Council to study opera and composition with Manfred Trojahn in Germany. Today, Eva works as a freelancing pianist, coach and composer. She has worked on several opera productions in Norway as a pianist and repetiteur, as well as the artistic director of Opera di Setra and Tylldalspelet. In 2019, Eva won Anders Wall & Almänna Sångens International Composition Award for the piece “The Black Monkey”, and in 2020 she won the International Composition Award Ortus New Music in Manhattan, New York for the same piece. Eva has also sung in the choir Embla for 10 years, and taken singing lessons with Sissel Høyem Aune and Maria Stattin. The choir has grown immensely under Eva’s leadership, and we are very proud to have a conductor of that caliber!
+
+
+  ***M﻿edlemmer***
+
+
+  **Sopraner**
+
+
+  Thea Caroline Aune Segtnan
+
+
+  Hilde Aas Nøst
+
+
+  Camilla Wolowczyk
+
+
+  Susann Klubben
+
+
+  Idun Bergem Lia
+
+
+  Unni Karin Moksnes
+
+
+  Karen Haugvik Francke
+
+
+  Pauline Hardeberg Zimmermann
+
+
+  **Tenorer**
+
+
+  Kasper Eliassen
+
+
+  Snorre Fånes
+
+
+  Mirkeivan Sayyar Kavardi
+
+
+  Frode Håskjold Fagerli
+
+
+  Eirik Mundhjeld
+
+
+  Jon Kristian Bye
+
+
+  David Aleksander Nilsen
+
+
+  Andreas Tesaker
+
+
+  Martin Kjærvik
+
+
+  **Alter**
+
+
+  Helle Janss Haugli
+
+
+  Anne Grete Nyseter
+
+
+  Torunn Johanna Blåsmo-Falnes
+
+
+  Ingrid Skrivervik Sultani
+
+
+  Marit Tingstad Loveland
+
+
+  Astrid Grimstad Valheim
+
+
+  Andrea Sveen Kvam
+
+
+  Anette Arild
+
+
+  Katja Løvik
+
+
+  **B﻿asser**
+
+
+  Christian Sletta
+
+
+  Fredrik Aakerhus
+
+
+  Benjamin Sandoval
+
+
+  Per Eigil Aalborg
+
+
+  Stian Skagen Eriksen
+
+
+  Sigurd Vangen Wifstad
+
+
+  Arnold Vogt Granqvist
+
+
+  ***L﻿ist of members:***
+
+
+  **Sopranos**
+
+
+  Thea Caroline Aune Segtnan
+
+
+  Hilde Aas Nøst
+
+
+  Camilla Wolowczyk
+
+
+  Susann Klubben
+
+
+  Idun Bergem Lia
+
+
+  Unni Karin Moksnes
+
+
+  Karen Haugvik Francke
+
+
+  Pauline Hardeberg Zimmermann
+
+
+  **Tenors**
+
+
+  Kasper Eliassen
+
+
+  Snorre Fånes
+
+
+  Mirkeivan Sayyar Kavardi
+
+
+  Frode Håskjold Fagerli
+
+
+  Jon Kristian Bye
+
+
+  Eirik Mundhjeld
+
+
+  David Aleksander Nilsen
+
+
+  Andreas Tesaker
+
+
+  Martin Kjærvik
+
+
+  **A﻿ltos**
+
+
+  Helle Janss Haugli
+
+
+  Anne Grete Nyseter
+
+
+  Torunn Johanna Blåsmo-Falnes
+
+
+  Ingrid Skrivervik Sultani
+
+
+  Marit Tingstad Loveland
+
+
+  Astrid Grimstad Valheim
+
+
+  Andrea Sveen Kvam
+
+
+  Anette Arild
+
+
+  Katja Løvik
+
+
+  **Basses**
+
+
+  Christian Sletta
+
+
+  Fredrik Aakerhus
+
+
+  Benjamin Sandoval
+
+
+  Per Eigil Aalborg
+
+
+  Stian Skagen Eriksen
+
+
+  Sigurd Vangen Wifstad
+
+
+  Arnold Vogt Granqvist
 ---
 
 Kammerkoret Aurum er et ambisiøst kor fra Trondheim. Koret ble stiftet i 2006 og består av rundt 30 sangere i 20-40-årene. Vi er opptatt av å holde et høyt musikalsk nivå og har et variert og spennende repertoar bestående av både ny og gammel musikk.
