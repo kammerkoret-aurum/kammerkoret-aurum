@@ -26,7 +26,7 @@ collections:
     label: "Prosjekter"
     folder: "content/prosjekter"
     slug: "{{slug}}"
-    path: "{{slug}}"
+    path: "{{slug}}/index.md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
