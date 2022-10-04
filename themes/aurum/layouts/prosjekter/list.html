@@ -10,7 +10,7 @@
       </p>
 
       <div class="row justify-content-evenly g-4">
-      {{ range .Paginator.Pages.ByDate.Reverse }}
+      {{ range .Paginator.Pages.ByDate }}
         {{ $future := ge .Date.Unix now.Unix }}
         {{ if $future }}
         <div class="col-lg-4 col-md-6 col-sm-12">
