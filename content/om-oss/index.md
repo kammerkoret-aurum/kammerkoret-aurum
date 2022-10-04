@@ -13,6 +13,7 @@ about-choir: >-
   L﻿ang:
 
 
+  Kammerkoret Aurum er et prisbelønt kor som holder til i Trondheim. Aurum ble stiftet i 2006 med utgangspunkt i musikkmiljøet ved Norges Teknisk og Naturvitenskapelige Universitet og består i dag av om lag 30 sangere. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk. Korets prosjekter springer ofte ut fra nysgjerrighet for nye musikalske uttrykk som utforsker og utfordrer klassisk kammermusikk. Gjennom samarbeid med musikere, artister og kulturelle institusjoner i Norge og utlandet har Aurum fått utfolde seg langt utover komfortsonen. Av nye minneverdige prosjekter kan urfremføring av verket “Maria Magdalena” med Carola under Olavsfestdagene i august nevnes, samt samarbeidet med Sondre Justad under Neonfestivalen i juni. I mars gav Aurum ut sitt andre album “Alt hva mødrene har kjempet”, en samling av nyere, norske korverk som skildrer sterke kvinner og de mange stormene som kvinner har måttet - og fremdeles må - stå i. Kammerkoret Aurum dirigeres av Eva Holm Foosnæs. Med en bred faglig bakgrunn innen direksjon, piano og komposisjon har Eva siden 2012 ledet koret til mange utmerkelser både i Norge og i utlandet.
 
 
   S﻿hort:
@@ -22,6 +23,9 @@ about-choir: >-
 
 
   L﻿ong:
+
+
+  Kammerkoret Aurum is an award-winning mixed choir based in Trondheim, Norway. The choir was founded in 2006 and consists of around 30 singers. Aurum has a varied repertoire that ranges from traditional, classical choral music to experimental contemporary and popular music, and they have had several performances with some of Norway’s leading pop artists. The choirs' projects often arise from curiosity towards new musical expressions that explore and challenge the borders of classical chamber music. In March 2022, Kammerkoret Aurum released their second album, “All that our mothers have fought”, which portrays different perspectives of women's struggles throughout time. Kammerkoret Aurum is conducted by Eva Holm Foosnæs. With an extensive background in conducting, piano and composition, Foosnæs has since 2012 steadily led the choir through many great achievements in Norway and internationally.
 about-Eva: >-
   K﻿ort:
 
