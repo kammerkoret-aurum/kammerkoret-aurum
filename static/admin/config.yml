@@ -25,13 +25,14 @@ collections:
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
-    slug: "{{slug}}/index"
-    path: "{{slug}}/index"
+    slug: "{{slug}}"
+    path: "{{slug}}"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
+      - {label: "Bilde", name: "eventimg", widget: "image"}
       - label: "Omtaler"
         name: "testimonials"
         widget: "list"
@@ -39,4 +40,5 @@ collections:
         fields:
            - {label: "Sitat", name: "quote", widget: "string"}
            - {label: "Forfatter", name: "author", widget: "string"}
+           - {label: "Kilde", name: "source", widget: "string", required: false}
 
