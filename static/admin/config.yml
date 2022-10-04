@@ -28,14 +28,14 @@ collections:
       label: "Om oss"
       file: "content/om-oss/index.md"
       fields:
-        - {label: "Om koret", name: "about-choir", widget: "markdown"}
-        - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
+        - {label: "Om koret", name: "choir", widget: "markdown"}
+        - {label: "Om Eva", name: "eva", widget: "markdown"}
     - name: "om-oss-en"
       label: "Om oss (en)"
       file: "content/om-oss/index.en.md"
       fields:
-        - {label: "Om koret", name: "about-choir", widget: "markdown"}
-        - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
+        - {label: "Om koret", name: "choir", widget: "markdown"}
+        - {label: "Om Eva", name: "eva", widget: "markdown"}
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"

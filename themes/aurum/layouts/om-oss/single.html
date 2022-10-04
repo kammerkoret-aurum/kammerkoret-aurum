@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <main aria-role="main">
+
+  <div class="container-fluid bg-light p-5">
+    <div class="container-md">
+      <h1 class="title">{{.Title}}</h1>
+      <p class="lead">
+      {{ .Params.choir }}
+      </p>
+      {{ .Params.eva }}
+  </div>
+  </main>
+{{ end }}
