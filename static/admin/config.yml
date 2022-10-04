@@ -7,17 +7,27 @@ publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 
+i18n:
+  structure: multiple_files
+  locales: [no, en]
+
+
 collections:
   - name: "sider"
     label: "Sider"
+    i18n:
+      structure: single_file
+      locales: [no, en]
     files:
     - name: "booking"
       label: "Booking"
+      i18n: true
       file: "content/booking/index.md"
       fields:
         - {label: "Tekst", name: "body", widget: "markdown"}
     - name: "om-oss"
       label: "Om oss"
+      i18n: true
       file: "content/om-oss/index.md"
       fields:
         - {label: "Om koret", name: "about-choir", widget: "markdown"}
@@ -25,6 +35,7 @@ collections:
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
+    i18n: true
     slug: "{{slug}}"
     path: "{{slug}}/index.md"
     create: true
