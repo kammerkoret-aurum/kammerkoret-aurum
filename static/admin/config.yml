@@ -30,9 +30,13 @@ collections:
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
+      - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
+      - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
+      - {label: "Dato", name: "date", widget: "date"}
+      - {label: "Pris", name: "price", widget: "number", required: false}
+      - {label: "Sted", name: "venue", widget: "string", required: false}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
-      - {label: "Bilde", name: "eventimg", widget: "image"}
       - label: "Omtaler"
         name: "testimonials"
         widget: "list"
