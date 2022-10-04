@@ -1,11 +1,11 @@
 ---
+type: om-oss
 title: About
 menu:
   main:
     weight: 2
-about-choir: >-
+choir: >-
   S﻿hort:
-
 
   Kammerkoret Aurum is an award-winning choir based in Trondheim, Norway, which consists of around 30 singers. The choir was founded in 2006 and has its roots in the musical milieu of the Norwegian University of Science and Technology. Aurum has a vast and varied repertoire concentrating on new, Scandinavian music. Their projects often arise from curiosity towards new musical expressions and they are an eager commissioner of new choral music.
 
@@ -14,7 +14,7 @@ about-choir: >-
 
 
   Kammerkoret Aurum is an award-winning mixed choir based in Trondheim, Norway. The choir was founded in 2006 and consists of around 30 singers. Aurum has a varied repertoire that ranges from traditional, classical choral music to experimental contemporary and popular music, and they have had several performances with some of Norway’s leading pop artists. The choirs' projects often arise from curiosity towards new musical expressions that explore and challenge the borders of classical chamber music. In March 2022, Kammerkoret Aurum released their second album, “All that our mothers have fought”, which portrays different perspectives of women's struggles throughout time. Kammerkoret Aurum is conducted by Eva Holm Foosnæs. With an extensive background in conducting, piano and composition, Foosnæs has since 2012 steadily led the choir through many great achievements in Norway and internationally.
-about-Eva: >-
+eva: >-
   About Eva - short
 
 
