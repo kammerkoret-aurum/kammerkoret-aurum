@@ -18,9 +18,21 @@ collections:
       fields:
         - {label: "Tittel", name: "title", widget: "string"}
         - {label: "Tekst", name: "body", widget: "markdown"}
+    - name: "booking_en"
+      label: "Booking (en)"
+      file: "content/booking/index.en.md"
+      fields:
+        - {label: "Tittel", name: "title", widget: "string"}
+        - {label: "Tekst", name: "body", widget: "markdown"}
     - name: "om-oss"
       label: "Om oss"
       file: "content/om-oss/index.md"
+      fields:
+        - {label: "Om koret", name: "about-choir", widget: "markdown"}
+        - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
+    - name: "om-oss-en"
+      label: "Om oss (en)"
+      file: "content/om-oss/index.en.md"
       fields:
         - {label: "Om koret", name: "about-choir", widget: "markdown"}
         - {label: "Om Eva", name: "about-Eva", widget: "markdown"}
