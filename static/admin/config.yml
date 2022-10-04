@@ -33,7 +33,7 @@ collections:
       - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
-      - {label: "Dato", name: "date", widget: "date"}
+      - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - {label: "Pris", name: "price", widget: "number", required: false}
       - {label: "Sted", name: "venue", widget: "string", required: false}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
