@@ -32,7 +32,6 @@
         </li>
       </ul>
       {{ $currentLang := .Site.Language.LanguageName}}
-      {{ if .IsTranslated }}
       <ul class="navbar-nav ps-5">
         {{ range .AllTranslations }}
         <li class="nav-item">
@@ -40,7 +39,6 @@
       </a></li>
        {{ end }}
       </ul>
-       {{ end }}
 
     </div>
   </nav>
