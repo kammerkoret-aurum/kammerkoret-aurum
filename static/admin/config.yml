@@ -19,32 +19,32 @@ collections:
           - {label: "Alt", name: "alt", widget: "text"}
           - {label: "Tenor", name: "tenor", widget: "text"}
           - {label: "Bass", name: "bass", widget: "text"}
-    - name: "booking"
-      label: "Booking"
-      file: "content/booking/index.md"
-      fields:
-        - {label: "Tittel", name: "title", widget: "string"}
-        - {label: "Tekst", name: "body", widget: "markdown"}
-    - name: "booking_en"
-      label: "Booking (en)"
-      file: "content/booking/index.en.md"
-      fields:
-        - {label: "Tittel", name: "title", widget: "string"}
-        - {label: "Tekst", name: "body", widget: "markdown"}
-    - name: "om-oss"
-      label: "Om oss"
-      file: "content/om-oss/index.md"
-      fields:
-        - {label: "Om koret", name: "choir", widget: "markdown"}
-        - {label: "Om Eva", name: "eva", widget: "markdown"}
-        - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
-    - name: "om-oss-en"
-      label: "Om oss (en)"
-      file: "content/om-oss/index.en.md"
-      fields:
-        - {label: "Om koret", name: "choir", widget: "markdown"}
-        - {label: "Om Eva", name: "eva", widget: "markdown"}
-        - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
+      - name: "booking"
+        label: "Booking"
+        file: "content/booking/index.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "booking_en"
+        label: "Booking (en)"
+        file: "content/booking/index.en.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "om-oss"
+        label: "Om oss"
+        file: "content/om-oss/index.md"
+        fields:
+          - {label: "Om koret", name: "choir", widget: "markdown"}
+          - {label: "Om Eva", name: "eva", widget: "markdown"}
+          - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
+      - name: "om-oss-en"
+        label: "Om oss (en)"
+        file: "content/om-oss/index.en.md"
+        fields:
+          - {label: "Om koret", name: "choir", widget: "markdown"}
+          - {label: "Om Eva", name: "eva", widget: "markdown"}
+          - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
