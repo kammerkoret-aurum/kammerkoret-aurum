@@ -1,0 +1,10 @@
+- id: members
+  translation: members
+- id: sopranos
+  translation: sopranos
+- id: altos
+  translation: altos
+- id: tenors
+  translation: tenors
+- id: basses
+  translation: basses
