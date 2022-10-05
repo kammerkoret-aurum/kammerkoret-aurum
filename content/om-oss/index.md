@@ -4,17 +4,12 @@ type: om-oss
 menu:
   main:
     weight: 2
-choir: >-
-  K﻿ort:
-
-
-  Kammerkoret Aurum er et prisbelønt kor som holder til i Trondheim og som består av om lag 30 sangere. Koret ble stiftet i 2006 med utgangspunkt i musikkmiljøet ved Norges Teknisk og Naturvitenskapelige Universitet. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk, og er en aktiv bestiller av musikk. Prosjektene til koret favner vidt, og springer ofte ut av nysgjerrighet for nye uttrykk.
-
-
-  L﻿ang:
-
-
-  Kammerkoret Aurum er et prisbelønt kor som holder til i Trondheim. Aurum ble stiftet i 2006 med utgangspunkt i musikkmiljøet ved Norges Teknisk og Naturvitenskapelige Universitet og består i dag av om lag 30 sangere. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk. Korets prosjekter springer ofte ut fra nysgjerrighet for nye musikalske uttrykk som utforsker og utfordrer klassisk kammermusikk. Gjennom samarbeid med musikere, artister og kulturelle institusjoner i Norge og utlandet har Aurum fått utfolde seg langt utover komfortsonen. Av nye minneverdige prosjekter kan urfremføring av verket “Maria Magdalena” med Carola under Olavsfestdagene i august nevnes, samt samarbeidet med Sondre Justad under Neonfestivalen i juni. I mars gav Aurum ut sitt andre album “Alt hva mødrene har kjempet”, en samling av nyere, norske korverk som skildrer sterke kvinner og de mange stormene som kvinner har måttet - og fremdeles må - stå i. Kammerkoret Aurum dirigeres av Eva Holm Foosnæs. Med en bred faglig bakgrunn innen direksjon, piano og komposisjon har Eva siden 2012 ledet koret til mange utmerkelser både i Norge og i utlandet.
+choir: Kammerkoret Aurum er et prisbelønt kor som holder til i Trondheim og som
+  består av om lag 30 sangere. Koret ble stiftet i 2006 med utgangspunkt i
+  musikkmiljøet ved Norges Teknisk og Naturvitenskapelige Universitet. Aurum har
+  et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk,
+  og er en aktiv bestiller av musikk. Prosjektene til koret favner vidt, og
+  springer ofte ut av nysgjerrighet for nye uttrykk.
 eva: >-
   K﻿ort:
 
