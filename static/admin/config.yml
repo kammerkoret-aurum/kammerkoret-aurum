@@ -11,6 +11,14 @@ collections:
   - name: "sider"
     label: "Sider"
     files:
+      - name: "medlemmer"
+        label: "Medlemmer"
+        file: "data/medlemmer.yml"
+        fields:
+          - {label: "Sopran", name: "sopran", widget: "text"}
+          - {label: "Alt", name: "alt", widget: "text"}
+          - {label: "Tenor", name: "tenor", widget: "text"}
+          - {label: "Bass", name: "bass", widget: "text"}
     - name: "booking"
       label: "Booking"
       file: "content/booking/index.md"
