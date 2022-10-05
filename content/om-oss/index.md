@@ -259,22 +259,6 @@ eva: >-
   Arnold Vogt Granqvist
 
 
-  ***Samarbeidsprosjekter***
-
-
-  K﻿ort:
-
-
-  Kammerkoret Aurum er et ettertraktet kor for samarbeidsprosjekter. Det siste året har Aurum blant annet urframført et verk med Carola under Olavsfestdagene, koret for Sondre Justad under Neonfestivalen og samarbeidet med kåsør Marianne Meløy på CD-prosjektet “Alt hva mødrene har kjempet”. Aurum har ofte konserter med andre kor både lokalt i Trondheim og i Norge og utlandet. Koret har jevnlig deltatt på prosjekter under Olavsfestdagene, samt vært et fast innslag på Ole Dalens julekonserter.
-
-
-  L﻿ang:
-
-
-  Kammerkoret Aurum er et ettertraktet kor for samarbeidsprosjekter. Koret drar i oktober på sin første utenlandsturné, og skal samarbeide med Junges Consortium Berlin, Kammerchor der Universität zu Köln og University of Louisville Cardinal Singers under konsertene der. Tidligere i år har vi blant annet koret for Sondre Justad under Neonfestivalen, utgitt CDen “Alt hva mødrene har kjempet” og tilhørende musikkvideo i samarbeid med blant annet kåsør Marianne Meløy, samt urframført verket “Maria Magdalena” med Carola under Olavsfestdagene. Samarbeidet med Carola strekker seg også fram i tid, da materialet er spilt inn og planlagt utgitt rundt påsketider 2023. 
-
-
-  Av tidligere prosjekter var Aurum med på å sette opp Faurés Requiem i 2016, og i 2017 sto Mahlers 2. symfoni på plakaten. Gjennom flere år med forespørsler fra Olavsfestdagene har vi fått utvidet komfortsonen. Vi har vokalisert sammen med Motorpsycho på urframføringen av bestillingsverket «En konsert for folk flest» i 2014, og sunget gjennom en hel natt i Nidarosdomen under John Taveners gigantiske verk «The Veil of the Temple» i 2015. I 2017 fikk vi både improvisere sammen med Eirik Hegdal på John Coltrane’s «A Love Supreme», og kore med flere av Norges største artister på salmekvelden i Borggården, under ledelse av Tord Gustavsen. Vi har også samarbeidet med andre kor. I 2017 dro vil til Oslo og holdt konserten Double Trouble med Kammerkoret Nova, mens på hjemmebane har vi bl.a. samarbeidet med Viva og Embla. I 2018 hadde vi samarbeidsprosjekt med Ole Bull Kammerkor hvor vi fremførte Frank Martins messe for dobbeltkor i Trondheim og Bergen. De siste årene har vi også deltatt på Ole Dalens julekonserter, der vi har delt scene med både Trondheimssolistene og en lang rekke kjente artister fra både inn- og utland. Vi har deltatt på en støttekonsert for flyktninger i Vår Frue kirke, jubileumskonsert for Rolling Tones, og en konsert i forbindelse med Håkon Gullvågs utstilling «Den bibelske syklus» i Nidarosdomen.
 
 
   ***C﻿ollaborations***
@@ -408,18 +392,6 @@ eva: >-
   \- En rekke priser
 
 
-  CD: Alt hva mødrene har kjempet (2022)
-
-
-  Kammerkoret Aurums andre plate “Alt hva mødrene har kjempet” ble utgitt på 2L i mars 2022. «Alt hva mødrene har kjempet» er en samling av nyere, norske korverk som skildrer sterke kvinner. Felles for disse verkene er at de formidler de mange stormene som kvinner har måttet – og fremdeles må – stå i. Vi får vi blant annet høre historier om “Kvinnestemmerettforeningen”, om en syrisk student som satte livet på spill for å fullføre sin legeutdanning, og om et barnlig jenteopprør. Alle disse historiene gir rom for nye blikk på kvinnekampen. Drivkraften bak denne utgivelsen er ønsket om å bidra til nye perspektiv på nasjonalsangens gråtende kvinner. Gjennom fire verker bestilt til dette prosjektet; “Doctora”, “Malala”, “Ofte må jeg så mye” og “Alt hva mødrene har kjempet”, formidles noen av disse perspektivene.
-
-
-  CD: UR (2016)
-
-
-  Kammerkoret Aurums første plate “UR” ble utgitt på 2L i november 2016. Ur er tiden som går. Fortid møter fremtid, unge krefter slipper til og bringer tiden videre. Ur er det opprinnelige. Der vi kjenner våre dypeste røtter, dit vi ser tilbake til for å få perspektiv på hvor vi er på vei. Ur er natur. Steinrøysa som klamrer seg oppover fjellsiden, hard og ufremkommelig, majestetisk og uendelig vakker. Tid, opprinnelse og natur er kjerneverdier i “UR”. Samtlige stykker er bestillingsverk til denne utgivelsen. Komponistene har ulike bakgrunner og tonespråk, og til sammen utgjør stykkene deres et sammensatt og komplementerende repertoar. 
-
-
   A﻿chievements
 
 
@@ -514,18 +486,13 @@ eva: >-
 
 
   \- Several awards
-
-
-  CD: All that our mothers have fought (2022)
-
-
-  “Alt hva mødrene har kjempet” (All that our mothers have fought) is Kammerkoret Aurums second album, which was released with the production company 2L in March 2022. “All that our mothers have fought” is a collection of contemporary, Norwegian choral works portraying strong women. The works illustrate some of the many storms that women have had to - and still have to - weather. They tell stories about the women's suffrage movement, about a Syrian student risking her life to complete her medical education, and about a small girl's defiance. All these stories open our eyes to different viewpoints on women's struggles. The driving force behind this collection is our wish to provide new perspectives on the weeping women of the Norwegian national anthem. In four works commissioned for this project; “Doctora”, “Malala”, “Ofte må jeg så mye” and “Alt hva mødrene har kjempet”, some of these perspectives are conveyed. 
-
-
-  CD: UR (2016)
-
-
-  Kammerkoret Aurums first album “UR” was released with the production company 2L in November 2016. Ur is time. Past meets future, young forces are given the chance to carry time forward. Ur is origin. Where we recognize our roots, the past experiences that inform our perspectives of the path ahead. Us is wilderness. The scree clinging to the mountain, hard rock: impassable, majestic and of infinite beauty. Time, origin and nature are core values in “UR”. The recordings consist exclusively of commissioned works, written by composers in affiliation with the musical community in Trondheim. The composers have different backgrounds and tonal language, providing this record with a complex and complementary repertoire.
+coops: Kammerkoret Aurum er et ettertraktet kor for samarbeidsprosjekter. Det
+  siste året har Aurum blant annet urframført et verk med Carola under
+  Olavsfestdagene, koret for Sondre Justad under Neonfestivalen og samarbeidet
+  med kåsør Marianne Meløy på CD-prosjektet “Alt hva mødrene har kjempet”. Aurum
+  har ofte konserter med andre kor både lokalt i Trondheim og i Norge og
+  utlandet. Koret har jevnlig deltatt på prosjekter under Olavsfestdagene, samt
+  vært et fast innslag på Ole Dalens julekonserter.
 ---
 
 Kammerkoret Aurum er et ambisiøst kor fra Trondheim. Koret ble stiftet i 2006 og består av rundt 30 sangere i 20-40-årene. Vi er opptatt av å holde et høyt musikalsk nivå og har et variert og spennende repertoar bestående av både ny og gammel musikk.
