@@ -24,6 +24,7 @@ collections:
         file: "data/utmerkelser.yml"
         fields:
           - {label: "Sammendrag", name: "sammendrag", widget: "text"}
+          - {label: "Utmerkelser i en klump", name: "test", widget: "markdown"}
           - label: "Utmerkelser"
             name: "utmerkelser"
             widget: "list"
