@@ -19,6 +19,17 @@ collections:
           - {label: "Alt", name: "alt", widget: "text"}
           - {label: "Tenor", name: "tenor", widget: "text"}
           - {label: "Bass", name: "bass", widget: "text"}
+      - name: "utmerkelser"
+        label: "Utmerkelser"
+        file: "data/utmerkelser.yml"
+        fields:
+          - {label: "Sammendrag", name: "sammendrag", widget: "text"}
+          - label: "Utmerkelser"
+            name: "utmerkelser"
+            widget: "list"
+            fields:
+              - {label: "Konkurranse, sted, måned, år", name: "title", widget: "string"}
+              - {label: "Priser (ny pris, ny linje)", name: "awards", widget: "text"}
       - name: "booking"
         label: "Booking"
         file: "content/booking/index.md"
