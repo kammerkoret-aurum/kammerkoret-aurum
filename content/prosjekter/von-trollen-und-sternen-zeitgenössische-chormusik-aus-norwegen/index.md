@@ -1,6 +1,6 @@
 ---
 category: konsert
-eventimg: 308466928_813161153424754_7670828313173371615_n.jpg
+eventimg: poster-köln.png
 title: von Trollen und Sternen - zeitgenössische Chormusik aus Norwegen
 date: 2022-10-12T18:00:03.327Z
 ---
