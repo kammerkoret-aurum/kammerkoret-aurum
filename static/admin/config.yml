@@ -24,13 +24,13 @@ collections:
         file: "data/utmerkelser.yml"
         fields:
           - {label: "Sammendrag", name: "sammendrag", widget: "text"}
-          - {label: "Utmerkelser i en klump", name: "test", widget: "markdown"}
-          - label: "Utmerkelser"
-            name: "utmerkelser"
-            widget: "list"
-            fields:
-              - {label: "Konkurranse, sted, måned, år", name: "title", widget: "string"}
-              - {label: "Priser (ny pris, ny linje)", name: "awards", widget: "text"}
+          - {label: "Utmerkelser", name: "test", widget: "markdown"}
+      - name: "utmerkelser-en"
+        label: "Utmerkelser (en)"
+        file: "data/utmerkelser.en.yml"
+        fields:
+          - {label: "Sammendrag", name: "sammendrag", widget: "text"}
+          - {label: "Utmerkelser", name: "test", widget: "markdown"}
       - name: "booking"
         label: "Booking"
         file: "content/booking/index.md"
