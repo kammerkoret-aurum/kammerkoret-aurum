@@ -8,3 +8,7 @@
   translation: tenors
 - id: basses
   translation: basses
+- id: awards
+  translation: awards
+- id: conductor
+  translation: conductor

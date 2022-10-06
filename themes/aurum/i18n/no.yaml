@@ -8,3 +8,7 @@
   translation: tenorer
 - id: basses
   translation: basser
+- id: awards
+  translation: utmerkelser
+- id: conuctor
+  translation: dirigent

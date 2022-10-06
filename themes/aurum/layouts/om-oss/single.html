@@ -1,16 +1,22 @@
 {{ define "main" }}
   <main aria-role="main">
 
-  <div class="container-fluid bg-light p-5">
-    <div class="container-md">
+  <div class="container-fluid bg-light py-5 px-md-5">
+    <div class="container-md px-md-5 w-50">
       <h1 class="title">{{.Title}}</h1>
-      <p class="lead">
+      <p class="lead pt-5">
       {{ .Params.choir }}
       </p>
-      <p>
+      <p class="py-3">
+      {{ .Params.coops }}
+      </p>
+      <h2 class="pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
+      <p class="lead pb-5">
       {{ .Params.eva }}
       </p>
-      <h2>{{ T "members" | humanize }}</h2>
+    </div>
+    <div class="container-md px-md-5 pb-5 w-75">
+      <h2 class="pt-5 pb-3">{{ T "members" | humanize }}</h2>
       <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
       <div class="col">
       <h3>{{ T "sopranos" | humanize }}</h3>
@@ -35,6 +41,22 @@
       {{ replace .Site.Data.medlemmer.bass "\n" "<br />" | safeHTML}}
       </div>
       </div>
+      </div>
+
+    <div class="container-md px-md-5 w-50">
+      <h2 class="py-5">{{ T "awards" | humanize }}</h2>
+      {{ with (index .Site.Data .Site.Language.Lang) }}
+      <p class="lead pb-4">
+      {{ .utmerkelser.sammendrag }}
+      </p>
+      <p>
+      {{ .utmerkelser.test | markdownify}}
+      </p>
+      </div>
+      </div>
+      {{ end }}
+
+
   </div>
   </main>
 {{ end }}

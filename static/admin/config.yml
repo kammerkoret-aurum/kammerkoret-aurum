@@ -23,13 +23,13 @@ collections:
         label: "Utmerkelser"
         file: "data/utmerkelser.yml"
         fields:
-          - {label: "Sammendrag", name: "sammendrag", widget: "text"}
+          - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
           - {label: "Utmerkelser", name: "test", widget: "markdown"}
       - name: "utmerkelser-en"
         label: "Utmerkelser (en)"
         file: "data/utmerkelser.en.yml"
         fields:
-          - {label: "Sammendrag", name: "sammendrag", widget: "text"}
+          - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
           - {label: "Utmerkelser", name: "test", widget: "markdown"}
       - name: "booking"
         label: "Booking"
