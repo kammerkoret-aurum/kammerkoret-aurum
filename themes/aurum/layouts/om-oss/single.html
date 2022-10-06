@@ -1,8 +1,8 @@
 {{ define "main" }}
-  <main aria-role="main">
-
-  <div class="container-fluid bg-light py-5 px-md-5">
-    <div class="container-md px-md-5 w-50">
+<main aria-role="main">
+<div class="container-fluid bg-light py-5 px-md-5">
+  <div class="row justify-content-center">
+    <div class="col-md-9 col-lg-5">
       <h1 class="title">{{.Title}}</h1>
       <p class="lead pt-5">
       {{ .Params.choir }}
@@ -10,41 +10,43 @@
       <p class="py-3">
       {{ .Params.coops }}
       </p>
+      <h2 class="pt-5">{{ T "members" | humanize }}</h2>
+    </div>
+  </div>
+  <div class="row justify-content-center pb-5">
+    <div class="col-md-9 col-lg-10">
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+        <div class="col pt-5">
+          <h3>{{ T "sopranos" | humanize }}</h3>
+          {{ replace .Site.Data.medlemmer.sopran "\n" "<br />" | safeHTML}}
+        </div>
+        <div class="col pt-5">
+          <h3>{{ T "altos" | humanize }}</h3>
+          {{ replace .Site.Data.medlemmer.alt "\n" "<br />" | safeHTML}}
+        </div>
+        <div class="col pt-5">
+          <h3>{{ T "tenors" | humanize }}</h3>
+          {{ replace .Site.Data.medlemmer.tenor "\n" "<br />" | safeHTML}}
+        </div>
+        <div class="col pt-5">
+          <h3>{{ T "basses" | humanize }}</h3>
+          {{ replace .Site.Data.medlemmer.bass "\n" "<br />" | safeHTML}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-9 col-lg-5">
       <h2 class="pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
       <p class="lead pb-5">
       {{ .Params.eva }}
       </p>
     </div>
-    <div class="container-md px-md-5 pb-5 w-75">
-      <h2 class="pt-5 pb-3">{{ T "members" | humanize }}</h2>
-      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
-      <div class="col">
-      <h3>{{ T "sopranos" | humanize }}</h3>
-      <p>
-      {{ replace .Site.Data.medlemmer.sopran "\n" "<br />" | safeHTML}}
-      </p>
-      </div>
-      <div class="col">
-      <h3>{{ T "altos" | humanize }}</h3>
-      <p>
-      {{ replace .Site.Data.medlemmer.alt "\n" "<br />" | safeHTML}}
-      </p>
-      </div>
-      <div class="col">
-      <h3>{{ T "tenors" | humanize }}</h3>
-      <p>
-      {{ replace .Site.Data.medlemmer.tenor "\n" "<br />" | safeHTML}}
-      </p>
-      </div>
-      <div class="col">
-      <h3>{{ T "basses" | humanize }}</h3>
-      {{ replace .Site.Data.medlemmer.bass "\n" "<br />" | safeHTML}}
-      </div>
-      </div>
-      </div>
+  </div>
 
-    <div class="container-md px-md-5 w-50">
-      <h2 class="py-5">{{ T "awards" | humanize }}</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-9 col-lg-5">
+      <h2 class="pt-5 pb-3">{{ T "awards" | humanize }}</h2>
       {{ with (index .Site.Data .Site.Language.Lang) }}
       <p class="lead pb-4">
       {{ .utmerkelser.sammendrag }}
@@ -52,11 +54,9 @@
       <p>
       {{ .utmerkelser.test | markdownify}}
       </p>
-      </div>
-      </div>
       {{ end }}
-
-
+    </div>
   </div>
-  </main>
+</div>
+</main>
 {{ end }}
