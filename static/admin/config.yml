@@ -88,13 +88,18 @@ collections:
           - {label: "Om Eva", name: "eva", widget: "markdown"}
           - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
       - name: "album"
-        label: "Albumlist"
+        label: "Albumliste"
         file: "data/album.yml"
         fields:
-          - {label: "Bilde", name: "img", widget: "image"}
-          - {label: "Navn", name: "title", widget: "string"}
-          - {label: "Utgitt", name: "date", widget: "datetime", date_format: "MM.YYYY", time_format: false}
-          - {label: "Innspillingssted", name: "venue", widget: "string", required: false}
+          - label: "Album"
+            name: "album"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+              - {label: "Bilde", name: "img", widget: "image"}
+              - {label: "Navn", name: "title", widget: "string"}
+              - {label: "Utgitt", name: "date", widget: "datetime", date_format: "MM.YYYY", time_format: false}
+              - {label: "Innspillingssted", name: "venue", widget: "string", required: false}
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
