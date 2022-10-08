@@ -29,7 +29,7 @@
                 {{ with .Date }}{{ dateFormat "02.01.2006" . }}{{end}}
                 </h6>
               <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="card-link">Les mer</a>
+              <a href="{{ .Permalink }}" class="card-link">{{ T "les_mer" | humanize }}</a>
             </a>
 
           </div>
@@ -38,7 +38,7 @@
         {{ end }}
       {{ end }}
 
-      <h2>Tidligere</h2>
+      <h2>{{ T "tidligere" | humanize }}</h2>
       <div class="row justify-content-evenly g-4">
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ $past := le .Date.Unix now.Unix }}
@@ -59,7 +59,7 @@
                 {{ with .Date }}{{ dateFormat "02.01.2006" . }}{{end}}
                 </h6>
               <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="card-link">Les mer</a>
+              <a href="{{ .Permalink }}" class="card-link">{{ T "les_mer" | humanize }}</a>
             </a>
 
           </div>
