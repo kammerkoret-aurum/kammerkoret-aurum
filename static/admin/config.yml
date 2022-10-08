@@ -72,7 +72,9 @@ collections:
         file: "content/om-oss/index.md"
         fields:
           - {label: "Om koret", name: "choir", widget: "markdown"}
+          - {label: "Bilde av koret", name: "korbilde", widget: "image"}
           - {label: "Om Eva", name: "eva", widget: "markdown"}
+          - {label: "Bilde av Eva", name: "evabilde", widget: "image"}
           - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
       - name: "om-oss-en"
         label: "Om oss (en)"
