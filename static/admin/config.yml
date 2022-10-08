@@ -123,4 +123,27 @@ collections:
            - {label: "Sitat", name: "quote", widget: "string"}
            - {label: "Forfatter", name: "author", widget: "string"}
            - {label: "Kilde", name: "source", widget: "string", required: false}
+  - name: "projects"
+    label: "Projects (en)"
+    folder: "content/prosjekter"
+    slug: "{{slug}}"
+    path: "{{slug}}/index.en.md"
+    create: true
+    fields:
+      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
+      - {label: "Bilde", name: "eventimg", widget: "image", required: false}
+      - {label: "Overskrift", name: "title", widget: "string"}
+      - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
+      - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+      - {label: "Pris", name: "price", widget: "number", required: false}
+      - {label: "Sted", name: "venue", widget: "string", required: false}
+      - {label: "Beskrivelse", name: "body", widget: "markdown"}
+      - label: "Omtaler"
+        name: "testimonials"
+        widget: "list"
+        summary: '{{fields.quote}} - {{fields.author}}'
+        fields:
+           - {label: "Sitat", name: "quote", widget: "string"}
+           - {label: "Forfatter", name: "author", widget: "string"}
+           - {label: "Kilde", name: "source", widget: "string", required: false}
 
