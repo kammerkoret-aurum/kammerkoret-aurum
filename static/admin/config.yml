@@ -110,7 +110,6 @@ collections:
     slug: "{{slug}}"
     path: "{{slug}}/index"
     extension: "md"
-    format: "md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
