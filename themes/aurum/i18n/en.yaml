@@ -12,3 +12,11 @@
   translation: awards
 - id: conductor
   translation: conductor
+- id: Norge
+  translation: Norway
+- id: Hjem
+  translation: Home
+- id: Prosjekter
+  translation: Projects
+- id: Om_oss
+  translation: About

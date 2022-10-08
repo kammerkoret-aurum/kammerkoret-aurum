@@ -1,20 +1,20 @@
- <footer class="footer text-white d-flex flex-wrap flex-md-nowrap justify-content-around align-items-center">
+ <footer class="footer text-white d-flex flex-wrap flex-md-nowrap justify-content-around align-items-center py-5">
 	<div class="p-1 w-75 text-center">
       <a href="/">
         <img src="https://kammerkoret-aurum.no/wp-content/uploads/2019/03/Aurum-logo@2x.png" class="img-fluid" alt="kammerkoret-aurum.no">
       </a>
     <p>
-      <a href="/" class="text-white-50">Hjem</a>
-      <a href="/prosjekter" class="text-white-50">Prosjekter</a>
-      <a href="/om-oss" class="text-white-50">Om oss</a>
-      <a href="/kontakt" class="text-white-50">Kontakt</a>
-      <a href="/booking" class="text-white-50">Booking</a>
-      <a href="/booking" class="text-white-50">Opptak</a>
-      <a href="/booking" class="text-white-50">Presse</a>
+    <a href="{{ if (eq .Site.Language.Lang "en")}}/en{{end}}/" class="text-white-50">{{ T "Hjem"}}</a>
+    <a href="{{if eq .Site.Language.Lang "en"}}/en{{end}}/prosjekter" class="text-white-50">{{ T "Prosjekter" }}</a>
+    <a href="{{if eq .Site.Language.Lang "en"}}/en{{end}}/om-oss" class="text-white-50">{{ T "Om_oss" }}</a>
+    <a href="{{if eq .Site.Language.Lang "en"}}/en{{end}}/kontakt" class="text-white-50">Kontakt</a>
+    <a href="{{ if eq .Site.Language.Lang "en"}}/en{{end}}/booking" class="text-white-50">Booking</a>
+    <a href="{{ if eq .Site.Language.Lang "en"}}/en{{end}}/opptak" class="text-white-50">Opptak</a>
+    <a href="{{ if eq .Site.Language.Lang "en"}}/en{{end}}/presse" class="text-white-50">Presse</a>
     </p>
     <div>
       <p>
-        <i class="fa fa-map-marker footer-icons-contact px-2"></i><small>Trondheim, Norge</small>
+      <i class="fa fa-map-marker footer-icons-contact px-2"></i><small>Trondheim, {{ T "Norge" }}</small>
       </p>
     </div>
     <div>
@@ -42,12 +42,24 @@
       </div>
       <div class="text-center text-md-start">
       <h3>Kammerkoret Aurum</h3>
-      <p class="text-white-50"><small>Kammerkoret Aurum ble stiftet i Trondheim i 2006. Koret ledes av Eva Holm Foosnæs og består av rundt 30 sangere. Koret er opptatt av å holde et høyt musikalsk nivå og er en aktiv bestiller av nykomponerte korverk.
+      <p class="text-white-50"><small>
+        {{ if eq .Site.Language.Lang "en"}}
+        Kammerkoret Aurum was founded in Trondheim in 2006.
+        The chamberchoir is conducted by Eva Holm Foosnæs and consists of around 30 chorists.
+        The choir seeks to uphold a high musical level and regularly orders newly composed choir pieces.
+        {{ else }}
+        Kammerkoret Aurum ble stiftet i Trondheim i 2006. Koret ledes av Eva Holm Foosnæs og består av rundt 30 sangere. Koret er opptatt av å holde et høyt musikalsk nivå og er en aktiv bestiller av nykomponerte korverk.
+        {{ end }}
       </small>
       </p>
       </div>
       <div class="text-center">
-      <p class="text-white-50"><small>Kammerkoret Aurum støttes av 
+      <p class="text-white-50"><small>
+        {{ if eq .Site.Language.Lang "en"}}
+        Kammerkoret Aurum is supported by
+        {{ else }}
+      Kammerkoret Aurum støttes av 
+        {{ end }}
       </small><br />
       Trondheim kommune logo | Kulturrådet logo
       </p>

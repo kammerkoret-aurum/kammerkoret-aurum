@@ -10,5 +10,13 @@
   translation: basser
 - id: awards
   translation: utmerkelser
-- id: conuctor
+- id: conductor
   translation: dirigent
+- id: Norge
+  translation: Norge
+- id: Hjem
+  translation: Hjem
+- id: Prosjekter
+  translation: Prosjekter
+- id: Om_oss
+  translation: Om oss
