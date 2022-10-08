@@ -1,6 +1,6 @@
 ---
 category: album
-eventimg: 14494870_10154586362333501_7104909543283952635_n.jpg
+eventimg: 2l129-300x300.jpg
 title: UR
 date: 2016-11-19T21:26:30.597Z
 testimonials:
