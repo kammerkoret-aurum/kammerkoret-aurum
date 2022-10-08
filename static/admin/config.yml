@@ -6,6 +6,10 @@ backend:
 media_folder: "static/images"
 public_folder: "/images"
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 
 collections:
   - name: "sider"
@@ -104,7 +108,8 @@ collections:
     label: "Prosjekter"
     folder: "content/prosjekter"
     slug: "{{slug}}"
-    path: "{{slug}}/index.md"
+    path: "{{slug}}/index"
+    extension: "md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
@@ -127,7 +132,8 @@ collections:
     label: "Projects (en)"
     folder: "content/prosjekter"
     slug: "{{slug}}"
-    path: "{{slug}}/index.en.md"
+    path: "{{slug}}/index"
+    extension: "en.md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
