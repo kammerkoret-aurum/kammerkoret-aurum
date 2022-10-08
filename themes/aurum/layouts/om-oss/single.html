@@ -3,14 +3,14 @@
 <div class="container-fluid bg-light py-5 px-md-5">
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
-      <h1 class="title">{{.Title}}</h1>
+      <h1 class="display-1 title">{{.Title}}</h1>
       <p class="lead pt-5">
       {{ .Params.choir }}
       </p>
       <p class="py-3">
       {{ .Params.coops }}
       </p>
-      <h2 class="pt-5">{{ T "members" | humanize }}</h2>
+      <h2 class="display-4 pt-5">{{ T "members" | humanize }}</h2>
     </div>
   </div>
   <div class="row justify-content-center pb-5">
@@ -37,7 +37,7 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
-      <h2 class="pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
+      <h2 class="display-4 pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
       <p class="lead pb-5">
       {{ .Params.eva }}
       </p>
@@ -46,7 +46,7 @@
 
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
-      <h2 class="pt-5 pb-3">{{ T "awards" | humanize }}</h2>
+      <h2 class="display-4 pt-5 pb-3">{{ T "awards" | humanize }}</h2>
       {{ with (index .Site.Data .Site.Language.Lang) }}
       <p class="lead pb-4">
       {{ .utmerkelser.sammendrag }}

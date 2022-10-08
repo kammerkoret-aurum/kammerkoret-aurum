@@ -1,12 +1,15 @@
 {{ define "main" }}
   <main aria-role="main">
 
-  <div class="container-fluid bg-light p-5">
-    <div class="container-md">
-      <h1 class="title">{{.Title}}</h1>
+  <div class="container-fluid bg-light py-5 px-md-5">
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-lg-5">
+      <h1 class="display-1 title">{{.Title}}</h1>
       <p class="lead">
       {{ .Content }}
       </p>
+  </div>
+  </div>
   </div>
   </main>
 {{ end }}
