@@ -1,15 +1,25 @@
 {{ $concerts := where .Site.Pages "Params.category" "konsert" }}
 {{ $future := where $concerts "Date" "ge" now }}
 {{ range first 1 $future.Reverse }}
-Neste konsert er <strong><a href={{.Permalink}}>{{ .Title }}</a></strong>
-i {{ .Params.venue }} 
+{{ T "neste_konsert_er"}} <strong><a href={{.Permalink}}>{{ .Title }}</a></strong>, {{ .Params.venue}} 
+{{ $lang := .Site.Language.Lang }}
 {{ with .Date }}
+,
+{{ if eq $lang "no" }}
 den 
       <time datetime="{{ . }}">
           {{ dateFormat "2." . }}
           {{ index $.Site.Data.months (dateFormat "1" .) }}
           {{ dateFormat "2006 kl 15:04" .}}
       </time>
+{{ else }}
+      <time datetime="{{ . }}">
+        {{ . | time.Format ":date_long"}}
+        at
+        {{ . | time.Format ":time_short"}}
+      </time>
+{{ end }}
+
 {{ end }}
 .
 {{ end }}
