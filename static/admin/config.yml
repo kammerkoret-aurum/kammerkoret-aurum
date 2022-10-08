@@ -43,6 +43,30 @@ collections:
         fields:
           - {label: "Tittel", name: "title", widget: "string"}
           - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "kontakt"
+        label: "Kontakt"
+        file: "content/kontakt/index.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "kontakt_en"
+        label: "Kontakt (en)"
+        file: "content/kontakt/index.en.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "opptak"
+        label: "Opptak"
+        file: "content/opptak/index.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "opptak_en"
+        label: "Opptak (en)"
+        file: "content/opptak/index.en.md"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
       - name: "om-oss"
         label: "Om oss"
         file: "content/om-oss/index.md"
