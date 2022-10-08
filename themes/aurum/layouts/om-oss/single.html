@@ -53,17 +53,21 @@
       <h2 class="display-4 pt-5 pb-3">{{ T "diskografi" | humanize }}</h2>
 
       <div class="row row-cols-md-2 row-cols-1">
-      {{ range where .Site.Sections ".Type" "eq" "prosjekter"}}
-        {{ range where .Pages ".Params.category" "eq" "album" }}
+      {{ range .Site.Data.album }}
+        {{ range . }}
         <div class="col">
         <div class="card h-100 border-0" style="width: 16rem;">
-          <a href={{ .Permalink }}>
-          <img class="card-img-top" src="{{ .Permalink }}/{{ .Params.eventimg }}" width="200">
-          <h5 class="card-title link-dark">{{ .Title }}</h5>
+          <a href="/prosjekter/{{ urlize .title }}">
+          <img class="card-img-top" src="{{ .img }}" width="200">
+          <h5 class="card-title link-dark">{{ .title }}</h5>
           </a>
-          <small class="text-muted bg-transparent border-0">{{ .Date | time.Format "2006" }}</small>
+          <small class="text-muted bg-transparent border-0">{{ .date | time.Format "2006" }}</small>
       </div>
       </div>
+        {{ end }}
+      {{ end }}
+      {{ range where .Site.Sections ".Type" "eq" "prosjekter"}}
+        {{ range where .Pages ".Params.category" "eq" "album" }}
         {{ end }}
       {{ end }}
       </div>
