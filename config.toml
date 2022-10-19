@@ -5,6 +5,7 @@ theme = "aurum"
 pluralizelisttitles = false
 summaryLength = 10 
 buildFuture = true
+enableRobotsTXT = true
 
 DefaultContentLanguage = "no"
 [languages]
