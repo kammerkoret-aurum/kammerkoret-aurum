@@ -47,11 +47,10 @@
           <div class="card" style="max-width: 300px">
             <a href="{{ .Permalink }}">
               {{ if isset .Params "eventimg" }}
-              <img src="{{if (eq .Params.category "album")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid">
+              <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid">
               {{ else }}
     <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid">
               {{ end }}
-
             </a>
             <div class="card-body">
               <h5 class="card-title">{{ .Title }}</h5>
