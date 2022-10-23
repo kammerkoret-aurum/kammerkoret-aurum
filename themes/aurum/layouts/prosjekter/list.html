@@ -10,11 +10,13 @@
 
       <section>
       <div class="row justify-content-evenly g-4">
+      {{ $hasFuture := false }}
       {{ range .Paginator.Pages.ByDate }}
         {{ $future := ge .Date.Unix now.Unix }}
         {{ if $future }}
-        <article>
+        {{ $hasFuture := true }}
         <div class="col-lg-4 col-md-6 col-sm-12">
+        <article>
           <div class="card" style="max-width: 300px">
             <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
               {{ if isset .Params "eventimg" }}
@@ -33,22 +35,25 @@
               <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">{{ T "les_mer" | humanize }}</a>
             </a>
 
-          </div>
           </div>
           </div>
           </article>
+          </div>
         {{ end }}
+      {{ end }}
+        {{ if not $hasFuture }}
+        <p class="lead">{{ T "vi_planlegger" }}</p>
       {{ end }}
       </section>
 
-      <section>
-      <h2>{{ T "tidligere" | humanize }}</h2>
-      <div class="row justify-content-evenly g-4">
+      <section class="pt-5">
+      <h2 class="pb-2">{{ T "tidligere" | humanize }}</h2>
+      <div class="row justify-content-start g-4">
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ $past := le .Date.Unix now.Unix }}
         {{ if $past }}
-        <article>
         <div class="col-lg-4 col-md-6 col-sm-12">
+        <article>
           <div class="card" style="max-width: 300px">
             <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
               {{ if isset .Params "eventimg" }}
@@ -68,8 +73,8 @@
 
           </div>
           </div>
-          </div>
           <article>
+          </div>
         {{end}}
         {{end}}
           </div>
