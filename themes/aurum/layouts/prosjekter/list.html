@@ -1,84 +1,38 @@
 {{ define "main" }}
-  <main role="main">
+<main role="main" class="container-fluid bg-light py-3 p-lg-5">
+  <article class="container-md">
+    <h1 class="display-1 title">{{.Title}}</h1>
+    <p class="lead">
+    {{ .Content }}
+    </p>
 
-  <div class="container-fluid bg-light py-3 p-lg-5">
-    <div class="container-md">
-      <h1 class="display-1 title">{{.Title}}</h1>
-      <p class="lead">
-      {{ .Content }}
-      </p>
-
-      <section>
-      <div class="row justify-content-evenly g-4">
+    <section class="row justify-content-evenly g-4">
       {{ $hasFuture := false }}
       {{ range .Paginator.Pages.ByDate }}
         {{ $future := ge .Date.Unix now.Unix }}
         {{ if $future }}
-        {{ $hasFuture := true }}
-        <div class="col-lg-4 col-md-6 col-sm-12">
-        <article>
-          <div class="card" style="max-width: 300px">
-            <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
-              {{ if isset .Params "eventimg" }}
-              <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
-              {{ else }}
-    <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="">
-              {{ end }}
-
-            </a>
-            <div class="card-body">
-              <h2 class="card-title">{{ .Title }}</h2>
-              <h3 class="card-subtitle text-muted">
-                {{ with .Date }}{{ dateFormat "02.01.2006" . }}{{end}}
-                </h3>
-              <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">{{ T "les_mer" | humanize }}</a>
-            </a>
-
-          </div>
-          </div>
-          </article>
+          {{ $hasFuture := true }}
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            {{ partial "eventcard.html" . }}
           </div>
         {{ end }}
       {{ end }}
-        {{ if not $hasFuture }}
+      {{ if not $hasFuture }}
         <p class="lead">{{ T "vi_planlegger" }}</p>
       {{ end }}
-      </section>
+    </section>
 
-      <section class="pt-5">
-      <h2 class="pb-2">{{ T "tidligere" | humanize }}</h2>
-      <div class="row justify-content-start g-4">
+    <section class="row justify-content-start g-4 pt-5">
+    <h2 class="pb-2">{{ T "tidligere" | humanize }}</h2>
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ $past := le .Date.Unix now.Unix }}
         {{ if $past }}
-        <div class="col-lg-4 col-md-6 col-sm-12">
-        <article>
-          <div class="card" style="max-width: 300px">
-            <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
-              {{ if isset .Params "eventimg" }}
-              <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
-              {{ else }}
-    <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="">
-              {{ end }}
-            </a>
-            <div class="card-body">
-              <h2 class="card-title">{{ .Title }}</h2>
-              <h3 class="card-subtitle text-muted">
-                {{ with .Date }}{{ dateFormat "02.01.2006" . }}{{end}}
-                </h3>
-              <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">{{ T "les_mer" | humanize }}</a>
-            </a>
-
-          </div>
-          </div>
-          <article>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            {{ partial "eventcard.html" . }}
           </div>
         {{end}}
-        {{end}}
-          </div>
-        </section>
-  </div>
-  </main>
+      {{end}}
+    </section>
+  </article>
+</main>
 {{ end }}
