@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+{{ $currentLang := .Site.Language.Lang}}
+<html lang="{{$currentLang}}">
   {{- partial "head.html" . -}}
   <body>
     {{- partial "header.html" . -}}

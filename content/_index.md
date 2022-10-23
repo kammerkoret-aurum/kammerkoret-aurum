@@ -7,10 +7,10 @@ Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondhe
 I 2022 slapp vi albumet **Alt hva mødrene har kjempet**, som har fått gode anmeldelser i inn- og utland.
 
 
-### Vil du synge med oss?
+## Vil du synge med oss?
 Vi har opptak to ganger i året. Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a> om du har lyst å prøvesynge for oss. 
 
-### Vil du høre oss synge?
+## Vil du høre oss synge?
 {{< nextevent >}}
 
 
