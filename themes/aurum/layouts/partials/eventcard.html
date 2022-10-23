@@ -1,5 +1,4 @@
-<article>
-<div class="card" style="max-width: 300px">
+<article class="card border-0 shadow" style="max-width: 300px">
   <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
     {{ if isset .Params "eventimg" }}
       <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
@@ -10,13 +9,20 @@
 
   <div class="card-body">
     <h2 class="card-title">{{ .Title }}</h2>
-    <h3 class="card-subtitle text-muted">
-      {{ with .Date }}{{ dateFormat "02.01.2006" . }}{{end}}
+    <h3 class="card-subtitle text-muted small">
+      {{ if (eq .Params.category "konsert") }}
+        {{ with .Date }}
+        {{ time.Format "02.01.2006 kl 15:04" . }}
+        {{end}}
+      {{ else }}
+        {{ with .Date }}
+        {{ time.Format "Jan 2006" . }}
+        {{end}}
+      {{ end }}
     </h3>
     <p class="card-text">{{ .Summary }}</p>
     <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">
       {{ T "les_mer" | humanize }}
     </a>
   </div>
-</div>
 </article>
