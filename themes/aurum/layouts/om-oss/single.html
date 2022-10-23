@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main aria-role="main">
+<main role="main">
 <div class="container-fluid bg-light py-5 px-md-5">
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
@@ -10,7 +10,7 @@
       <p class="py-3">
       {{ .Params.coops }}
       </p>
-      <img class="img-fluid" src="{{ .Site.Data.bilder.korbilde }}">
+      <img class="img-fluid" src="{{ .Site.Data.bilder.korbilde }}" alt="Kammerkoret Aurum i bunad i Ålesund kirke">
     </div>
   </div>
   <div class="row justify-content-center pb-5">
@@ -38,7 +38,7 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-3">
-      <img src="{{ .Site.Data.bilder.evabilde }}">
+      <img src="{{ .Site.Data.bilder.evabilde }}" alt="Dirigent Eva Holm Foosnæs">
     </div>
     <div class="col-md-9 col-lg-5">
       <h2 class="display-4 pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
@@ -58,8 +58,8 @@
         <div class="col">
         <div class="card h-100 border-0" style="width: 16rem;">
           <a href="/prosjekter/{{ urlize .title }}">
-          <img class="card-img-top" src="{{ .img }}" width="200">
-          <h5 class="card-title link-dark">{{ .title }}</h5>
+          <img class="card-img-top" src="{{ .img }}" width="200" alt="">
+          <h3 class="card-title link-dark">{{ .title }}</h5>
           </a>
           <small class="text-muted bg-transparent border-0">{{ .date | time.Format "2006" }}</small>
       </div>
