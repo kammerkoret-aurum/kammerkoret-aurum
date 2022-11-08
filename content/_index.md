@@ -13,8 +13,12 @@ Vi har opptak to ganger i året. Ta kontakt på <a href="mailto:post@kammerkoret
 ## Vil du høre oss synge?
 {{< nextevent >}}
 
+Det nærmer seg juletider, og nå kan Kammerkoret Aurum bookes som underholdning til ditt arrangement! Vi synger et utvalg av kjente og kjære julesanger, og kan tilpasse både repertoar og størrelse på ensemble etter ønske. 
 
-Vi kan også ta på oss oppdrag.   Ta kontakt på <a href="mailto:post@kammerkoret-aurum.no">post@kammerkoret-aurum.no</a>. 
+Kontakt oss på
+    [post@kammerkoret-aurum.no](mailto:post@kammerkoret-aurum.no)
+
+  {{< youtube Cwf7-A1OKLo >}}
 
 
 
