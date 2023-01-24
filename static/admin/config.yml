@@ -72,9 +72,10 @@ collections:
           - {label: "Tittel", name: "title", widget: "string"}
           - {label: "Tekst", name: "body", widget: "markdown"}
       - name: "bilder"
-        label: "Bilder av Eva og koret til Om oss"
+        label: "Bilder (forside, om oss kor, Eva)"
         file: "data/bilder.yml"
         fields:
+          - {label: "Framsidebilde", name: "framsidebilde", widget: "image"}
           - {label: "Bilde av koret", name: "korbilde", widget: "image"}
           - {label: "Bilde av Eva", name: "evabilde", widget: "image"}
       - name: "om-oss"
