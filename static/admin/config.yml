@@ -13,6 +13,8 @@ slug:
 
 collections:
   - name: "sider"
+    editor:
+      preview: false
     label: "Sider"
     files:
       - name: "medlemmer"
@@ -106,6 +108,8 @@ collections:
               - {label: "Utgitt", name: "date", widget: "datetime", date_format: "MM.YYYY", time_format: false}
               - {label: "Innspillingssted", name: "venue", widget: "string", required: false}
   - name: "prosjekter"
+    editor:
+      preview: false
     label: "Prosjekter"
     folder: "content/prosjekter"
     slug: "{{slug}}"
@@ -130,6 +134,8 @@ collections:
            - {label: "Forfatter", name: "author", widget: "string"}
            - {label: "Kilde", name: "source", widget: "string", required: false}
   - name: "projects"
+    editor:
+      preview: false
     label: "Projects (en)"
     folder: "content/prosjekter"
     slug: "{{slug}}"
