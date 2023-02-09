@@ -20,14 +20,4 @@ V﻿i har 2 konserter samme dag:
 
 B﻿illetter koster 250/150 kr.
 
-<!-- begin embed code -->
-<div id="hoopla-sales-page-container"></div>
-<script type="text/javascript" src="//d16s6o6uu491xt.cloudfront.net/sales-3/loader.embed.production.js"></script>
-<script type="text/javascript">
-var renderReady = function(cb) { if (window.HooplaSalesPage) { cb(); } else { setTimeout(function() { renderReady(cb) }, 10); }}
 
-renderReady((function() {
-window.HooplaSalesPage.render({ organizationId: "1671123376" }, '#hoopla-sales-page-container');
-}));
-</script>
-<!-- end embed code -->
