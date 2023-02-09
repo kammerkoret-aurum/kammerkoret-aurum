@@ -2,7 +2,7 @@
 category: konsert
 eventimg: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg
 title: PITCH BLACK
-date: 2023-03-12T18:30:49.120Z
+date: 2023-03-12T19:30:49.120Z
 price: 250
 venue: Øysteinsalen, Erkebispebården
 ---
@@ -13,12 +13,12 @@ Med på laget har vi lysdesigner Ingunn Fjellang Sæther og Ambolt Audio som bin
 
 Repertoaret er en blanding av norsk og europeisk samtidsmusikk, og spenner fra flere folketoneinspirerte verk som Andrew Smiths *Lighten Our Darkness*, til den eksperimentelle *Keltainen Huone* av Michael E. Edgerton.
 
-V﻿i har 2 konserter samme dag:
+Vi har 2 konserter samme dag:
 
-* 1﻿9.30
-* 2﻿1.00
+* 19.30 [Kjøp billett her](https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930)
+* 21.00 [Kjøp billett her](https://kammerkoretaurum.hoopla.no/sales/event/pitchblack21)
 
-B﻿illetter koster 250/150 kr.
+Billetter koster 250/150 kr.
 
 
 
