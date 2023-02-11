@@ -1,15 +1,33 @@
 <div class="d-flex justify-content-start text-nowrap flex-wrap"> 
+    {{ range .Params.events }}
+      <div class="p-2">
+      <p>
+      {{ with (index . "eventdate") }}
+        <i class="fa-solid fa-calendar-day text-primary"></i>
+        <time datetime="{{ . }}">
+          {{ dateFormat "2." . }}
+          {{ index $.Site.Data.months (dateFormat "1" .) }}
+          {{ dateFormat "kl 15:04" .}}
+        </time>
+      {{ end }}
+      {{ with (index . "ticketlink") }}
+        <a class="active" href='{{ . }}'>
+            <button class="btn btn-primary" type="button">
+              Kjøp billett
+            </button>
+        </a>
+      {{ end }}
+      </p>
+      </div>
+    {{ end }}
+
     {{ with .Date }}
     <div class="p-2">
 		<p>
       <i class="fa-solid fa-calendar-day text-primary"></i>
-      <br />
       <time datetime="{{ . }}">
           {{ dateFormat "2." . }}
           {{ index $.Site.Data.months (dateFormat "1" .) }}
-      </time>
-      <br />
-      <time datetime="{{ . }}">
           {{ dateFormat "kl 15:04" .}}
       </time>
 		</p>

@@ -2,8 +2,10 @@
 category: konsert
 eventimg: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg
 title: PITCH BLACK
-date: 2023-03-12T19:30:49.120Z
-price: 250
+events:
+  - {eventdate: 2023-03-12T19:30:00Z, ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930}
+  - {eventdate: 2023-03-12T21:00:00Z, ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack21}
+price: 250 / 150
 venue: Øysteinsalen, Erkebispebården
 ---
 Kammerkoret Aurum ønsker velkommen til *Pitch Black* og en konsertopplevelse du aldri har opplevd maken til!
