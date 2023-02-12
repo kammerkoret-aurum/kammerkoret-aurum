@@ -3,6 +3,8 @@ category: konsert
 eventimg: aurum-konsert-strasbourg.png
 title: "Kammerkoret Aurum: Immortal Grieg"
 date: 2022-10-19T20:00:00
+events:
+  - {eventdate: 2022-10-19T20:00:00Z}
 price: 100
 venue: Ilen kirke, Trondheim
 ---

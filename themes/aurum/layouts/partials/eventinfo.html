@@ -1,44 +1,38 @@
-<div class="d-flex justify-content-start text-nowrap flex-wrap"> 
+<div class="container">
     {{ range .Params.events }}
-      <div class="p-2">
-      <p>
+      <div class="row p-2 my-4 bg-white rounded shadow">
       {{ with (index . "eventdate") }}
+        <div class="col align-self-center">
         <i class="fa-solid fa-calendar-day text-primary"></i>
         <time datetime="{{ . }}">
           {{ dateFormat "2." . }}
           {{ index $.Site.Data.months (dateFormat "1" .) }}
-          {{ dateFormat "kl 15:04" .}}
         </time>
+        </div>
+        <div class="col align-self-center">
+        <i class="fa-solid fa-clock text-primary"></i>
+        <time datetime="{{ . }}">
+          {{ dateFormat "15:04" .}}
+        </time>
+        </div>
       {{ end }}
       {{ with (index . "ticketlink") }}
-        <a class="active" href='{{ . }}'>
-            <button class="btn btn-primary" type="button">
-              Kjøp billett
-            </button>
-        </a>
+        <div class="col text-right">
+          <a class="active" href='{{ . }}'>
+              <button class="btn btn-primary" type="button">
+                Kjøp billett
+              </button>
+          </a>
+        </div>
       {{ end }}
-      </p>
       </div>
     {{ end }}
 
-    {{ with .Date }}
-    <div class="p-2">
-		<p>
-      <i class="fa-solid fa-calendar-day text-primary"></i>
-      <time datetime="{{ . }}">
-          {{ dateFormat "2." . }}
-          {{ index $.Site.Data.months (dateFormat "1" .) }}
-          {{ dateFormat "kl 15:04" .}}
-      </time>
-		</p>
-    </div>
-    {{ end }}
-
+    <div class="row p-2 my-4 bg-white rounded shadow-sm">
     {{ with .Params.venue }}
     <div class="p-2">
 		<p>
       <i class="fa-solid fa-location-dot text-primary"></i>
-      <br />
       {{ . }}
 		</p>
     </div>
@@ -48,11 +42,11 @@
     <div class="p-2">
 		<p>
       <i class="fa-solid fa-ticket text-primary"></i>
-      <br />
         {{ . }}
 		</p>
     </div>
     {{ end }}
+</div>
 </div>
 
 {{ with .Params.ticketurl }}
