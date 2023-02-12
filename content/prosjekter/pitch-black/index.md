@@ -1,6 +1,6 @@
 ---
 category: konsert
-eventimg: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg
+eventimg: nettside_230212_203024.jpg
 title: PITCH BLACK
 date: 2023-03-12T19:30:49.120Z
 price: 250
