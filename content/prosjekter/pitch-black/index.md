@@ -4,7 +4,7 @@ eventimg: nettside_230212_203024.jpg
 title: PITCH BLACK
 date: 2023-03-12T19:30:49.120Z
 price: 250
-venue: Øysteinsalen, Erkebispebården
+venue: Øysteinsalen, Erkebispegården
 ---
 Kammerkoret Aurum ønsker velkommen til *Pitch Black* og en konsertopplevelse du aldri har opplevd maken til!
 
