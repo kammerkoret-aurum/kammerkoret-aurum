@@ -6,6 +6,8 @@ date: 2023-03-12T19:30:49.120Z
 price: 250
 venue: Øysteinsalen, Erkebispegården
 ---
+Obs! Konserten kl 19.30 er UTSOLGT. Konserten kl 21 har få billetter igjen.
+
 Kammerkoret Aurum ønsker velkommen til *Pitch Black* og en konsertopplevelse du aldri har opplevd maken til!
 
 Ved bruk av lys og mørke vil vi utforske og utfordre den tradisjonelle konserten og leke med deres sanser, både lydlig, romlig og visuelt.
@@ -15,10 +17,7 @@ Repertoaret er en blanding av norsk og europeisk samtidsmusikk, og spenner fra f
 
 Vi har 2 konserter samme dag:
 
-* 19.30 [Kjøp billett her](https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930)
+* 19.30 (UTSOLGT)[K](https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930)
 * 21.00 [Kjøp billett her](https://kammerkoretaurum.hoopla.no/sales/event/pitchblack21)
 
 Billetter koster 250/150 kr.
-
-
-
