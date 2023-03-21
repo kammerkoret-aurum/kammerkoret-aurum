@@ -2,7 +2,7 @@
 category: konsert
 eventimg: https://dms-cf-06.dimu.org/image/019EBwEdtzfPC?dimension=800x800
 title: 17. mai-konsert på Ringve museum
-date: 2023-05-17T14:00:36.488Z
+date: 2023-05-17T16:00:36.488Z
 price: 300
 venue: Ringve museum
 ---
