@@ -2,6 +2,7 @@
 category: konsert
 eventimg: nettside_230212_203024.jpg
 title: PITCH BLACK
+date: 2023-03-12T19:30:00.000Z
 events:
   - {eventdate: 2023-03-12T19:30:00Z, ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930}
   - {eventdate: 2023-03-12T21:00:00Z, ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack21}

@@ -4,6 +4,8 @@ type: prosjekter
 category: konsert
 eventimg: 2.png
 date: 2022-10-10T20:00:00.000Z
+events:
+  - {eventdate: 2022-10-10T20:00:00.000Z}
 venue: St. Matthäus-Kirche, Berlin, Tyskland
 price: 10€
 ---

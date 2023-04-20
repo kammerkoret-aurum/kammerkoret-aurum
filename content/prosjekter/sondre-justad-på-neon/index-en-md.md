@@ -2,6 +2,8 @@
 organizerurl: https://neonfestival.no
 eventimg: https://vcdn.polarismedia.no/f9689fe9-c018-479f-b419-1def703cf07b?fit=crop&h=600&q=80&tight=false&w=1000
 date: 2022-06-11T20:00:00.000Z
+events:
+  - {eventdate: 2022-06-11T20:00:00.000Z}
 venue: EC Dahls arena
 organizer: Neon
 eventurl: https://www.neonfestival.no/artister22
