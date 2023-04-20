@@ -122,6 +122,12 @@ collections:
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
       - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+      - label: "Test hermetid"
+        name: "hermetid"
+        widget: "relation"
+        collection: "prosjekter"
+        value_field: "date"
+        search_fields: ["date"]
       - {label: "Pris", name: "price", widget: "number", required: false}
       - {label: "Sted", name: "venue", widget: "string", required: false}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
