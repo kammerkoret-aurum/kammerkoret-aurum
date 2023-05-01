@@ -1,32 +1,30 @@
 <div class="container">
-    {{ range .Params.events }}
-      <div class="row p-2 my-4 bg-white rounded shadow">
-      {{ with (index . "eventdate") }}
-        <div class="col align-self-center">
-        <i class="fa-solid fa-calendar-day text-primary"></i>
-        <time datetime="{{ . }}">
-          {{ dateFormat "2." . }}
-          {{ index $.Site.Data.months (dateFormat "1" .) }}
-        </time>
-        </div>
-        <div class="col align-self-center">
-        <i class="fa-solid fa-clock text-primary"></i>
-        <time datetime="{{ . }}">
-          {{ dateFormat "15:04" .}}
-        </time>
-        </div>
-      {{ end }}
-      {{ with (index . "ticketlink") }}
-        <div class="col text-right">
-          <a class="active" href='{{ . }}'>
-              <button class="btn btn-primary" type="button">
-                Kjøp billett
-              </button>
-          </a>
-        </div>
-      {{ end }}
-      </div>
-    {{ end }}
+  <div class="row p-2 my-4 bg-white rounded shadow">
+  {{ with .Date }}
+    <div class="col align-self-center">
+    <i class="fa-solid fa-calendar-day text-primary"></i>
+    <time datetime="{{ . }}">
+      {{ dateFormat "2." . }}
+      {{ index $.Site.Data.months (dateFormat "1" .) }}
+    </time>
+    </div>
+    <div class="col align-self-center">
+    <i class="fa-solid fa-clock text-primary"></i>
+    <time datetime="{{ . }}">
+      {{ dateFormat "15:04" .}}
+    </time>
+    </div>
+  {{ end }}
+  {{ with .Params.ticketlink }}
+    <div class="col text-right">
+      <a class="active" href='{{ . }}'>
+          <button class="btn btn-primary" type="button">
+            Kjøp billett
+          </button>
+      </a>
+    </div>
+  {{ end }}
+  </div>
 
     <div class="row p-2 my-4 bg-white rounded shadow-sm">
     {{ with .Params.venue }}
