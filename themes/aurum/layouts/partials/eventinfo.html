@@ -1,54 +1,46 @@
-<div class="d-flex justify-content-start text-nowrap flex-wrap"> 
-    {{ with .Date }}
-    <div class="p-2">
-		<p>
-      <i class="fa-solid fa-calendar-day text-primary"></i>
-      <br />
-      <time datetime="{{ . }}">
-          {{ dateFormat "2." . }}
-          {{ index $.Site.Data.months (dateFormat "1" .) }}
-      </time>
-      <br />
-      <time datetime="{{ . }}">
-          {{ dateFormat "kl 15:04" .}}
-      </time>
-		</p>
-    </div>
-    {{ end }}
+<ul class="list-group list-group-flush px-md-4 mx-md-3">
+  {{ with .Date }}
+  <li class="list-group-item border-0 fs-4 bg-light">
+    <i class="fa-solid fa-calendar-day fa-fw text-primary me-4"></i>
+    <time datetime="{{ . }}">
+      {{ dateFormat "2." . }}
+      {{ index $.Site.Data.months (dateFormat "1" .) }}
+      {{ dateFormat "2006" . }}
+    </time>
+  </li>
+  <li class="list-group-item border-0 fs-4 bg-light">
+    <i class="fa-solid fa-clock fa-fw text-primary me-4"></i>
+    <time datetime="{{ . }}">
+      {{ dateFormat "15:04" .}}
+    </time>
+  </li>
+  {{ end }}
 
-    {{ with .Params.venue }}
-    <div class="p-2">
-		<p>
-      <i class="fa-solid fa-location-dot text-primary"></i>
-      <br />
-      {{ . }}
-		</p>
-    </div>
-    {{ end }}
-
-    {{ with .Params.price }}
-    <div class="p-2">
-		<p>
-      <i class="fa-solid fa-ticket text-primary"></i>
-      <br />
-        {{ . }}
-		</p>
-    </div>
-    {{ end }}
-</div>
-
-{{ with .Params.ticketurl }}
-<div class="text-center py-4">
-  <a class="btn btn-primary" href="{{ . }}">Kjøp billett</a>
-</div>
-{{ end }}
-
-{{ with .Params.organizer }}
-<div class="py-4 text-center">
-  <h4>Arrangør</h4>
+  {{ with .Params.price }}
+  <li class="list-group-item border-0 fs-4 bg-light">
   <p>
+    <i class="fa-solid fa-ticket fa-fw text-primary me-4"></i>
+      {{ . }}
+  </p>
+  </li>
+  {{ end }}
+
+  {{ with .Params.venue }}
+  <li class="list-group-item border-0 bg-light">
+  <p>
+    <i class="fa-solid fa-location-dot fa-fw text-primary fs-4 me-4"></i>
     {{ . }}
   </p>
-</div>
-{{ end }}
+  </li>
+  {{ end }}
+
+  {{ with .Params.ticketlink }}
+  <a href="{{ . }}" class="fs-3 list-group-item border-0 active">
+  <div class="text-center">
+    Kjøp billett
+  </div>
+  </a>
+  {{ end }}
+
+</ul>
 

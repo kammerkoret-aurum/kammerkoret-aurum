@@ -2,9 +2,9 @@
 category: konsert
 eventimg: nettside_230212_203024.jpg
 title: PITCH BLACK
-date: 2023-03-12T19:30:00.000Z
-eventdate: 2023-03-12T19:30:00Z
-ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930
+date: 2023-03-12T21:00:00.000Z
+eventdate: 2023-03-12T21:00:00Z
+ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack21
 price: 250 / 150
 venue: Øysteinsalen, Erkebispebården
 ---

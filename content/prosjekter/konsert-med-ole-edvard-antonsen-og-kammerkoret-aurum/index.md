@@ -4,6 +4,7 @@ eventimg: varsoghelga-forsidebilder-mars23.jpg
 title: Konsert med Ole Edvard Antonsen og kammerkoret Aurum
 subtitle: Vårsøghelga
 date: 2023-05-28T15:00:47.701Z
+ticketlink: "https://checkout.ebillett.no/236/events/3291/purchase/setup?kanal=dxf"
 price: 370
 venue: Stangvik kyrkje
 ---

@@ -1,41 +1,44 @@
 {{ define "main" }}
-  <main role="main">
+<main role="main">
 
-  <div class="container-fluid bg-light py-5 px-md-5">
-    <div class="row justify-content-center">
-      <div class="col-md-9 col-lg-5">
+<div class="container-fluid bg-light py-5 px-md-5">
+<div class="row justify-content-center">
 
-      <h1 class="display-1 title py-4">{{ .Title }}</h1>
-    
-<div class="row d-flex align-items-center flex-wrap">
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    {{ if isset .Params "eventimg" }}
-      <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
-    {{ else }}
-      <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="" height="auto">
-    {{ end }}
-  </div>
+<div class="col-md-9 col-lg-9">
+  <h1 class="display-1 title py-4">{{ .Title }}</h1>
 
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    {{ if eq .Params.category "album" }}
-    {{- partial "albuminfo.html" . -}}
-    {{ else }}
-    {{- partial "eventinfo.html" . -}}
-    {{ end }}
+  <div class="row d-flex align-items-center flex-wrap pb-5">
+    <div class="col-lg-6 col-md-12">
+      {{ if isset .Params "eventimg" }}
+        <img src="{{ .Params.eventimg }}" class="img-fluid" alt="" height="auto">
+      {{ else }}
+        <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="" height="auto">
+      {{ end }}
+    </div>
+
+    <div class="col-xl-5 col-lg-6 col-md-12">
+      {{ if eq .Params.category "album" }}
+        {{- partial "albuminfo.html" . -}}
+      {{ else }}
+          {{- partial "eventinfo.html" . -}}
+      {{ end }}
     </div>
   </div>
 </div>
 
-    <div class="row justify-content-center">
-      <div class="col-md-9 col-lg-5">
-      <p class="lead">
+<div class="row justify-content-center">
+  <div class="col-md-9 col-lg-5">
+    <p class="lead">
       {{ .Content | safeHTML }}
 
       {{ with .Params.eventurl }}
-      <a href="{{ . }}">Les mer hos arrangør</a>
+        <a href="{{ . }}">Les mer hos arrangør</a>
       {{ end }}
-      </p>
+    </p>
   </div>
-  </div>
-  </main>
+</div>
+
+</div>
+</div>
+</main>
 {{ end }}
