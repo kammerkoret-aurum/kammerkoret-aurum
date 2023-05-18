@@ -12,7 +12,14 @@
         {{ $future := ge .Date.Unix now.Unix }}
         {{ if $future }}
           {{ $hasFuture := true }}
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-2 col-md-2 col-sm-2 text-center fs-1">
+            {{ time.Format "Mon" .Date }}
+            <br />
+            {{ time.Format "2" .Date }}
+            <br />
+            {{ time.Format "1" .Date }}
+          </div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
             {{ partial "eventcard.html" . }}
           </div>
         {{ end }}

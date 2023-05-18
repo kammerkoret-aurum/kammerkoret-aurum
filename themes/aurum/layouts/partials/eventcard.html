@@ -1,4 +1,4 @@
-<article class="card border-0 shadow" style="max-width: 300px">
+<article class="card border-0 shadow" style="max-width: 1000px">
   {{ if .Params.issoldout }}
     <div class="card-img-overlay">
       <h2>
@@ -12,6 +12,8 @@
       </h3>
     </div>
   {{ end }}
+  <div class="row g-0">
+    <div class="col-md-6">
   <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
     {{ if isset .Params "eventimg" }}
       <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
@@ -19,7 +21,9 @@
       <img src="https://kammerkoret-aurum.no/wp-content/uploads/2022/06/aurum22-scaled.jpg" class="img-fluid" alt="">
     {{ end }}
   </a>
+  </div>
 
+    <div class="col-md-6">
   <div class="card-body">
     <h2 class="card-title">{{ .Title }}</h2>
     <h3 class="card-subtitle text-muted small">
@@ -33,9 +37,12 @@
         {{end}}
       {{ end }}
     </h3>
-    <p class="card-text">{{ .Summary }}</p>
-    <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}" style="position: relative">
+    {{/*  <p class="card-text">{{ .Summary }}</p> */}}
+    <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">
       {{ T "les_mer" | humanize }}
     </a>
+  </div>
+  </div>
+
   </div>
 </article>
