@@ -1,7 +1,7 @@
 ---
 category: konsert
 title: National Choir Championship
-date: 2023-10-06T18:50:13.440Z
+date: 2023-10-06T21:00:00
 venue: Vår Frue kirke and Olavshallen
 ---
 W﻿e will participate in the National Choir Championship in Trondheim in October. We will compete in two categories: "Elitekor" and "Sakral elitekor". 
