@@ -12,7 +12,7 @@ T﻿he piece is supported by Det Norske komponistfond.
 
 T﻿ogether with us we also have Petra Bjørkhaug, organist at Nidarosdomen.
 
-[Tickets for sale now!] (https://nidarholm.hoopla.no/sales/event/2304075777)
+Tickets for sale now! https://nidarholm.hoopla.no/sales/event/2304075777
 
 Welcome!
 
