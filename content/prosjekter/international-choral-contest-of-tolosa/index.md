@@ -1,5 +1,5 @@
 ---
-category: konsert
+category: konkurranse
 eventimg: tolosa.jpg
 title: International Choral Contest of Tolosa
 date: 2023-10-30
