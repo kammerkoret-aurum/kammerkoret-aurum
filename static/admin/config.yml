@@ -28,13 +28,13 @@ collections:
           - {label: "Bass", name: "bass", widget: "text"}
       - name: "utmerkelser"
         label: "Utmerkelser"
-        file: "data/utmerkelser.yml"
+        file: "data/no/utmerkelser.yml"
         fields:
           - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
           - {label: "Utmerkelser", name: "test", widget: "markdown"}
       - name: "utmerkelser-en"
         label: "Utmerkelser (en)"
-        file: "data/utmerkelser.en.yml"
+        file: "data/en/utmerkelser.yml"
         fields:
           - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
           - {label: "Utmerkelser", name: "test", widget: "markdown"}
