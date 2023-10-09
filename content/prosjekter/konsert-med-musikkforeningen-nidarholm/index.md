@@ -12,6 +12,6 @@ Verket er støttet av Det norske komponistfond.
 
 I tillegg har vi med oss domkantor Petra Bjørkhaug.
 
-[Billetter er i salg nå!] (https://nidarholm.hoopla.no/sales/event/2304075777)
+Billetter er i salg nå! https://nidarholm.hoopla.no/sales/event/2304075777
 
 Hjertelig velkommen!
