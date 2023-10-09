@@ -1,5 +1,6 @@
 ---
 category: konsert
+eventimg: jupiter.jpeg
 title: JUPITER
 date: 2023-11-19T20:00:00+0100
 price: 230
