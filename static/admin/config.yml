@@ -118,7 +118,7 @@ collections:
     extension: "md"
     create: true
     fields:
-      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
+      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
       - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
@@ -143,7 +143,7 @@ collections:
     path: "{{slug}}/index.en"
     create: true
     fields:
-      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album"]}
+      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
       - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
