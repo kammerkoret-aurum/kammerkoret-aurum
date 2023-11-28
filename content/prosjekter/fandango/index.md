@@ -13,6 +13,9 @@ Konserten består av et bredt spenn av kormusikk, fra norsk tradisjonsmusikk til
 
 Tid: Onsdag 29. november, klokka 20:00
 Sted: Vår Frue kirke, Trondheim
-Priser: Voksen 250,-, barn/student/honnør 150,-
+Priser: Voksen 250,-, barn/student/honnør 150,- \
+Kjøp billetter her: <https://kammerkoretaurum.hoopla.no/event/3231253423>
+
+
 Konserten varer rundt 1 time.
-Kammerkoret Aurum dirigeres av vår faste dirigent, Eva Holm Foosnæs.
+Kammerkoret Aurum dirigeres av vår faste dirigent, Eva Holm Foosnæs[](https://kammerkoretaurum.hoopla.no/event/3231253423)
