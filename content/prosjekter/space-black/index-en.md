@@ -1,8 +1,8 @@
 ---
 category: konsert
 eventimg: story.jpg
-title: SPACE BLACK
-subtitle: Trondheim
+title: SPACE BLACK - Trondheim
+subtitle: "Trondheim "
 date: 2024-03-02T17:00:15.359Z
 venue: Øysteinsalen, Erkebispegården
 ---
