@@ -1,6 +1,6 @@
 ---
 category: konsert
-eventimg: https://dms-cf-06.dimu.org/image/019EBwEdtzfPC?dimension=800x800
+eventimg: dsc06158.jpg
 title: 17. mai-konsert på Ringve museum
 date: 2023-05-17T16:00:36.488Z
 ticketlink: https://booking.duell.no/museene-sor-trondelag/ringve/event/korkonsert-med-aurum
