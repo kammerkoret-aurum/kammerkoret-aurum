@@ -1,11 +1,11 @@
 ---
+ticketlink: https://kammerkoretaurum.hoopla.no/event/3429005005
 category: konsert
 eventimg: story.jpg
 title: SPACE BLACK - Trondheim
 subtitle: Trondheim
 date: 2024-03-02T20:30:00
 price: 300/200
-ticketlink: https://kammerkoretaurum.hoopla.no/event/3429005005
 venue: Øysteinsalen, Erkebispegården
 ---
 Kammerkoret Aurum ønsker nok en gang velkommen til en av sine unike konserter i mørket. Denne gangen med fokus på verdensrommet.
@@ -16,7 +16,7 @@ Vi holder to konserter i Øysteinsalen i Trondheim: kl 18:00 og kl 20:30
 Vi holder også konsert i Steinkjer Kulturhus kl 18:00, trykk her: https://fb.me/e/75SZgukEz
 
 Billettpris: Voksen 300,-, barn/student/honnør 200,-
-Billettene slippes fredag 26.januar kl 16:00!
+Billetter: https://kammerkoretaurum.hoopla.no/
 
 Velkommen!
 
