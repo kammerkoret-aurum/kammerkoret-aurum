@@ -5,6 +5,7 @@ title: SPACE BLACK - Trondheim
 subtitle: "Trondheim "
 date: 2024-03-02T18:00:00
 price: 300/200
+ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/2364823822
 venue: Øysteinsalen, Erkebispegården
 ---
 Kammerkoret Aurum once again welcomes you to one of our unique concerts in the dark. This time with a focus on outer space.
