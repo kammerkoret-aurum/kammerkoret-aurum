@@ -1,4 +1,14 @@
 <ul class="list-group list-group-flush px-md-4 mx-md-3">
+  {{ if .Params.issoldout }}
+      <h2>
+        <span class="text-light bg-danger badge rounded-pill">Utsolgt!</span>
+      </h2>
+  {{ else if .Params.isfewleft }}
+      <h3>
+        <span class="text-light bg-success badge rounded-pill">Få billetter igjen!</span>
+      </h3>
+  {{ end }}
+
   {{ with .Date }}
   <li class="list-group-item border-0 fs-4 bg-light">
     <i class="fa-solid fa-calendar-day fa-fw text-primary me-4"></i>
@@ -34,12 +44,17 @@
   </li>
   {{ end }}
 
+  {{ $issoldout := .Params.issoldout }}
   {{ with .Params.ticketlink }}
-  <a href="{{ . }}" class="fs-3 list-group-item border-0 active">
-  <div class="text-center">
-    Kjøp billett
-  </div>
-  </a>
+    {{ if $issoldout }}
+    <a href="{{ . }}" class="fs-3 list-group-item border-0 disabled" aria-disabled="true">
+    {{ else }}
+    <a href="{{ . }}" class="fs-3 list-group-item border-0 active">
+    {{ end }}
+    <div class="text-center">
+      Kjøp billett
+    </div>
+    </a>
   {{ end }}
 
 </ul>
