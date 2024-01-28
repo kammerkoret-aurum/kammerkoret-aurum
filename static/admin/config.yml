@@ -117,7 +117,12 @@ collections:
     path: "{{slug}}/index"
     extension: "md"
     create: true
+    view_filters:
+      - label: "Norsk"
+        field: language
+        pattern: "no"
     fields:
+      - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "no", required:false}
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
       - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false}
       - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false}
@@ -146,6 +151,7 @@ collections:
     extension: "md"
     create: true
     fields:
+      - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "en", required:false}
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
       - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false}
       - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false}
