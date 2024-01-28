@@ -1,4 +1,17 @@
 <article class="card border-0 shadow" style="max-width: 300px">
+  {{ if .Params.issoldout }}
+    <div class="card-img-overlay">
+      <h2>
+        <span class="text-light bg-danger badge rounded-pill">Utsolgt!</span>
+      </h2>
+    </div>
+  {{ else if .Params.isfewleft }}
+    <div class="card-img-overlay">
+      <h3>
+        <span class="text-light bg-success badge rounded-pill">Få billetter igjen!</span>
+      </h3>
+    </div>
+  {{ end }}
   <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
     {{ if isset .Params "eventimg" }}
       <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
@@ -21,7 +34,7 @@
       {{ end }}
     </h3>
     <p class="card-text">{{ .Summary }}</p>
-    <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">
+    <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}" style="position: relative">
       {{ T "les_mer" | humanize }}
     </a>
   </div>
