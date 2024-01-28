@@ -1,5 +1,6 @@
 ---
 category: konsert
+isfewleft: true
 eventimg: story.jpg
 title: SPACE BLACK - Trondheim
 subtitle: "Trondheim "
