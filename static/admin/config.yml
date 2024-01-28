@@ -117,9 +117,7 @@ collections:
     path: "{{slug}}/index"
     extension: "md"
     create: true
-    filter:
-      - field: language
-        pattern: "no"
+    filter: {field: language, value: "no"}
     fields:
       - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "no", required:false}
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
@@ -149,6 +147,7 @@ collections:
     path: "{{slug}}/index.en"
     extension: "md"
     create: true
+    filter: {field: language, value: "en"}
     fields:
       - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "en", required:false}
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
