@@ -3,6 +3,7 @@ category: konsert
 eventimg: dsc06158.jpg
 title: 17.mai-konsert på Ringve Musikkmuseum
 date: 2024-05-17T16:00:12+0200
+price: 300/200/100
 language: no
 venue: Ringve Musikkmuseum
 ---

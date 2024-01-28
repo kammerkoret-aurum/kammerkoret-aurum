@@ -117,9 +117,8 @@ collections:
     path: "{{slug}}/index"
     extension: "md"
     create: true
-    view_filters:
-      - label: "Norsk"
-        field: language
+    filter:
+      - field: language
         pattern: "no"
     fields:
       - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "no", required:false}
