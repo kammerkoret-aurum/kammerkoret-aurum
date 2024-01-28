@@ -142,8 +142,8 @@ collections:
     label: "Projects (en)"
     folder: "content/prosjekter"
     slug: "{{slug}}"
-    path: "{{slug}}/index"
-    extension: "en.md"
+    path: "{{slug}}/index.en"
+    extension: "md"
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
