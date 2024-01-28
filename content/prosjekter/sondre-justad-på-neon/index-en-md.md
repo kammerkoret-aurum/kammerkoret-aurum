@@ -7,6 +7,7 @@ organizer: Neon
 eventurl: https://www.neonfestival.no/artister22
 title: Sondre Justad på Neon
 type: prosjekter
+language: no
 category: konsert
 ---
 

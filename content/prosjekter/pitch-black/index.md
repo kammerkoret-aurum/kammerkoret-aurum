@@ -6,6 +6,8 @@ date: 2023-03-12T19:30:00.000Z
 eventdate: 2023-03-12T19:30:00Z
 ticketlink: https://kammerkoretaurum.hoopla.no/sales/event/pitchblack1930
 price: 250 / 150
+issoldout: true
+language: no
 venue: Øysteinsalen, Erkebispebården
 ---
 Obs! Konserten kl 19.30 er UTSOLGT. Konserten kl 21 har få billetter igjen.

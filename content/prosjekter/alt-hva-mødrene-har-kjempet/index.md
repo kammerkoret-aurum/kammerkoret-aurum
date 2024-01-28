@@ -5,6 +5,7 @@ date: 2022-03-08
 venue: Selbu kirke
 eventimg: CD-ARTWORKS-FRONT.jpg
 category: album
+language: en
 spotify: https://open.spotify.com/track/7cs0eRAxSPYHCFsAu4YQqv?si=27722ac6d88c40c0
 shopurl: https://shop.2l.no/collections/all/products/alt-hva-modrene-har-kjempet
 ---

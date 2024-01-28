@@ -4,6 +4,7 @@ eventimg: jupiter.jpeg
 title: JUPITER
 date: 2023-11-19T20:00:00+0100
 price: 230
+language: no
 venue: Nidarosdomen
 ---
 Sammen med Musikkforeningen Nidarholm inviterer vi dere til en flott konsert i selveste Nidarosdomen 19.november. 

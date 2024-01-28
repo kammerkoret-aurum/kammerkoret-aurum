@@ -6,6 +6,7 @@ subtitle: Vårsøghelga
 date: 2023-05-28T15:00:47.701Z
 ticketlink: "https://checkout.ebillett.no/236/events/3291/purchase/setup?kanal=dxf"
 price: 370
+language: no
 venue: Stangvik kyrkje
 ---
 U﻿nder [Vårsøghelga](http://varsoghelga.no/) i Surnadal, skal Kammerkoret Aurum ha konsert sammen med Ole Edvard Antonsen.

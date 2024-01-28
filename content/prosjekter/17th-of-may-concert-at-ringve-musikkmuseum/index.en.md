@@ -3,7 +3,8 @@ category: konsert
 eventimg: dsc06158.jpg
 title: 17th of May concert at Ringve Musikkmuseum
 date: 2024-05-17T14:00:40.936Z
-venue: RIngve musikkmuseum
+language: en
+venue: Ringve musikkmuseum
 ---
 W﻿elcome to our traditional concert on the Norwegian Constitution Day! 
 I﻿n collaboration with Ringve Musikkmuseum, our concert has become a must for many.

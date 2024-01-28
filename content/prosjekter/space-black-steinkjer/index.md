@@ -5,6 +5,7 @@ title: SPACE BLACK - Steinkjer
 subtitle: Steinkjer
 date: 2024-03-03T18:00:00
 price: 300/200
+language: no
 venue: Steinkjer kulturhus
 ---
 Kammerkoret Aurum ønsker nok en gang velkommen til en av sine unike konserter i mørket. Denne gangen med fokus på verdensrommet.

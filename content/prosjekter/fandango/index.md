@@ -2,8 +2,10 @@
 category: konsert
 eventimg: received_1409214653332122.jpeg
 title: FANDANGO!
-date: 2023-11-29T20:00:01+0100
-price: ""
+date: 2023-11-29T20:00:00
+price: 250/150
+language: no
+ticketlink: https://kammerkoretaurum.hoopla.no/event/3231253423
 venue: Vår Frue kirke
 ---
 Velkommen til konsert med Kammerkoret Aurum: FANDANGO!
@@ -18,4 +20,4 @@ Kjøp billetter her: <https://kammerkoretaurum.hoopla.no/event/3231253423>
 
 
 Konserten varer rundt 1 time.
-Kammerkoret Aurum dirigeres av vår faste dirigent, Eva Holm Foosnæs[](https://kammerkoretaurum.hoopla.no/event/3231253423)
+Kammerkoret Aurum dirigeres av vår faste dirigent, Eva Holm Foosnæs

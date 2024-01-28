@@ -2,7 +2,8 @@
 category: konsert
 eventimg: received_1409214653332122.jpeg
 title: FANDANGO!
-date: 2023-11-29T19:00:48.548Z
+language: en
+date: 2023-11-29T20:00:48.548Z
 venue: Vår Frue kirke
 ---
 W﻿elcome to our last concert in 2023: FANDANGO!
