@@ -119,8 +119,8 @@ collections:
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
-      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false}
-      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false}
+      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false}
+      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false}
       - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
@@ -147,8 +147,8 @@ collections:
     create: true
     fields:
       - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
-      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false}
-      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false}
+      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false}
+      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false}
       - {label: "Bilde", name: "eventimg", widget: "image", required: false}
       - {label: "Overskrift", name: "title", widget: "string"}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
