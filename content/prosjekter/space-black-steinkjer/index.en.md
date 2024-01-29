@@ -1,11 +1,11 @@
 ---
+language: en
 category: konsert
 eventimg: story.jpg
 title: SPACE BLACK - Steinkjer
 subtitle: Steinkjer
 date: 2024-03-03T18:00:00
 price: 300/200
-language: en
 venue: Steinkjer kulturhus
 ---
 Kammerkoret Aurum once again welcomes you to one of our unique concerts in the dark. This time with a focus on outer space.
@@ -17,8 +17,7 @@ We are holding a concert in Steinkjer Kulturhus at 18:00.
 We also have two concerts in Øysteinsalen in Trondheim: at 18:00 and at 20:30, click here: https://www.facebook.com/share/feWS8i2r1fTvamVh/
 
 Ticket price: Adults NOK 300, children/students NOK 200
-
-The tickets are released on Friday 26 January at 16:00!
+Tickets: https://checkout.ebillett.no/101/events/142477/purchase
 
 Welcome!
 
