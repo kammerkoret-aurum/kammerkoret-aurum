@@ -1,6 +1,7 @@
 ---
 language: en
 category: konsert
+issoldout: true
 isfewleft: true
 eventimg: story.jpg
 title: SPACE BLACK - Trondheim
