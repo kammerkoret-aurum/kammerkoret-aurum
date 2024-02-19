@@ -3,6 +3,7 @@ ticketlink: https://kammerkoretaurum.hoopla.no/event/3429005005
 language: en
 category: konsert
 issoldout: false
+isfewleft: true
 eventimg: story.jpg
 title: SPACE BLACK - Trondheim
 subtitle: "Trondheim "
