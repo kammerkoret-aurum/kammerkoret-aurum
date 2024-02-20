@@ -24,8 +24,8 @@ T﻿ickets: https://kammerkoretaurum.hoopla.no/
 
 The tickets are released on Friday 26 January at 16:00!
 
-
-
 Welcome!
 
 Kammerkoret Aurum is a mixed choir based in Trondheim. The choir was founded in 2006 and consists of around 30 singers. Kammerkoret Aurum is led by conductor Eva Holm Foosnæs. Aurum has a broad and varied repertoire with a particular focus on new, Scandinavian music, and is actively purchasing new music. Kammerkoret Aurum was named Norwegian Choir Champions in 2023.
+
+S﻿PACE BLACK is supported by Trondheim kommune.
