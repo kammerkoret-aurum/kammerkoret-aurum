@@ -23,3 +23,5 @@ Billetter: https://kammerkoretaurum.hoopla.no/
 Velkommen!
 
 Kammerkoret Aurum er et blandakor med base i Trondheim. Koret ble stiftet i 2006 og består av rundt 30 sangere. Kammerkoret Aurum ledes av dirigent Eva Holm Foosnæs. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk, og er en aktiv bestiller av musikk. Kammerkoret Aurum ble kåret til Norgesmestere for kor i 2023.
+
+S﻿PACE BLACK støttes av Trondheim kommune.
