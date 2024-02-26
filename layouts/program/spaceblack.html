@@ -15,9 +15,37 @@ h1 {
   font-family: serif;
 }
 
-#programheader {
-    height: 100vh;
+#description {
+  color: #c8a851;
+  font-family: serif;
 }
+
+#programheader {
+    height: 95vh;
+    position: fixed;
+}
+
+#programdescription {
+    height: 109vh;
+}
+
+.palebluedot {
+    height: 110vh;
+    background-color: blue;
+    background-image: url(/program/spaceblack/palebluedot.webp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.credit {
+  font-size: 0.8em;
+  
+}
+
+
 
 
 </style>
@@ -27,7 +55,26 @@ h1 {
   </h1>
 </div>
 
+<div class="container d-flex align-items-end align-content-end justify-content-center pt-2" id="programdescription"> 
+  <p id="description">Konsertprogram for Space Black-konsertserien<br />
+  i Trondheim (2. mars 2024 kl 18 og 20.30)<br />
+  og Steinkjer (3. mars 2024 kl 18).</p>
+</div>
+
+<div class="container d-flex flex-column align-items-center align-content-around justify-content-center pt-2 palebluedot"> 
+  <p>Look again at that dot.<br />
+  That's here.<br />
+  That's home.<br />
+  That's us.<br />
+  </p>
+  <p>
+  <span class="credit">-- Carl Sagan, <em>Pale Blue Dot</em>, 1994</span>
+  </p>
+</div>
+
 <div class="text-light">
+
+  {{ .Content }}
 
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur ipsum sed lacinia pellentesque. Vivamus turpis felis, ultrices sed leo sit amet, tempor gravida arcu. Maecenas egestas dapibus turpis, fringilla laoreet ante gravida sit amet. Aliquam odio turpis, aliquet nec lectus quis, eleifend congue mauris. Mauris non nunc odio. Ut venenatis, nisl et molestie lobortis, lectus magna porta massa, ac finibus lorem nisl sit amet elit. Nunc id mauris mi. Proin et lacus vel mi congue pharetra eu id nibh. Quisque tempus turpis sit amet ligula facilisis hendrerit. Pellentesque hendrerit, urna ut posuere commodo, erat dui vulputate erat, vel pellentesque ex magna a nunc. Nunc leo dolor, pulvinar nec iaculis efficitur, ultricies quis quam.
