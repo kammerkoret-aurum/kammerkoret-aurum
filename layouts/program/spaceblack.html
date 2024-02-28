@@ -15,18 +15,16 @@ h1 {
   font-family: serif;
 }
 
-#description {
-  color: #c8a851;
-  font-family: serif;
-}
-
 #programheader {
-    height: 95vh;
-    position: fixed;
+    height: 50vh;
+    position: sticky;
+    top: 20%;
 }
 
 #programdescription {
-    height: 109vh;
+    height: 100vh;
+    color: #c8a851;
+    font-family: serif;
 }
 
 .palebluedot {
@@ -45,31 +43,41 @@ h1 {
   
 }
 
-
+#thedot {
+  height: 50vh;
+}
 
 
 </style>
-<div class="container d-flex align-items-center align-content-center justify-content-center" id="programheader"> 
+
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center"> 
+
+  <div id="programheader" class="d-flex pb-5 align-items-center">
   <h1>
     SPACE BLACK
   </h1>
-</div>
+  </div>
 
-<div class="container d-flex align-items-end align-content-end justify-content-center pt-2" id="programdescription"> 
-  <p id="description">Konsertprogram for Space Black-konsertserien<br />
+<div id="programdescription" class="d-flex pt-5 align-items-center"> 
+  <p>Konsertprogram for Space Black-konsertserien<br />
   i Trondheim (2. mars 2024 kl 18 og 20.30)<br />
   og Steinkjer (3. mars 2024 kl 18).</p>
 </div>
+</div>
 
-<div class="container d-flex flex-column align-items-center align-content-around justify-content-center pt-2 palebluedot"> 
-  <p>Look again at that dot.<br />
+<div class="container d-flex flex-column align-items-end pt-5 palebluedot"> 
+  <p id="thedot" class="d-flex align-items-end">Look again at that dot.<br />
   That's here.<br />
   That's home.<br />
   That's us.<br />
   </p>
-  <p>
+  <p class="d-flex">
   <span class="credit">-- Carl Sagan, <em>Pale Blue Dot</em>, 1994</span>
   </p>
+  <p id="thedot" class="d-flex align-items-end">
+  <span class="credit">Bilde: <em>Pale Blue Dot</em> tatt av Voyager 1 &copy;JPL/NASA</span> 
+  </p>
+
 </div>
 
 <div class="text-light">
