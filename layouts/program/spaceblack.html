@@ -10,14 +10,13 @@ body {
     background-color: black;
 }
 
-h1 {
+
+.yellow {
   color: #c8a851;
   font-family: serif;
 }
 
-.spaceblack {
-  color: #c8a851;
-  font-family: serif;
+.overlay {
   background-color: rgba(0,0,0,0.5);
 }
 
@@ -74,7 +73,7 @@ video {
 <div class="container d-flex flex-column align-items-center align-content-center justify-content-center"> 
 
   <div id="programheader" class="d-flex pb-5 align-items-center">
-  <h1>
+  <h1 class="yellow">
     SPACE BLACK
   </h1>
   </div>
@@ -106,7 +105,43 @@ video {
 </video>
 </div>
 
-<div class="container d-flex flex-column align-items-center align-content-center justify-content-center spaceblack text-center py-5 my-5"> 
+<div class="container d-flex flex-column align-content-center  text-light py-5 my-5"> 
+
+  <p>
+  <h1 class="yellow">Earth Song</h1>
+  <span class="yellow text-light">Frank Ticheli</span>
+  </p>
+
+  <p>
+  Sing, be, live, see<br />
+  This dark stormy hour<br />
+  The wind, it stirs<br />
+The scorched Earth cries out in vain
+  </p>
+
+  <p>
+  Oh war and power, you blind and blur<br />
+The torn heart cries out in pain
+  </p>
+
+  <p>
+  But music and singing have been my refuge<br />
+  And music and singing shall be my light<br />
+  </p>
+
+  <p>
+  A light of song, shining strong<br />
+Hallelujah, hallelujah
+  </p>
+
+  <p>
+  Through darkness and pain and strife<br />
+I'll sing, I'll be, live, see
+  </p>
+
+</div>
+
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center yellow overlay text-center py-5 my-5"> 
   <p>
   Pyotr Ilyich Tchaikovsky<br />
   Hymn of the Cherubim<br />
@@ -164,7 +199,7 @@ Earth Song
 </video>
 </div>
 
-<div class="container d-flex flex-column align-items-center align-content-center justify-content-center spaceblack text-center py-5 my-5"> 
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center yellow overlay text-center py-5 my-5"> 
   <p>
   Dirigent<br />
   Eva Holm Foosnæs
@@ -179,6 +214,12 @@ Earth Song
   Lyddesign<br />
   Are Åberg
   </p>
+  
+  <p>
+  Bilder og video<br />
+  Kasper Eliassen
+  </p>
+
 </div>
 
 {{ end }}
