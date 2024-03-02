@@ -1,11 +1,11 @@
 ---
+language: no
 category: konsert
 eventimg: story.jpg
 title: SPACE BLACK - Steinkjer
 subtitle: Steinkjer
 date: 2024-03-03T18:00:00
 price: 300/200
-language: no
 venue: Steinkjer kulturhus
 ---
 Kammerkoret Aurum ønsker nok en gang velkommen til en av sine unike konserter i mørket. Denne gangen med fokus på verdensrommet.
@@ -16,8 +16,10 @@ Vi holder en konsert i Steinkjer Kulturhus kl 18:00.
 Vi holder også to konserter i Øysteinsalen i Trondheim: kl 18:00 og kl 20:30, trykk her: https://www.facebook.com/share/feWS8i2r1fTvamVh/
 
 Billettpris: Voksen 300,-, barn/student/honnør 200,-
-Billettene slippes fredag 26.januar kl 16:00!
+Billetter: https://checkout.ebillett.no/101/events/142477/purchase 
 
 Velkommen!
 
 Kammerkoret Aurum er et blandakor med base i Trondheim. Koret ble stiftet i 2006 og består av rundt 30 sangere. Kammerkoret Aurum ledes av dirigent Eva Holm Foosnæs. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk, og er en aktiv bestiller av musikk. Kammerkoret Aurum ble kåret til Norgesmestere for kor i 2023.
+
+S﻿PACE BLACK støttes av Trondheim kommune.

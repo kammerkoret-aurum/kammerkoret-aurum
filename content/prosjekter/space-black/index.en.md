@@ -1,12 +1,13 @@
 ---
+language: en
 category: konsert
-isfewleft: false
+issoldout: true
+isfewleft: true
 eventimg: story.jpg
 title: SPACE BLACK - Trondheim
 subtitle: "Trondheim "
 date: 2024-03-02T18:00:00
 price: 300/200
-language: en
 venue: Øysteinsalen, Erkebispegården
 ---
 Kammerkoret Aurum once again welcomes you to one of our unique concerts in the dark. This time with a focus on outer space.
@@ -20,9 +21,8 @@ We are also having a concert in Steinkjer Kulturhus at 18:00, click here: <http
 Ticket price: Adults NOK 300, children/students NOK 200
 T﻿ickets: https://kammerkoretaurum.hoopla.no/
 
-
-
-
 Welcome!
 
 Kammerkoret Aurum is a mixed choir based in Trondheim. The choir was founded in 2006 and consists of around 30 singers. Kammerkoret Aurum is led by conductor Eva Holm Foosnæs. Aurum has a broad and varied repertoire with a particular focus on new, Scandinavian music, and is actively purchasing new music. Kammerkoret Aurum was named Norwegian Choir Champions in 2023.
+
+S﻿PACE BLACK is supported by Trondheim kommune.
