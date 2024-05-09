@@ -19,5 +19,6 @@ Koret ledes av dirigent Eva Holm Foosnæs, som også står bak mange av kor-arra
 
 Hvor: Konsertsalen, Ringve Musikkmuseum\
 Når: Fredag 17. mai, klokka 16.00\
-Pris: Voksen 300,- // Student/pensjonist 250,- // Barn 100,-\
-[Kjøp billetter](https://booking.duell.no/museene-sor-trondelag/ringve/event/korkonsert-med-aurum)
+Pris: Voksen 300,- // Student/pensjonist 250,- // Barn 100,-
+
+[K﻿jøp billetter her](https://booking.duell.no/museene-sor-trondelag/ringve/event/korkonsert-med-aurum-9284)! Velkommen!
