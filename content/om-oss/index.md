@@ -16,8 +16,8 @@ eva: Eva Holm Foosnæs er en frilans dirigent og komponist med base på Byåsen 
   både i Italia og Tyskland, og hun har tatt etterutdanning som dirigent på NTNU
   og Norges Musikkhøyskole med fokus på orkesterdireksjon. Eva er også
   kunstnerisk leder for Opera di Setra. Eva har dirigert Aurum siden 2012.
-coops: Kammerkoret Aurum er et ettertraktet kor for samarbeidsprosjekter. Det
-  siste året har Aurum blant annet urframført et verk med Carola under
+coops: Kammerkoret Aurum er et ettertraktet kor for samarbeidsprosjekter. De
+  siste årene har Aurum blant annet urframført et verk med Carola under
   Olavsfestdagene, koret for Sondre Justad under Neonfestivalen og samarbeidet
   med kåsør Marianne Meløy på CD-prosjektet “Alt hva mødrene har kjempet”. Aurum
   har ofte konserter med andre kor både lokalt i Trondheim og i Norge og
