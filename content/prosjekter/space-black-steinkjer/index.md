@@ -1,6 +1,7 @@
 ---
 language: no
 category: konsert
+issoldout: true
 eventimg: story.jpg
 title: SPACE BLACK - Steinkjer
 subtitle: Steinkjer
