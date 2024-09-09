@@ -3,7 +3,7 @@ language: no
 category: konsert
 issoldout: false
 isfewleft: false
-eventimg: fb-banner_2.jpg
+eventimg: plakat-kammerkoret-aurum-24-jenny-hilmo-teig_fb.jpg
 title: I dag sner himlen lydløst ned - Trondheim
 date: 2024-12-13T20:00:21+0100
 price: ""
