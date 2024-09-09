@@ -3,7 +3,7 @@ language: no
 category: konsert
 issoldout: false
 isfewleft: false
-eventimg: fb-banner_2.jpg
+eventimg: plakat-kammerkoret-aurum-24-jenny-hilmo-teig_fb.jpg
 title: I dag sner himlen lydløst ned - Røros
 date: 2024-12-14T17:00:48+0100
 venue: Røros kirke
