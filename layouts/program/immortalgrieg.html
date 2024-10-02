@@ -1,0 +1,353 @@
+{{ define "main" }}
+<style>
+
+body {
+    background-image: url(/program/immortalgrieg/stjernehimmel.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+.yellow {
+  color: #c8a851;
+  font-family: serif;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+}
+
+p {
+  font-size: 1.2em;
+}
+
+#programheader {
+    height: 50vh;
+    position: sticky;
+    top: 20%;
+}
+
+#programdescription {
+    height: 100vh;
+    color: #c8a851;
+    font-family: serif;
+}
+
+.palebluedot {
+    height: 110vh;
+    background-color: blue;
+    background-image: url(/program/spaceblack/palebluedot.webp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.credit {
+  font-size: 0.8em;
+  
+}
+
+#thedot {
+  height: 60vh;
+}
+#thecred {
+  height: 30vh;
+}
+
+.video {
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+}
+
+
+</style>
+
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center"> 
+
+  <div id="programheader" class="d-flex pb-5 align-items-center">
+  <h1 class="yellow">
+    SPACE BLACK
+  </h1>
+  </div>
+
+<div id="programdescription" class="d-flex pt-5 align-items-center"> 
+  <p>Konsertprogram for Space Black-konsertserien<br />
+  i Trondheim (2. mars 2024 kl 18 og 20.30)<br />
+  og Steinkjer (3. mars 2024 kl 18).</p>
+</div>
+</div>
+
+<div class="container d-flex flex-column align-items-end pt-5 palebluedot"> 
+  <p id="thedot" class="d-flex align-items-end text-dark">Look again at that dot.<br />
+  That's here.<br />
+  That's home.<br />
+  That's us.<br />
+  </p>
+  <p class="d-flex">
+  <span class="credit">-- Carl Sagan, <em>Pale Blue Dot</em>, 1994</span>
+  </p>
+  <p id="thecred" class="d-flex align-items-end">
+  <span class="credit">Bilde: <em>Pale Blue Dot</em> tatt av Voyager 1 &copy;JPL/NASA</span> 
+  </p>
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<video controls controlslist="nodownload">
+  <source src="/program/spaceblack/spaceblackpromo1.mp4">
+</video>
+</div>
+
+<div class="container d-flex flex-column align-content-center  text-light py-5 my-5"> 
+
+  <p>
+  <h1 class="yellow">Earth Song</h1>
+  <span class="yellow text-light">Frank Ticheli</span>
+  </p>
+
+  <p>
+  Sing, be, live, see<br />
+  This dark stormy hour<br />
+  The wind, it stirs<br />
+The scorched Earth cries out in vain
+  </p>
+
+  <p>
+  Oh war and power, you blind and blur<br />
+The torn heart cries out in pain
+  </p>
+
+  <p>
+  But music and singing have been my refuge<br />
+  And music and singing shall be my light<br />
+  </p>
+
+  <p>
+  A light of song, shining strong<br />
+Hallelujah, hallelujah
+  </p>
+
+  <p>
+  Through darkness and pain and strife<br />
+I'll sing, I'll be, live, see
+  </p>
+
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<img src="/program/spaceblack/lightbowl.jpg">
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<img src="/program/spaceblack/glass.jpg">
+</div>
+
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center yellow overlay text-center py-5 my-5"> 
+  <p>
+  Pyotr Ilyich Tchaikovsky<br />
+  Hymn of the Cherubim<br />
+Tekst: Liturgi av St. John Chrysostom
+  </p>
+
+  <p>
+  Elisabeth Anvik<br />
+Usynlig
+  </p>
+
+  <p>
+  Ěriks Ešenvalds<br />
+  Stars<br />
+Tekst: Sara Teasdale
+  </p>
+
+  <p>
+Philip Glass<br />
+Pierre de soleil<br />
+Tekst: Octavio Paz
+  </p>
+
+  <p>
+Michael Ostrzyga<br />
+Saturn
+  </p>
+
+  <p>
+Jon Sáenz Rubio<br />
+Lux aeterna
+  </p>
+
+  <p>
+Evija Skuķe<br />
+Moon Vocalise<br />
+Tekst: Latviske folkeviser
+  </p>
+
+  <p>
+Ståle Kleiberg<br />
+Alt i universet<br />
+Tekst: Stein Mehren
+  </p>
+
+  <p>
+Frank Ticheli<br />
+Earth Song
+  </p>
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<img src="/program/spaceblack/glove.jpg">
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<video controls controlslist="nodownload">
+  <source src="/program/spaceblack/spaceblackpromo2.mp4">
+</video>
+</div>
+
+<div class="container d-flex flex-column align-content-center  text-light py-5 my-5"> 
+
+  <p>
+  <h1 class="yellow">Moon Vocalise</h1>
+  <span class="yellow text-light">Evija Skuķe</span>
+  </p>
+
+  <p>
+Moon!
+  </p>
+  <p>
+  The Moon rode through the night,<br />
+  I was the Moon’s carriage driver.
+  </p>
+  <p>
+  The Moon wore a golden coat,<br />
+  and was draped in a starry cape,
+  he gave me one of silver.<br />
+  </p>
+  <p>
+  The Moon rolled up to the edge of my bed.<br />
+Oh, how the Moon rolled.
+  </p>
+  <p>
+  </p>
+  <p>
+  </p>
+  <p>
+God, help me roll the young sleeper in the bed.
+  </p>
+  <p>
+  Throw me in the air, but not as far as the Moon,<br />
+  The Moon has sharp horns that will tear off my crown.<br />
+A horned Moon rises this morning!
+  </p>
+
+  <p>
+  </p>
+  <p>
+  </p>
+  <p>
+  The Moon rose in the barn,<br />
+  The Sun rose under the barn!<br />
+  The young lass sleeps in the bed,<br />
+  The young lad sleeps under the bed!<br />
+  </p>
+  <p>
+  The Moon rode through the night, he has sharp thorns.<br />
+  The Moon put on a sparkling coat,<br/>
+  The Moon put on a golden coat.<br />
+  </p>
+  <p>
+  </p>
+  <p>
+  </p>
+  <p>
+  Mother wanted to beat me, I ran away.<br />
+  I ran to the bushy oak tree.<br />
+  A silver river ran past the bushy oak tree<br />
+  </p>
+  <p>
+  one
+  </p>
+  <p>
+  two 
+  </p>
+  <p>
+  three
+  </p>
+  <p>
+  four
+  </p>
+  <p>
+  five
+  </p>
+  <p>
+  six
+  </p>
+  <p>
+  seven
+  </p>
+  <p>
+  eight
+  </p>
+  <p>
+  with nine branches.</p>
+  <p></p>
+  <p></p>
+  <p>
+  On the ninth branch of the river,<br />
+  God’s sons were building a sauna,<br />
+  covering the golden roof beams with golden moss.</p>
+  <p>
+  The Sun’s daughter went into the sauna<br />
+  carrying a golden bundle of twigs under her arm,<br />
+  The Moon threw water onto the hot stones with a silver goblet,<br />
+  The Stars carried water in diamond cups.<br />
+  Sweet milk was thrown onto the hot stones,<br />the bundle of twigs was soaked in wine.</p>
+  <p></p>
+  <p></p>
+  <p>
+  A horned Moon rises this morning…<p />
+  <p>
+A horned Moon rises this morning, one boy became a man!
+  </p>
+
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<video controls controlslist="nodownload">
+  <source src="/program/spaceblack/spaceblackpromo3.mp4">
+</video>
+</div>
+
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center yellow overlay text-center py-5 my-5"> 
+  <p>
+  Dirigent<br />
+  Eva Holm Foosnæs
+  </p>
+
+  <p>
+  Lysdesign<br />
+  Trond Walleraunet
+  </p>
+
+  <p>
+  Lyddesign<br />
+  Are Åberg
+  </p>
+  
+  <p>
+  Bilder og video<br />
+  Kasper Eliassen
+  </p>
+
+</div>
+
+{{ end }}
+
+
