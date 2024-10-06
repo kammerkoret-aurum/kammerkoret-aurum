@@ -8,6 +8,7 @@ title: I dag sner himlen lydløst ned - Trondheim
 date: 2024-12-13T20:00:21+0100
 price: ""
 venue: Lademoen Kirke
+ticketlink: https://kammerkoretaurum.hoopla.no/event/2959370613
 ---
 <!--StartFragment-->
 
