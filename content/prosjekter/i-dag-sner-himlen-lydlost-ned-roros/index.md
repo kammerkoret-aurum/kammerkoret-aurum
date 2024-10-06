@@ -23,8 +23,8 @@ Kjetil Bjerkestrand er musiker, komponist, arrangør og produsent. Har har arran
 
 Strykekvartetten består av Jonas Viken (1. fiolin), Maria Selnes (2. fiolin), Torunn Falnes (bratsj) og Eivind Rossbach Heier (cello).
 
-Billettinformasjon:
-Billettpris: 100 kr / 200 kr / 300 kr
+Billettinformasjon:\
+Billettpris: 100 kr / 200 kr / 300 kr\
 Billetter får du kjøpt her: https://kammerkoretaurum.hoopla.no/event/2684972771
 Velkommen!
 
