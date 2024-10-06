@@ -129,6 +129,7 @@ collections:
       - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm:ssZZ"}
       - {label: "Pris", name: "price", widget: "number", required: false}
       - {label: "Sted", name: "venue", widget: "string", required: false}
+      - {label: "Billettlink", name: "ticketlink", widget: "string", required: false}
       - {label: "Beskrivelse", name: "body", widget: "markdown"}
       - label: "Omtaler"
         name: "testimonials"
