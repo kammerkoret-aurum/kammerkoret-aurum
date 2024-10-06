@@ -26,7 +26,7 @@ Strykekvartetten består av Jonas Viken (1. fiolin), Maria Selnes (2. fiolin), T
 
 Billettinformasjon:\
 Billettpris: 100 kr / 200 kr / 300 kr\
-Billetter får du kjøpt her: https://kammerkoretaurum.hoopla.no/event/2959370613
+Billetter får du kjøpt her: https://kammerkoretaurum.hoopla.no/event/2959370613 \
 Velkommen!
 
 PS: Vi holder også en konsert i Røros kirke lørdag 15. desember kl 17:00, trykk her: [https://fb.me/e/1YR0yvNokJ](https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2Fe%2F1YR0yvNokJ&h=AT1Oz0SYvj2WO8gKb7WhnRv-vrf2_pPnlHDZlFxLfCagPs7zVsHZtyTxc4KUPA8XpdPKuJa3hlCJw08rELZTVwPCajhjxbN62mqA71qlwaScbnZUkWahCdC0nrsV2mVEFQ&__tn__=q&c[0]=AT1xrJuRMFRP7NJs3hf9vaWaMBejHNYsaZouEEKNZNRo73034_IpSdj570G02X9-16ysLaofncK1ZTkVfLcpJMaEMgJuyoN0752__Fw4-N0wLDFg5YDd1IyEtUq6KXR7OEC2RXrUIpv-l9u1SNO1EZUo_8SUvKrWELSOlbQYYcLVt0w8KcqU)
