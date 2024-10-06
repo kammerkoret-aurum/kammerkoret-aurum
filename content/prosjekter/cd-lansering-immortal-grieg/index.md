@@ -4,7 +4,7 @@ category: album
 issoldout: false
 isfewleft: false
 eventimg: plakatsort-1-.png
-title: CD-lansering Immortal Grieg
+title: "CD-lansering: Immortal Grieg"
 date: 2024-10-18T18:00:27+0200
 price: Gratis
 venue: Nova Kinosenter
