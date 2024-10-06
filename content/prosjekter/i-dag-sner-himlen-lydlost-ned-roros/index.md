@@ -23,9 +23,12 @@ Kjetil Bjerkestrand er musiker, komponist, arrangør og produsent. Har har arran
 
 Strykekvartetten består av Jonas Viken (1. fiolin), Maria Selnes (2. fiolin), Torunn Falnes (bratsj) og Eivind Rossbach Heier (cello).
 
-Vi holder også en konsert i Lademoen kirke i Trondheim fredag 14. desember kl 20:00, trykk her: [https://fb.me/e/2dqh90BZn](https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2Fe%2F2dqh90BZn&h=AT0owPKCQ_tP9U8TaK5cep_NDHcMyxe2kVt-w9chIskNiJZ__LHMZ_Uzj_Hte6b5o_HppSy3hdFpWTYIAB9TEDvdKmIuRReHZ4gVuHr0favpinyTl7XtxsBtKUCaGFeWiQ&__tn__=q&c[0]=AT3bKLEuqJhZLZis5TdYl8PEpWaPhWLXfMDwPDo0HufFhk3GFjVC9Ls-ielX0E_Pjg4X2RiXboUD5SouTJ6w-odteL3yllY5_5inCzx1mw9CduAS8jhh3CNQ0To3BAMQKn5QT74qFu1EZhGyJTSCcCp5iNT-XZtALAyeLwsOLG-ZD4OP3PK_)\
-Billettpris: 100 kr/ 200 kr/ 300 kr\
+Billettinformasjon:
+Billettpris: 100 kr / 200 kr / 300 kr
+Billetter får du kjøpt her: https://kammerkoretaurum.hoopla.no/event/2684972771
 Velkommen!
+
+PS: Vi holder også en konsert i Lademoen kirke i Trondheim fredag 14. desember kl 20:00, trykk her: [https://fb.me/e/2dqh90BZn](https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2Fe%2F2dqh90BZn&h=AT0owPKCQ_tP9U8TaK5cep_NDHcMyxe2kVt-w9chIskNiJZ__LHMZ_Uzj_Hte6b5o_HppSy3hdFpWTYIAB9TEDvdKmIuRReHZ4gVuHr0favpinyTl7XtxsBtKUCaGFeWiQ&__tn__=q&c[0]=AT3bKLEuqJhZLZis5TdYl8PEpWaPhWLXfMDwPDo0HufFhk3GFjVC9Ls-ielX0E_Pjg4X2RiXboUD5SouTJ6w-odteL3yllY5_5inCzx1mw9CduAS8jhh3CNQ0To3BAMQKn5QT74qFu1EZhGyJTSCcCp5iNT-XZtALAyeLwsOLG-ZD4OP3PK_)\
 
 Kammerkoret Aurum er et blandakor med base i Trondheim. Koret ble stiftet i 2006 og består av rundt 30 sangere. Kammerkoret Aurum ledes av dirigent Eva Holm Foosnæs. Aurum har et bredt og variert repertoar med spesielt fokus på ny, skandinavisk musikk, og er en aktiv bestiller av musikk. Kammerkoret Aurum ble kåret til Norgesmestere for kor i 2023.
 
