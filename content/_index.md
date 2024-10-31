@@ -4,7 +4,12 @@ title: "Kammerkoret Aurum"
 
 Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondheim. Kammerkoret Aurum ble stiftet i Trondheim i 2006. Koret ledes av Eva Holm Foosnæs og består av rundt 30 sangere. Koret er opptatt av å holde et høyt musikalsk nivå og er en aktiv bestiller av nykomponerte korverk.
 
+Vi har nettopp sluppet vårt tredje album **Immortal Grieg**, tilgjengelig på Spotify, og en musikkvideo for stykket om Peer Gynt.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bu-m-RP_vCM?si=iFKrp1ShQBv5iLe6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 I 2023 ble vi kåret til norgesmester for kor! I 2022 slapp vi albumet **Alt hva mødrene har kjempet**, som har fått gode anmeldelser i inn- og utland.
+
 
 
 ## Vil du synge med oss?
