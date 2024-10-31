@@ -6,7 +6,7 @@ Kammerkoret Aurum er et ambisiøst blandakor med høyt aktivitetsnivå i Trondhe
 
 Vi har nettopp sluppet vårt tredje album **Immortal Grieg**, tilgjengelig på Spotify, og en musikkvideo for stykket om Peer Gynt.
 
-{{< youtube Bu-m-RP_vCM}}
+{{< youtube Bu-m-RP_vCM >}}
 
 I 2023 ble vi kåret til norgesmester for kor! I 2022 slapp vi albumet **Alt hva mødrene har kjempet**, som har fått gode anmeldelser i inn- og utland.
 
