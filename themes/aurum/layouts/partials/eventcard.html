@@ -1,4 +1,4 @@
-<article class="card border-0 shadow" style="max-width: 1000px">
+<article class="card border-0 bg-transparent" style="max-width: 1000px">
   {{ if .Params.issoldout }}
     <div class="card-img-overlay">
       <h2>
@@ -22,14 +22,17 @@
     {{ end }}
   </a>
   </div>
-
     <div class="col-md-6">
   <div class="card-body">
-    <h2 class="card-title">{{ .Title }}</h2>
-    <h3 class="card-subtitle text-muted small">
+    <h2 class="card-title" style="font-family: Prata">{{ .Title }}</h2>
+    <h3 class="card-subtitle fs-4" style="font-family: Barlow; font-weight:300">
       {{ if (eq .Params.category "konsert") }}
         {{ with .Date }}
-        {{ time.Format "02.01.2006 kl 15:04" . }}
+{{ $month_names := slice "januar" "februar" "mars" "april" "mai" "juni" "juli" "august" "september" "october" "november" "desember" }}
+{{ $month := sub .Month 1 }}
+{{ time.Format "2." . }}
+{{ index $month_names $month }}
+{{ time.Format "2006 kl 15:04" . }}
         {{end}}
       {{ else }}
         {{ with .Date }}
@@ -38,6 +41,14 @@
       {{ end }}
     </h3>
     {{/*  <p class="card-text">{{ .Summary }}</p> */}}
+
+  {{ with .Params.ticketlink }}
+  <p class="my-5">
+    <a href="{{ . }}" class="btn btn-outline-primary">
+      Kjøp billett
+    </a>
+  </p>
+  {{ end }}
     <a href="{{ .Permalink }}" class="card-link" aria-label="Les mer om {{.Title}}">
       {{ T "les_mer" | humanize }}
     </a>

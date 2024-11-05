@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main role="main" class="container-fluid bg-light py-3 p-lg-5">
   <article class="container-md">
-    <h1 class="display-1 title">{{.Title}}</h1>
+    <h1 class="title fs-3" style="font-family: Barlow,sans-serif; font-weight:300">{{.Title}}</h1>
     <p class="lead">
     {{ .Content }}
     </p>
@@ -12,13 +12,6 @@
         {{ $future := ge .Date.Unix now.Unix }}
         {{ if $future }}
           {{ $hasFuture := true }}
-          <div class="col-lg-2 col-md-2 col-sm-2 text-center fs-1">
-            {{ time.Format "Mon" .Date }}
-            <br />
-            {{ time.Format "2" .Date }}
-            <br />
-            {{ time.Format "1" .Date }}
-          </div>
           <div class="col-lg-10 col-md-10 col-sm-10">
             {{ partial "eventcard.html" . }}
           </div>
@@ -27,7 +20,7 @@
     </section>
 
     <section class="row justify-content-start g-4 pt-5">
-    <h2 class="pb-2">{{ T "tidligere" | humanize }}</h2>
+    <h2 class="pb-2 fs-4" style="font-family: Barlow,sans-serif; font-weight:300">{{ T "tidligere" | humanize }}</h2>
       {{ range .Paginator.Pages.ByDate.Reverse }}
         {{ $past := le .Date.Unix now.Unix }}
         {{ if $past }}
