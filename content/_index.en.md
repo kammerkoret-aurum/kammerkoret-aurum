@@ -7,6 +7,10 @@ The choir was founded in 2006 and consists of roughly 30 singers.
 Today, Eva Holm Foosnæs is the conductor of the choir.
 The choir wants to have a high musical level and regularly orders newly composed works for choir.
 
+We just released our 3rd album **Immortal Grieg**, available at Spotify, and a music video for the Peer Gynt piece.
+
+{{< youtube Bu-m-RP_vCM >}}
+
 We became Norwegian champions during the national championship for choirs in 2023! In 2022 we released our second album **Alt hva mødrene har kjempet** _(All that our mothers have fought)_, which has received critical acclaim both in Norway and outside of Norway.
 
 ### Do you want to join us? 

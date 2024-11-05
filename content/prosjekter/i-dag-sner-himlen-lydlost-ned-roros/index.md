@@ -6,6 +6,7 @@ isfewleft: false
 eventimg: plakat-kammerkoret-aurum-24-jenny-hilmo-teig_fb.jpg
 title: I dag sner himlen lydløst ned - Røros
 date: 2024-12-14T17:00:48+0100
+price: 100 kr / 200 kr / 300 kr
 venue: Røros kirke
 ticketlink: https://kammerkoretaurum.hoopla.no/event/2684972771
 ---
