@@ -4,7 +4,7 @@ backend:
 
 
 i18n:
-  structure: multiple_folders
+  structure: single_folder
   locales: [no, en]
   default_locale: no
 
