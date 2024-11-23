@@ -3,6 +3,10 @@ backend:
   branch: main
 
 
+i18n:
+  structure: multiple_folders
+  locales: [no, en]
+  default_locale: no
 
 media_folder: "static/images"
 public_folder: "/images"
@@ -109,28 +113,27 @@ collections:
               - {label: "Utgitt", name: "date", widget: "datetime", date_format: "MM.YYYY", time_format: false}
               - {label: "Innspillingssted", name: "venue", widget: "string", required: false}
   - name: "prosjekter"
-    editor:
-      preview: false
     label: "Prosjekter"
     folder: "content/prosjekter"
+    create: true
+    i18n: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     path: "{{slug}}/index"
     extension: "md"
-    create: true
-    filter: {field: language, value: "no"}
     fields:
-      - {label: "Språk", name: "language", widget: "select", options: ["no", "en"], default: "no", required:false}
-      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"]}
-      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false}
-      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false}
-      - {label: "Bilde", name: "eventimg", widget: "image", required: false}
-      - {label: "Overskrift", name: "title", widget: "string"}
-      - {label: "Undertittel", name: "subtitle", widget: "string", required: false}
-      - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm:ssZZ"}
-      - {label: "Pris", name: "price", widget: "string", required: false}
-      - {label: "Sted", name: "venue", widget: "string", required: false}
-      - {label: "Billettlink", name: "ticketlink", widget: "string", required: false}
-      - {label: "Beskrivelse", name: "body", widget: "markdown"}
+      - {label: "Kategori", name: "category", widget: "select", options: ["konsert", "album", "konkurranse"], i18n: duplicate}
+      - {label: "Utsolgt", name: "issoldout", widget: "boolean", default: false, required: false, i18n: duplicate}
+      - {label: "Få billetter igjen", name: "isfewleft", widget: "boolean", default: false, required: false, i18n: duplicate}
+      - {label: "Bilde", name: "eventimg", widget: "image", required: false, i18n: duplicate}
+      - {label: "Overskrift", name: "title", widget: "string", i18n: true}
+      - {label: "Undertittel", name: "subtitle", widget: "string", required: false, i18n: true}
+      - {label: "Tidspunkt", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm:ssZZ", i18n: duplicate}
+      - {label: "Pris", name: "price", widget: "string", required: false, i18n: duplicate}
+      - {label: "Sted", name: "venue", widget: "string", required: false, i18n: true}
+      - {label: "Billettlink", name: "ticketlink", widget: "string", required: false, i18n: duplicate}
+      - {label: "Beskrivelse", name: "body", widget: "markdown", i18n: true}
       - label: "Omtaler"
         name: "testimonials"
         widget: "list"
