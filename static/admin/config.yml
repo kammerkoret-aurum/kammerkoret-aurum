@@ -142,3 +142,34 @@ collections:
            - {label: "Sitat", name: "quote", widget: "string"}
            - {label: "Forfatter", name: "author", widget: "string"}
            - {label: "Kilde", name: "source", widget: "string", required: false}
+  - name: "album"
+    label: "Album"
+    folder: "content/album"
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    extension: "md"
+    fields:
+      - {label: "Cover", name: "albumcover", widget: "image",  i18n: duplicate}
+      - {label: "Tittel", name: "title", widget: "string", i18n: duplicate}
+      - {label: "Undertittel", name: "subtitle", widget: "string", required: false, i18n: duplicate}
+      - {label: "Slippdato", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", format: "YYYY-MM-DDTHH:mm:ssZZ", i18n: duplicate}
+      - {label: "Innspillingssted", name: "venue", widget: "string", required: false, i18n: duplicate}
+      - {label: "Spotifylink", name: "ticketlink", widget: "string", required: false, i18n: duplicate}
+      - {label: "Hefte", name: "hasbooklet", widget: "boolean", required: false, i18n: duplicate}
+      - {label: "Beskrivelse", name: "body", widget: "markdown", i18n: true}
+      - label: "Sporliste"
+        name: "tracklist"
+        i18n: duplicate
+        widget: "markdown"
+      - label: "Omtaler"
+        name: "testimonials"
+        widget: "list"
+        summary: '{{fields.quote}} - {{fields.author}}'
+        fields:
+           - {label: "Sitat", name: "quote", widget: "string"}
+           - {label: "Forfatter", name: "author", widget: "string"}
+           - {label: "Kilde", name: "source", widget: "string", required: false}
