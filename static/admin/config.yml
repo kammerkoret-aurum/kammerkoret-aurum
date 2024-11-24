@@ -39,8 +39,8 @@ collections:
         i18n: true
         file: "data/utmerkelser.yml"
         fields:
-          - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
-          - {label: "Utmerkelser", name: "test", widget: "markdown"}
+          - {label: "Sammendrag", name: "sammendrag", widget: "markdown", i18n: true}
+          - {label: "Utmerkelser", name: "test", widget: "markdown", i18n: true}
       - name: "utmerkelser-en"
         label: "Utmerkelser (en)"
         file: "data/en/utmerkelser.yml"
