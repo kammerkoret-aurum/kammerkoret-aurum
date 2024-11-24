@@ -38,6 +38,7 @@ collections:
         label: "Utmerkelser"
         i18n: true
         file: "data/utmerkelser.toml"
+        frontmatter: "toml"
         fields:
           - {label: "Sammendrag", name: "summary", widget: "markdown", i18n: true}
           - {label: "Utmerkelser", name: "awardslist", widget: "markdown", i18n: true}
