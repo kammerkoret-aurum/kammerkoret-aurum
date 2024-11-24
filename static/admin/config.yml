@@ -45,11 +45,9 @@ collections:
       - name: "booking"
         label: "Booking"
         file: "content/booking/index.md"
-        i18n: true
-        format: "toml-frontmatter"
         fields:
-          - {label: "Tittel", name: "title", widget: "string", i18n: true}
-          - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
       - name: "booking_en"
         label: "Booking (en)"
         file: "content/booking/index.en.md"

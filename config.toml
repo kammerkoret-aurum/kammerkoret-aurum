@@ -7,7 +7,7 @@ summaryLength = 10
 buildFuture = true
 enableRobotsTXT = true
 
-DefaultContentLanguage = "no"
+defaultContentLanguage = "no"
 [languages]
   [languages.no]
     title = "Kammerkoret Aurum"
