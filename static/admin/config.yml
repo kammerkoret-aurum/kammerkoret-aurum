@@ -48,8 +48,8 @@ collections:
         i18n: true
         frontmatter: "toml"
         fields:
-          - {label: "Tittel", name: "title", widget: "string"}
-          - {label: "Tekst", name: "body", widget: "markdown"}
+          - {label: "Tittel", name: "title", widget: "string", i18n: true}
+          - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
       - name: "booking_en"
         label: "Booking (en)"
         file: "content/booking/index.en.md"
