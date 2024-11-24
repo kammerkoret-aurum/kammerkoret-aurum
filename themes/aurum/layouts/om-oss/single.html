@@ -78,12 +78,14 @@
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
       <h2 class="display-4 pt-5 pb-3">{{ T "awards" | humanize }}</h2>
-      {{ with (index .Site.Data .Site.Language.Lang) }}
+      {{ $lang := $.Site.Language.Lang }}
+
+      {{ with (index .Site.Data.utmerkelser $lang) }}
       <p class="lead pb-4">
-      {{ .utmerkelser.sammendrag }}
+      {{ .summary }}
       </p>
       <p>
-      {{ .utmerkelser.test | markdownify}}
+      {{ .awardslist | markdownify}}
       </p>
       {{ end }}
     </div>
