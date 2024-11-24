@@ -18,9 +18,13 @@ slug:
 
 collections:
   - name: "sider"
+    label: "Sider"
     editor:
       preview: false
-    label: "Sider"
+    i18n: 
+      structure: single_file
+      locales: [no, en]
+      default_locale: no
     files:
       - name: "medlemmer"
         label: "Medlemmer"
@@ -32,7 +36,8 @@ collections:
           - {label: "Bass", name: "bass", widget: "text"}
       - name: "utmerkelser"
         label: "Utmerkelser"
-        file: "data/no/utmerkelser.yml"
+        i18n: true
+        file: "data/utmerkelser.yml"
         fields:
           - {label: "Sammendrag", name: "sammendrag", widget: "markdown"}
           - {label: "Utmerkelser", name: "test", widget: "markdown"}
