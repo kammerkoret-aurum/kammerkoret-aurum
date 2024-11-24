@@ -45,6 +45,8 @@ collections:
       - name: "booking"
         label: "Booking"
         file: "content/booking/index.md"
+        i18n: true
+        frontmatter: "toml"
         fields:
           - {label: "Tittel", name: "title", widget: "string"}
           - {label: "Tekst", name: "body", widget: "markdown"}
