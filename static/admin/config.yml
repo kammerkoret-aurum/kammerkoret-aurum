@@ -17,8 +17,8 @@ slug:
 
 
 collections:
-  - name: "sider"
-    label: "Sider"
+  - name: "translated"
+    label: "Oversatte sider"
     editor:
       preview: false
     i18n: 
@@ -26,23 +26,28 @@ collections:
       locales: [no, en]
       default_locale: no
     files:
+      - name: "utmerkelser"
+        label: "Utmerkelser"
+        file: "data/utmerkelser.toml"
+        i18n: true
+        frontmatter: "toml"
+        fields:
+          - {label: "Sammendrag", name: "summary", widget: "markdown", i18n: true}
+          - {label: "Utmerkelser", name: "awardslist", widget: "markdown", i18n: true}
+
+  - name: "sider"
+    label: "Sider"
+    editor:
+      preview: false
+    files:
       - name: "medlemmer"
         label: "Medlemmer"
         file: "data/medlemmer.yml"
-        i18n: false
         fields:
           - {label: "Sopran", name: "sopran", widget: "text"}
           - {label: "Alt", name: "alt", widget: "text"}
           - {label: "Tenor", name: "tenor", widget: "text"}
           - {label: "Bass", name: "bass", widget: "text"}
-      - name: "utmerkelser"
-        label: "Utmerkelser"
-        i18n: true
-        file: "data/utmerkelser.toml"
-        frontmatter: "toml"
-        fields:
-          - {label: "Sammendrag", name: "summary", widget: "markdown", i18n: true}
-          - {label: "Utmerkelser", name: "awardslist", widget: "markdown", i18n: true}
       - name: "booking"
         label: "Booking"
         file: "content/booking/index.md"
