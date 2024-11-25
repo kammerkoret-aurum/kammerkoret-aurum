@@ -29,6 +29,7 @@ collections:
       - name: "medlemmer"
         label: "Medlemmer"
         file: "data/medlemmer.yml"
+        i18n: false
         fields:
           - {label: "Sopran", name: "sopran", widget: "text"}
           - {label: "Alt", name: "alt", widget: "text"}
