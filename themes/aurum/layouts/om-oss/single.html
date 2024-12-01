@@ -1,14 +1,19 @@
 {{ define "main" }}
+
+{{ $data := .Resources.Get "info.toml" | transform.Unmarshal }}
+{{ $lang := $.Site.Language.Lang }}
+{{ $data_loc := index $data $lang }}
+
 <main role="main">
 <div class="container-fluid bg-light py-5 px-md-5">
   <div class="row justify-content-center">
     <div class="col-md-9 col-lg-5">
       <h1 class="display-1 title">{{.Title}}</h1>
       <p class="lead pt-5">
-      {{ .Params.choir }}
+      {{ $data_loc.choir }}
       </p>
       <p class="py-3">
-      {{ .Params.coops }}
+      {{ $data_loc.coops }}
       </p>
       <img class="img-fluid" src="{{ .Site.Data.bilder.korbilde }}" alt="Kammerkoret Aurum i bunad i Ålesund kirke">
     </div>
@@ -43,7 +48,7 @@
     <div class="col-md-9 col-lg-5">
       <h2 class="display-4 pt-5 pb-3">{{ T "conductor" | humanize }}</h2>
       <p class="lead pb-5">
-      {{ .Params.eva }}
+      {{ $data_loc.eva }}
       </p>
     </div>
   </div>
