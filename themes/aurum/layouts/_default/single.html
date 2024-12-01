@@ -1,12 +1,16 @@
 {{ define "main" }}
   <main role="main">
 
+  {{ $data := .Resources.Get "info.toml" | transform.Unmarshal }}
+  {{ $lang := $.Site.Language.Lang }}
+  {{ $data_loc := index $data $lang }}
+
   <div class="container-fluid bg-light py-5 px-md-5">
     <div class="row justify-content-center">
       <div class="col-md-9 col-lg-5">
-      <h1 class="display-1 title">{{.Title}}</h1>
-      <p class="lead">
-      {{ .Content }}
+      <h1 class="display-1 title">{{$data_loc.title}}</h1>
+      <p>
+      {{ $data_loc.body | markdownify }}
       </p>
   </div>
   </div>
