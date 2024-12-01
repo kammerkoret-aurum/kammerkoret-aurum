@@ -2,6 +2,10 @@ backend:
   name: git-gateway
   branch: main
 
+publish_mode: editorial_workflow
+site_url: https://kammerkoret-aurum.no
+display_url: https://kammerkoret-aurum.no
+logo_url: https://kammerkoret-aurum.no/images/aurum-logo-2x.png
 
 i18n:
   structure: multiple_files
@@ -99,6 +103,7 @@ collections:
   - name: "prosjekter"
     label: "Prosjekter"
     folder: "content/prosjekter"
+    sortable_fields: ["date"]
     create: true
     i18n: true
     editor:
