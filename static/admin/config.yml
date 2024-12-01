@@ -51,14 +51,14 @@ collections:
         label: "Opptak"
         file: "content/opptak/info.toml"
         fields:
-          - {label: "Tittel", name: "title", widget: "string"}
-          - {label: "Tekst", name: "body", widget: "markdown"}
+          - {label: "Tittel", name: "title", widget: "string", i18n: true}
+          - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
       - name: "kontakt"
         label: "Kontakt"
         file: "content/kontakt/info.toml"
         fields:
-          - {label: "Tittel", name: "title", widget: "string"}
-          - {label: "Tekst", name: "body", widget: "markdown"}
+          - {label: "Tittel", name: "title", widget: "string", i18n: true}
+          - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
 
   - name: "sider"
     label: "Sider"
