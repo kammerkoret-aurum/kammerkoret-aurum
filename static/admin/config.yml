@@ -173,7 +173,7 @@ collections:
       - {label: "Cover", name: "albumcover", widget: "image",  i18n: duplicate}
       - {label: "Tittel", name: "title", widget: "string", i18n: duplicate}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false, i18n: duplicate}
-      - {label: "Slippdato", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false, i18n: duplicate}
+      - {label: "Slippdato", name: "date", widget: "datetime", time_format: false, i18n: duplicate}
       - {label: "Innspillingssted", name: "venue", widget: "string", required: false, i18n: duplicate}
       - {label: "Spotifylink", name: "spotifylink", widget: "string", required: false, i18n: duplicate}
       - {label: "Hefte", name: "hasbooklet", widget: "boolean", required: false, i18n: duplicate}

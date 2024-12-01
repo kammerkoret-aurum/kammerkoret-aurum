@@ -1,7 +1,7 @@
 ---
 albumcover: 2l129-300x300.jpg
 title: UR
-date: 08.11.2016
+date: 2016-11-08
 venue: Hoeggen kirke
 spotifylink: https://open.spotify.com/album/04EkNNtooYvg3e5ICpczCH
 tracklist: |-

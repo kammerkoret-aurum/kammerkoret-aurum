@@ -1,7 +1,7 @@
 ---
 albumcover: cd-artworks-front.jpg
 title: Alt hva mødrene har kjempet
-date: 08.03.2022
+date: 2022-03-08
 venue: Selbu kirke
 spotifylink: https://open.spotify.com/album/1ecENFSI8gv2K75UBtxwjV
 tracklist: |-
