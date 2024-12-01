@@ -44,18 +44,21 @@ collections:
       - name: "booking"
         label: "Booking"
         file: "content/booking/info.toml"
+        i18n: true
         fields:
           - {label: "Tittel", name: "title", widget: "string", i18n: true}
           - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
       - name: "opptak"
         label: "Opptak"
         file: "content/opptak/info.toml"
+        i18n: true
         fields:
           - {label: "Tittel", name: "title", widget: "string", i18n: true}
           - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
       - name: "kontakt"
         label: "Kontakt"
         file: "content/kontakt/info.toml"
+        i18n: true
         fields:
           - {label: "Tittel", name: "title", widget: "string", i18n: true}
           - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
