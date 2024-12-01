@@ -41,6 +41,24 @@ collections:
           - {label: "Om koret", name: "choir", widget: "markdown", i18n: true}
           - {label: "Om Eva", name: "eva", widget: "markdown", i18n: true}
           - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown", i18n: true}
+      - name: "booking"
+        label: "Booking"
+        file: "content/booking/info.toml"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string", i18n: true}
+          - {label: "Tekst", name: "body", widget: "markdown", i18n: true}
+      - name: "opptak"
+        label: "Opptak"
+        file: "content/opptak/info.toml"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
+      - name: "kontakt"
+        label: "Kontakt"
+        file: "content/kontakt/info.toml"
+        fields:
+          - {label: "Tittel", name: "title", widget: "string"}
+          - {label: "Tekst", name: "body", widget: "markdown"}
 
   - name: "sider"
     label: "Sider"
@@ -98,20 +116,6 @@ collections:
           - {label: "Framsidebilde", name: "framsidebilde", widget: "image"}
           - {label: "Bilde av koret", name: "korbilde", widget: "image"}
           - {label: "Bilde av Eva", name: "evabilde", widget: "image"}
-      - name: "om-oss"
-        label: "Om oss"
-        file: "content/om-oss/index.md"
-        fields:
-          - {label: "Om koret", name: "choir", widget: "markdown"}
-          - {label: "Om Eva", name: "eva", widget: "markdown"}
-          - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
-      - name: "om-oss-en"
-        label: "Om oss (en)"
-        file: "content/om-oss/index.en.md"
-        fields:
-          - {label: "Om koret", name: "choir", widget: "markdown"}
-          - {label: "Om Eva", name: "eva", widget: "markdown"}
-          - {label: "Samarbeidsprosjekter", name: "coops", widget: "markdown"}
       - name: "album"
         label: "Albumliste"
         file: "data/album.yml"
