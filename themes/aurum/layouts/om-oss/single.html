@@ -64,7 +64,9 @@
         <div class="col">
         <div class="card h-100 border-0" style="width: 16rem;">
           <a href="{{ .RelPermalink }}">
-            <img class="card-img-top" src="{{.RelPermalink}}{{- .Params.albumcover -}}" width="200" alt="">
+            {{ with .Resources.Get .Params.albumcover }}
+            <img class="card-img-top" src="{{.RelPermalink}}" width="200" alt="">
+            {{ end }}
           <h3 class="card-title link-dark">{{ .Title }}</h5>
           </a>
           <small class="text-muted bg-transparent border-0">{{ .Date | time.Format "2006" }}</small>
