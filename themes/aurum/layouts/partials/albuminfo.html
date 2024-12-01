@@ -4,6 +4,7 @@
     <h4>Slippdato</h4>
 		<p>
                 <time datetime="{{ . }}">
+                  {{ dateFormat "2." . }}
                     {{ index $.Site.Data.months (dateFormat "1" .) }}
                     {{ dateFormat "2006" . }}
                 </time>
@@ -13,35 +14,16 @@
     </div>
     <div class="p-2">
     {{ with .Params.venue }}
-                <h4>Sted</h4>
+                <h4>Innspillingssted</h4>
 		<p>
       {{ . }}
 		</p>
     {{ end }}
     </div>
     <div class="p-2">
-    {{ with .Params.price }}
-                <h4>Pris</h4>
-		<p>
-      {{ . }},-
-		</p>
-    {{ end }}
     </div>
 </div>
-    {{ with .Params.shopurl }}
-    <div class="text-center py-4">
-    <a class="btn btn-primary" href="{{ . }}">Kjøp albumet</a>
-    </div>
-    {{ end }}
-    {{ with .Params.organizer }}
-    <div class="py-4 text-center">
-                <h4>Arrangør</h4>
-		<p>
-      {{ . }}
-
-		</p>
-    {{ end }}
-    {{ with .Params.spotify }}
+    {{ with .Params.spotifylink }}
     <h4>Lytt på Spotify</h4>
     <a href="{{ . }}" class="link-dark"><i class="fa-brands fa-spotify fa-2x px-2"></i></a>
     {{ end }}

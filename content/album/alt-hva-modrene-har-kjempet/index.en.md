@@ -7,13 +7,11 @@ spotifylink: https://open.spotify.com/album/1ecENFSI8gv2K75UBtxwjV
 tracklist: |-
   1. Malala
   2. Alt hva mødrene har kjempet
-
      1. Kvinnestemmerettforeningen
      2. Veven
      3. Rettstemmen
   3. Stabat mater dolorosa
   4. Etter regnfallet
-
      1. gryande morgen
      2. i ei glipe mellom gardinene fell lyset
      3. regnet slår ein boge mellom fjella

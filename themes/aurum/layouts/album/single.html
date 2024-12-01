@@ -1,0 +1,38 @@
+{{ define "main" }}
+<main role="main">
+<div class="container-fluid bg-light py-5 px-md-5">
+<div class="row justify-content-center">
+
+<div class="col-md-9 col-lg-9">
+  <div class="row d-flex align-items-center flex-wrap pb-5">
+    <div class="col-lg-6 col-md-12">
+            {{ with .Resources.Get .Params.albumcover }}
+            <img class="img-fluid" src="{{.RelPermalink}}" height="auto" alt="">
+            {{ end }}
+    </div>
+
+    <div class="col-xl-5 col-lg-6 col-md-12">
+    <h1 class="title display-4" style="font-family: Prata;">{{.Title}}</h1>
+        {{- partial "albuminfo.html" . -}}
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-9 col-lg-5">
+    <p class="lead">
+      {{ .Content | safeHTML }}
+    </p>
+    <h4>
+      Sanger
+    </h4>
+    <p>
+    {{ .Params.Tracklist | markdownify}}
+    </p>
+  </div>
+</div>
+
+</div>
+</div>
+</main>
+{{ end }}

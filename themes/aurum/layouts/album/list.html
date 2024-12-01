@@ -1,0 +1,28 @@
+
+{{ define "main" }}
+<main role="main" class="container-fluid bg-light py-3 p-lg-5">
+  <article class="container-md">
+    <h1 class="title display-4" style="font-family: Barlow,sans-serif; font-weight:300">{{ T "diskografi" | humanize }}</h1>
+
+      <div class="row row-cols-md-3 row-cols-1">
+
+      {{ $albums := site.GetPage "/album/" }}
+      {{ range $albums.Pages }}
+        <div class="col">
+        <div class="card h-100 border-0" style="width: 16rem;">
+          <a href="{{ .RelPermalink }}">
+            {{ with .Resources.Get .Params.albumcover }}
+            <img class="card-img-top" src="{{.RelPermalink}}" width="200" alt="">
+            {{ end }}
+          <h3 class="card-title link-dark">{{ .Title }}</h5>
+          </a>
+          <small class="text-muted bg-transparent border-0">{{ .Date | time.Format "2006" }}</small>
+      </div>
+      </div>
+      {{ end }}
+      </div>
+
+
+  </article>
+</main>
+{{ end }}

@@ -3,7 +3,7 @@ type: om-oss
 title: About
 menu:
   main:
-    weight: 2
+    weight: 3
 choir: Kammerkoret Aurum is an award-winning choir based in Trondheim, Norway,
   which consists of around 30 singers. The choir was founded in 2006 and has its
   roots in the musical milieu of the Norwegian University of Science and
