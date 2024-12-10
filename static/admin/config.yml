@@ -142,6 +142,7 @@ collections:
     path: "{{slug}}/index"
     extension: "md"
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "albumpage"}
       - {label: "Cover", name: "albumcover", widget: "image",  i18n: duplicate}
       - {label: "Tittel", name: "title", widget: "string", i18n: duplicate}
       - {label: "Undertittel", name: "subtitle", widget: "string", required: false, i18n: duplicate}

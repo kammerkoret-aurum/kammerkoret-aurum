@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{{ $currentLang := .Site.Language.Lang}}
+<html lang="{{$currentLang}}">
+  {{- partial "head.html" . -}}
+  <body>
+
+<main role="main">
+  <div class="container-fluid bg-light py-5 px-md-5">
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-lg-5">
+        <h1>Immortal Grieg</h1>
+        <p>
+        <ol>
+        {{ range .Params.tracklist }}
+        <li>
+          <details>
+        <summary>
+          {{ range $index, $value := (split . ",") }}
+          {{ if eq $index 0 }}
+          {{ $value }}
+          {{ else if eq $index 1 }}
+          <div class="text-muted"><small>Melodi: {{ $value }}</small></div>
+          {{ else if eq $index 2 }}
+          <div class="text-muted"><small>Arr: {{ $value }}</small></div>
+          {{ else if eq $index 3 }}
+          <div class="text-muted"><small>Tekst: {{ $value }}</small></div>
+          {{ else if eq $index 4 }}
+          {{ $value }}
+          {{ end }}
+          {{ end }}
+        </summary>
+        TEKSTEN KOMMER HER
+          </details>
+        </li>
+        {{ end }}
+        </ol>
+        {{ .Params.tracklist }}
+        Her bør det også være med mer info, som komponist, arrangør, tekst, samt durata.
+        </p>
+        <p class="lead">
+          {{ .Content | safeHTML }}
+        </p>
+        <p><small>
+          {{ .Params.production | markdownify }}
+        </small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+  </body>
+</html>
