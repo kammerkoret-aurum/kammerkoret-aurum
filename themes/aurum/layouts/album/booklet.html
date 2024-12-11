@@ -3,31 +3,17 @@
 <html lang="{{$currentLang}}">
   {{- partial "head.html" . -}}
   <body>
-<<<<<<< Updated upstream
-=======
   <style>
       @import url('https://fonts.cdnfonts.com/css/minion-pro?styles=30098,15241');
 
       h1, p, li {font-family: 'Minion Pro', sans-serif};
   </style>
->>>>>>> Stashed changes
 
 <main role="main">
   <div class="container-fluid bg-light py-5 px-md-5">
     <div class="row justify-content-center">
       <div class="col-md-9 col-lg-5">
         <h1>Immortal Grieg</h1>
-<<<<<<< Updated upstream
-        <p>
-        <ol>
-        {{ range .Params.tracklist }}
-        <li>
-          <details>
-        <summary>
-          {{ range $index, $value := (split . ",") }}
-          {{ if eq $index 0 }}
-          {{ $value }}
-=======
       </div>
     </div>
     <div class="row justify-content-center">
@@ -60,7 +46,6 @@
           {{ range $index, $value := (split . ",") }}
           {{ if eq $index 0 }}
           <span style="font-weight: 700">{{ $value }}</span>
->>>>>>> Stashed changes
           {{ else if eq $index 1 }}
           <div class="text-muted"><small>Melodi: {{ $value }}</small></div>
           {{ else if eq $index 2 }}
@@ -71,23 +56,11 @@
           {{ $value }}
           {{ end }}
           {{ end }}
-<<<<<<< Updated upstream
-        </summary>
-        TEKSTEN KOMMER HER
-          </details>
-        </li>
-        {{ end }}
-        </ol>
-        {{ .Params.tracklist }}
-        Her bør det også være med mer info, som komponist, arrangør, tekst, samt durata.
-        </p>
-=======
         </li>
         {{ end }}
         </ol>
         </div>
       </div>
->>>>>>> Stashed changes
         <p class="lead">
           {{ .Content | safeHTML }}
         </p>
