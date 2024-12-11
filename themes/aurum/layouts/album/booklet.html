@@ -6,36 +6,45 @@
   <style>
       @import url('https://fonts.cdnfonts.com/css/minion-pro?styles=30098,15241');
 
-      h1, p, li {font-family: 'Minion Pro', sans-serif};
+      h1, h2,p, li {font-family: 'Minion Pro', sans-serif}
+
+      h1 { letter-spacing: 3px; }
+      h2 { letter-spacing: 1px; }
   </style>
 
 <main role="main">
   <div class="container-fluid bg-light py-5 px-md-5">
     <div class="row justify-content-center">
       <div class="col-md-9 col-lg-5">
-        <h1>Immortal Grieg</h1>
+        <!--<h1>{{ upper .Title }}</h1>-->
+        <img src="../{{ .Params.cover }}" class="img-fluid">
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center my-5">
         {{ $colheight := div (.Params.tracklist | len) 2 }}  
       <div class="col-md-9 col-lg-3">
         <ol>
         {{ range first $colheight .Params.tracklist }}
+        {{ $trackinfo := split . "," }}
+        {{ with (index $trackinfo 5) }}
+        <a href="#{{index $trackinfo 0 | anchorize }}" class="text-reset text-decoration-none">
+          {{end }}
         <li>
-          {{ range $index, $value := (split . ",") }}
-          {{ if eq $index 0 }}
-          <span style="font-weight: 700">{{ $value }}</span>
-          {{ else if eq $index 1 }}
-          <div class="text-muted"><small>Melodi: {{ $value }}</small></div>
-          {{ else if eq $index 2 }}
-          <div class="text-muted"><small>Arr: {{ $value }}</small></div>
-          {{ else if eq $index 3 }}
-          <div class="text-muted"><small>Tekst: {{ $value }}</small></div>
-          {{ else if eq $index 4 }}
-          {{ $value }}
+          <span style="font-weight: 700">{{ index $trackinfo 0 }}</span>
+          <small class="px-3">{{ index $trackinfo 4 }}</small>
+          {{ with (index $trackinfo 1) }}
+            <div class="text-muted"><small>Melodi: {{ . }}</small></div>
           {{ end }}
+          {{ with (index $trackinfo 2) }}
+            <div class="text-muted"><small>Arr.: {{ . }}</small></div>
+          {{ end }}
+          {{ with (index $trackinfo 3) }}
+            <div class="text-muted"><small>Tekst: {{ . }}</small></div>
           {{ end }}
         </li>
+        {{ with (index $trackinfo 5) }}
+        </a>
+        {{ end }}
         {{ end }}
         </ol>
         </div>
@@ -43,27 +52,83 @@
         <ol start="{{add $colheight 1}}">
         {{ range after $colheight .Params.tracklist }}
         <li>
-          {{ range $index, $value := (split . ",") }}
-          {{ if eq $index 0 }}
-          <span style="font-weight: 700">{{ $value }}</span>
-          {{ else if eq $index 1 }}
-          <div class="text-muted"><small>Melodi: {{ $value }}</small></div>
-          {{ else if eq $index 2 }}
-          <div class="text-muted"><small>Arr: {{ $value }}</small></div>
-          {{ else if eq $index 3 }}
-          <div class="text-muted"><small>Tekst: {{ $value }}</small></div>
-          {{ else if eq $index 4 }}
-          {{ $value }}
+          {{ $trackinfo := split . "," }}
+          <span style="font-weight: 700">{{ index $trackinfo 0 }}</span>
+          <small class="px-3">{{ index $trackinfo 4 }}</small>
+          {{ with (index $trackinfo 1) }}
+            <div class="text-muted"><small>Melodi: {{ . }}</small></div>
           {{ end }}
+          {{ with (index $trackinfo 2) }}
+            <div class="text-muted"><small>Arr.: {{ . }}</small></div>
+          {{ end }}
+          {{ with (index $trackinfo 3) }}
+            <div class="text-muted"><small>Tekst: {{ . }}</small></div>
           {{ end }}
         </li>
         {{ end }}
         </ol>
         </div>
       </div>
+    <div class="row justify-content-center">
+        <img src="../cdcover.png" class="img-fluid">
+      <div class="col-md-9 col-lg-4">
         <p class="lead">
           {{ .Content | safeHTML }}
         </p>
+        </div>
+      </div>
+    <div class="row justify-content-center">
+        <img src="../cdcover.png" class="img-fluid">
+      <div class="col-md-9 col-lg-4 my-5">
+        <h1>SANGTEKSTER</h1>
+        <h2 id="solveigs-sang">Solveigs sang</h2>
+        <p>
+        <small>Fra Peer Gynt av Henrik Ibsen</small><br />
+        </p>
+        <p class="my-4">
+        Kanskje vil der gå både vinter og vår,<br />
+og neste sommer med, og det hele år,<br />
+men engang vil du komme, det vet jeg visst, <br />
+og jeg skal nok vente, for det lovte jeg sist.
+        </p>
+        <p class="my-4">
+        Gud styrke deg, hvor du i verden går.<br />
+        Gud glede deg, hvis du for hans fotskammel står!<br />
+        Her skal jeg vente til du kommer igjen,<br />
+og venter du hist oppe, vi treffes der, min venn!
+        </p>
+        <h2 id="gamle-mor">Gamle Mor</h2>
+        <p>
+        <small>Tekst: Aasmund O. Vinje</small>
+        </p>
+        <p class="my-4">
+        Du gamle Mor! du sliter arm,<br />
+        so Sveitten er som Blod,<br />
+        men endå i dit Hjarta varm,<br />
+        og du meg gav min sterke Arm <br />
+og dette ville Mod.
+        </p>
+        <p class="my-4">
+
+        Du turka Tårer af mit Kinn<br />
+        so mang ein Herrens Gong,<br />
+        og kyste meg som Guten din<br />
+        og bles meg uti Barmen in<br />
+min sigerfulle Song.
+        </p>
+
+        <p class="my-4">
+        Og gamle du, du gav til meg<br />
+        mi mjuke Hjarterot,<br />
+        og difor må eg elska deg,<br />
+        kvar helst eg vankar på min Veg,<br />
+om so på villand Fot.
+        </p>
+
+        </div>
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-lg-4">
         <p><small>
           {{ .Params.production | markdownify }}
         </small></p>

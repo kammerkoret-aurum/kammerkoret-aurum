@@ -1,24 +1,26 @@
 ---
+title: Immortal Grieg
+cover: cd-cover-kammerkoret-aurum_3020dpi.jpg
 layout: booklet
 production: |
     Immortal Grieg ble spilt inn i Øysteinsalen i Erkebispegården i Trondheim 24.-26.mai 2024. \
     Produsent, mix og master: Jørgen Meyer \
-    Opptakstekniker: Audun Røstad \
+    Opptakstekniker: Audun Kvitland Røstad \
     Plateselskap: Hermelin Records (Meau AS)
 
     Kammerkoret Aurum er støttet av Kulturrådet, Sparebank1 SMN og Trondheim Kommune. 
 
 tracklist:
   - Immortal Grieg,Edvard Grieg,Eva Holm Foosnæs,,4:06
-  - Solveigs sang, Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen,4:55
-  - Du gamle mor, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje, 2:22
-  - Langs ei aa, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje,2:31
-  - Jeg elsker dig, Edvard Grieg, Eva Holm Foosnæs, Hans Christian Andersen,2:41
+  - Solveigs Sang, Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen,4:55,true
+  - Gamle Mor, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje, 2:22,true
+  - Langs ei Aa, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje,2:31
+  - Jeg elsker Dig, Edvard Grieg, Eva Holm Foosnæs, Hans Christian Andersen,2:41
   - Med en Primula Veris, Edvard Grieg, Eva Holm Foosnæs, John Olaf Paulsen,2:09
-  - Norsk dans No. 2, Edvard Grieg, Eva Holm Foosnæs,,2:10
-  - Åses død,Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen/Helle Janss Haugli,4:02
+  - Norsk Dans nr. 2, Edvard Grieg, Eva Holm Foosnæs,,2:10
+  - Åses Død,Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen/Helle Janss Haugli,4:02
   - Morgenstemning, Edvard Grieg, Eva Holm Foosnæs, Henrik Ibsen/Helle Janss Haugli, 4:19
-  - Peer Gynt, Eva Holm Foosnæs,,Henrik Ibsen/Eva Holm Foosnæs, 3:50
+  - Fritt etter Peer Gynt, Eva Holm Foosnæs,,Henrik Ibsen/Eva Holm Foosnæs, 3:50
 ---
 Alle kjenner melodiene til Edvard Grieg. Så mange har et nært og kjært forhold til romansene hans, at vi må kunne kalle dem en nasjonalskatt. Grieg skrev bare en håndfull verker for kor, derav Våren, Ved Rondane og Fire salmer, som blir sunget verden rundt og står høyt i kurs hos mange korsangere. Men de vakre romansene skrev han for piano og én sangsolist. Immortal Grieg gjør denne sangskatten tilgjengelig på ny, denne gangen i kordrakt. Nå kan vi for første gang oppleve et knippe av Griegs melodier for a cappella kor, med Eva og Aurums egne toner. 
 
