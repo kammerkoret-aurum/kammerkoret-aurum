@@ -1,12 +1,15 @@
-<article class="card border-0 bg-transparent" style="max-width: 1000px">
+<style>
+.flag {top: 0.8em; left: 0.8em;}
+</style>
+<article class="card border-0 bg-transparent position-relative" style="max-width: 1000px">
   {{ if .Params.issoldout }}
-    <div class="card-img-overlay">
+    <div class="flag position-absolute">
       <h2>
         <span class="text-light bg-danger badge rounded-pill">Utsolgt!</span>
       </h2>
     </div>
   {{ else if .Params.isfewleft }}
-    <div class="card-img-overlay">
+    <div class="flag position-absolute">
       <h3>
         <span class="text-light bg-success badge rounded-pill">Få billetter igjen!</span>
       </h3>
@@ -14,7 +17,7 @@
   {{ end }}
   <div class="row g-0">
     <div class="col-md-6">
-  <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}">
+  <a href="{{ .Permalink }}" aria-label="Les mer om {{.Title}}" class="card-link">
     {{ if isset .Params "eventimg" }}
       <img src="{{if not (hasPrefix .Params.eventimg "http")}}{{ .Permalink }}{{end}}{{ .Params.eventimg }}" class="img-fluid" alt="">
     {{ else }}
@@ -44,7 +47,7 @@
 
   {{ with .Params.ticketlink }}
   <p class="my-5">
-    <a href="{{ . }}" class="btn btn-outline-primary">
+    <a href="{{ . }}" class="btn btn-outline-primary card-link">
       Kjøp billett
     </a>
   </p>
