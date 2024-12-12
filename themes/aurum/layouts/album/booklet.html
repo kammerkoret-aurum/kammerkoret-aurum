@@ -51,6 +51,10 @@
       <div class="col-md-9 col-lg-3">
         <ol start="{{add $colheight 1}}">
         {{ range after $colheight .Params.tracklist }}
+        {{ $trackinfo := split . "," }}
+        {{ with (index $trackinfo 5) }}
+        <a href="#{{index $trackinfo 0 | anchorize }}" class="text-reset text-decoration-none">
+          {{end }}
         <li>
           {{ $trackinfo := split . "," }}
           <span style="font-weight: 700">{{ index $trackinfo 0 }}</span>
@@ -65,6 +69,9 @@
             <div class="text-muted"><small>Tekst: {{ . }}</small></div>
           {{ end }}
         </li>
+        {{ with (index $trackinfo 5) }}
+        </a>
+        {{ end }}
         {{ end }}
         </ol>
         </div>
@@ -78,10 +85,10 @@
         </div>
       </div>
     <div class="row justify-content-center">
-        <img src="../cdcover.png" class="img-fluid">
+        <img src="../aurum-paa-ringve.jpg" class="img-fluid">
       <div class="col-md-9 col-lg-4 my-5">
         <h1>SANGTEKSTER</h1>
-        <h2 id="solveigs-sang">Solveigs sang</h2>
+        <h2 id="solveigs-sang" class="mt-5">Solveigs sang</h2>
         <p>
         <small>Fra Peer Gynt av Henrik Ibsen</small><br />
         </p>
@@ -97,7 +104,7 @@ og jeg skal nok vente, for det lovte jeg sist.
         Her skal jeg vente til du kommer igjen,<br />
 og venter du hist oppe, vi treffes der, min venn!
         </p>
-        <h2 id="gamle-mor">Gamle Mor</h2>
+        <h2 id="gamle-mor" class="mt-5">Gamle Mor</h2>
         <p>
         <small>Tekst: Aasmund O. Vinje</small>
         </p>
@@ -124,7 +131,208 @@ min sigerfulle Song.
         kvar helst eg vankar på min Veg,<br />
 om so på villand Fot.
         </p>
+        <h2 id="langs-ei-aa" class="mt-5">Langs ei Aa</h2>
+        <p>
+        <small>Tekst: Aasmund O. Vinje</small></p>
+        <p class="my-4">
+        Du Skog! som bøygjer deg imot<br />
+        og kysser denne svarte Aa,<br />
+        som grever af di Hjarterot<br />
+        og ned i Fanget vil deg faa,<br />
+        lik deg eg Mangein munde sjaa<br />
+        og allerhelst i Livsens Vaar,<br />
+        at han den Haandi kyste paa,<br />
+        som slog hans verste Hjartesaar.<br />
 
+        </p>
+        <h2 id="jeg-elsker-dig" class="mt-5">Jeg elsker Dig</h2>
+        <p><small>Tekst: Hans Christian Andersen</small></p>
+        <p class="my-4">
+        Min Tankes Tanke ene Du er vorden,<br />
+          Du er mit Hjærtes første Kjærlighed.<br />
+            Jeg elsker Dig som Ingen her på Jorden,<br />
+jeg elsker Dig i Tid og Evighed.
+        </p>
+
+ 
+        <h2 id="med-en-primula-veris" class="mt-5">Med en Primula Veris</h2>
+        <p><small>
+          Tekst: John Olaf Paulsen</small></p>
+        <p class="my-4">
+        Du Vårens milde, skjønne Barn,<br />
+        tag Vårens første Blomme,<br />
+        og kast den ej, fordi du ved,<br />
+at Somrens Roser komme.
+        </p>
+
+        <p class="my-4">
+ 
+        Ak, vist er Somren lys og smuk<br />
+        og rig er Livets Høst,<br />
+        men Våren er den dejligste<br />
+med Elskovs Leg og Lyst.
+        </p>
+
+        <p class="my-4">
+ 
+        Og du og jeg, min ranke Mø,<br />
+        står jo i Vårens Rødme!<br />
+        Så tag da min Blomst,<br />
+men giv igjen dit unge Hjertes Sødme.
+        </p>
+ 
+        <h2 id="åses-død" class="mt-5">Åses død </h2>
+        <p><small>
+          Fra Peer Gynt av Henrik Ibsen, utvalg/tilrettelegging av tekst: Helle Janss Haugli</small></p>
+ 
+        <p class="my-4">
+        Mor? Mor?<br />
+        Lukke varlig mitt øye.<br />
+        Minnes du, mor,<br />
+        sleden over en islagt fjord?<br />
+        Grane rir, vindens sus,<br />
+        mor bred over deg fellen.<br />
+        Over mo kjører jeg.<br />
+        Soria Moria venter deg!<br />
+        Rapp deg nå, Grane!<br />
+Kan du høre de danser?
+        </p>
+
+        <p class="my-4">
+
+        Kjære Peer, jeg er redd!<br />
+Hva er det som ringer?
+        </p>
+
+        <p class="my-4">
+        Blanke bjeller,<br />
+        se mor, du ligger bløtt.<br />
+        Mor? Mor? Det er meg, din gutt.<br />
+        Hvil deg, Grane.<br />
+        Nå er reisen slutt.<br />
+        Slutt.
+        </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4P1UTiW9Ux4?si=Ee56HGQsudLFPp7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h2 id="morgenstemning" class="mt-5">Morgenstemning</h2>
+        <p><small>
+          Fra Peer Gynt av Henrik Ibsen, utvalg/tilrettelegging av tekst: Helle Janss Haugli</small></p>
+ 
+        <p class="my-4">
+        Så langt, så langt, og lenger enda.<br />
+        Hvilket umåtelig grenseløst øde,<br />
+alt det tomme og døde.
+        </p>
+
+        <p class="my-4">
+        Er det hav?<br />
+        Havet i øst, det som blinker og glitrer,<br />
+        er det kun et sansebedrag?<br />
+Jeg vil blive konge, keiser!
+        </p>
+
+        <p class="my-4">
+        Snart ville hele den glødende grav<br />
+        ligge der frisk som et kruset hav!<br />
+        Hvis du vant den ganske jord,<br />
+        men selv deg tapte,<br />
+da var din vinning kun krans om en kløvet tinning.
+        </p>
+
+        <p class="my-4">
+
+        Hele verden mitt rike.<br />
+Hele verden min.
+        </p>
+
+        <p class="my-4">
+ 
+        Hvilken stillhet.<br />
+        Sneglen kryper av sneglehuset.<br />
+        Morgenen har gull i munn.<br />
+Morgenstund.
+        </p>
+
+        <p class="my-4">
+        Her er svalt at hvile,<br />
+        hvilken stillhet omkring!<br />
+Så langt, og lenger enda.
+        </p>
+
+
+        <h2 id="fritt-etter-peer-gynt" class="mt-5">Fritt etter Peer Gynt </h2>
+        <p><small>
+          Fra Peer Gynt av Henrik Ibsen, utvalg av Eva Holm Foosnæs</small></p>
+
+        <p class="my-4">
+
+        Slakt ham! Fleng ham!<br />
+Kristenmanns sønn har dåret dovregubbens veneste mø!
+        </p>
+        <p class="my-4">
+        Mor? Mor?<br />
+        <em class="mx-5" style="float:right">
+          Trøst deg mor, tørr så gråten pent av øyet.<br />
+          Lille, stygge snille mor, du kan lite på mitt ord.<br />
+          Hele bygden skal deg hedre, bare vent til jeg får gjort noe<br />
+          - noe riktig stort!</em><br />
+Lukke varlig mitt øye.
+        </p>
+        <p class="my-4">
+        Skal han lages til sodd og sø?<br />
+        Skal han stekes på spidd eller brunes i gryte?<br />
+        </p>
+        <p class="my-4">
+ 
+        Min Peer, du er far før året heller.<br />
+        Kanskje vil der gå både vinter og vår.<br />
+
+        <em class="mx-5" style="float:right">
+        Hva er det for ståk og stønnen? Hva er det for skrik og skrål?<br />
+        Kapteinen roper på sønnen, og prosten vil drikke min skål. Inn da, Peer Gynt, til dommen. Den lyder i sang og i klang. Peer Gynt, av stort est du kommen, og til stort skalst du vorde en gang!</em><br />
+        </p>
+        <p class="my-4">
+        Slakt ham, kristenmanns sønn har dåret dovregubbens veneste mø.<br />
+        Nok min sønn, det kløvede sterke ord må stå i ditt våpenmerke.<br />
+        Dernest må du lære å sette pris på vår hjemlige levevis.<br />
+        Koen giver kaker og stuten mjød,<br />
+        spør ei om den smaker sur eller søt.<br />
+        Dernest skal du kaste dine kristenmannskleder.<br />
+        Thi det skal du vite til vårt Dovres heder.<br />
+        </p>
+        <p class="my-4">
+        Over mo kjører jeg.<br />
+        Soria Moria venter deg!<br />
+        <em class="mx-5" style="float:right">
+        Om jeg hamrer eller hamres, like fullt så skal der jamres!
+        Thi, mor, det er like fett!</em><br />
+        Rapp deg nå, Grane!<br />
+        Kan du høre de danser?<br />
+        </p>
+        <p class="my-4">
+ 
+        Slakt ham, kristenmanns sønn har dåret dovregubbens veneste mø.<br />
+        Slakt ham, kristenmanns sønn har dåret dovregubbens veneste mø.<br />
+        Slakt ham, kristenmanns sønn har dåret dovregubbens veneste mø.<br />
+        Her er allting fjellvirket, ingenting fra dalen.<br />
+        Unntagen silkesløyfen ytterst på halen.<br />
+        Nu vil vi ører og øyner fryde!<br />
+        </p>
+        <p class="my-4">
+        Slakt ham!<br />
+        <em class="mx-5" style="float:right">
+          Spillemø frem, la dovreharpen lyde!</em><br />
+        Slakt ham! Slakt ham! Slakt ham!<br />
+        <em class="mx-5" style="float:right">
+          Dansemø frem, tred Dovrehallens fjel!</em><br />
+        For kristenmanns sønn har dåret dovregubbens veneste mø.<br />
+        </p>
+        <p class="my-4">
+        Å, slakt ham!<br />
+        </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bu-m-RP_vCM?si=PMbL9mwSreHvQgU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     <div class="row justify-content-center">
@@ -138,5 +346,6 @@ om so på villand Fot.
   </div>
 </main>
 
+{{ partial "footer.html" . }}
   </body>
 </html>

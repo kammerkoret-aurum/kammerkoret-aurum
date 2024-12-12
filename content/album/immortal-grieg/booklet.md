@@ -14,13 +14,13 @@ tracklist:
   - Immortal Grieg,Edvard Grieg,Eva Holm Foosnæs,,4:06
   - Solveigs Sang, Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen,4:55,true
   - Gamle Mor, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje, 2:22,true
-  - Langs ei Aa, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje,2:31
-  - Jeg elsker Dig, Edvard Grieg, Eva Holm Foosnæs, Hans Christian Andersen,2:41
-  - Med en Primula Veris, Edvard Grieg, Eva Holm Foosnæs, John Olaf Paulsen,2:09
+  - Langs ei Aa, Edvard Grieg, Eva Holm Foosnæs,Aasmund Olavsson Vinje,2:31, true
+  - Jeg elsker Dig, Edvard Grieg, Eva Holm Foosnæs, Hans Christian Andersen,2:41,true
+  - Med en Primula Veris, Edvard Grieg, Eva Holm Foosnæs, John Olaf Paulsen,2:09,true
   - Norsk Dans nr. 2, Edvard Grieg, Eva Holm Foosnæs,,2:10
-  - Åses Død,Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen/Helle Janss Haugli,4:02
-  - Morgenstemning, Edvard Grieg, Eva Holm Foosnæs, Henrik Ibsen/Helle Janss Haugli, 4:19
-  - Fritt etter Peer Gynt, Eva Holm Foosnæs,,Henrik Ibsen/Eva Holm Foosnæs, 3:50
+  - Åses Død,Edvard Grieg, Eva Holm Foosnæs,Henrik Ibsen/Helle Janss Haugli,4:02,true
+  - Morgenstemning, Edvard Grieg, Eva Holm Foosnæs, Henrik Ibsen/Helle Janss Haugli, 4:19,true
+  - Fritt etter Peer Gynt, Eva Holm Foosnæs,,Henrik Ibsen/Eva Holm Foosnæs, 3:50,true
 ---
 Alle kjenner melodiene til Edvard Grieg. Så mange har et nært og kjært forhold til romansene hans, at vi må kunne kalle dem en nasjonalskatt. Grieg skrev bare en håndfull verker for kor, derav Våren, Ved Rondane og Fire salmer, som blir sunget verden rundt og står høyt i kurs hos mange korsangere. Men de vakre romansene skrev han for piano og én sangsolist. Immortal Grieg gjør denne sangskatten tilgjengelig på ny, denne gangen i kordrakt. Nå kan vi for første gang oppleve et knippe av Griegs melodier for a cappella kor, med Eva og Aurums egne toner. 
 
