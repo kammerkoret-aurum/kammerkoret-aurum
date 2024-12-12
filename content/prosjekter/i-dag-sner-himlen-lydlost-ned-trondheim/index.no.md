@@ -1,14 +1,14 @@
 ---
-language: no
 category: konsert
 issoldout: false
-isfewleft: false
+isfewleft: true
 eventimg: plakat-kammerkoret-aurum-24-jenny-hilmo-teig_fb.jpg
 title: I dag sner himlen lydløst ned - Trondheim
 date: 2024-12-13T20:00:21+0100
 price: 100 kr / 200 kr / 300 kr
 venue: Lademoen Kirke
 ticketlink: https://kammerkoretaurum.hoopla.no/event/2959370613
+language: no
 ---
 <!--StartFragment-->
 
