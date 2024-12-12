@@ -6,8 +6,14 @@
 <div class="col-md-9 col-lg-9">
   <div class="row d-flex align-items-center flex-wrap pb-5">
     <div class="col-lg-6 col-md-12">
+            {{ if .Params.Booklet }}
+            <a href="{{.RelPermalink}}/booklet">
+            {{ end }}
             {{ with .Resources.Get .Params.albumcover }}
             <img class="img-fluid" src="{{.RelPermalink}}" height="auto" alt="">
+            {{ end }}
+            {{ if eq .Params.booklet true }}
+            </a>
             {{ end }}
     </div>
 

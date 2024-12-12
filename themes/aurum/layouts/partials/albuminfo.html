@@ -27,5 +27,13 @@
     <h4>Lytt på Spotify</h4>
     <a href="{{ . }}" class="link-dark"><i class="fa-brands fa-spotify fa-2x px-2"></i></a>
     {{ end }}
+
+    {{ if .Params.booklet }}
+    <p class="mt-5">
+    <a href="{{.RelPermalink}}/booklet">
+    Les albumheftet
+    </a>
+    </p>
+    {{ end }}
     </div>
 

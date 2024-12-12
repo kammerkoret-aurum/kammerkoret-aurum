@@ -1,4 +1,5 @@
 ---
+booklet: true
 albumcover: cd-cover-kammerkoret-aurum_3020dpi.jpg
 title: Immortal Grieg
 date: 2024-10-18T18:00:00+0200
