@@ -1,5 +1,4 @@
 baseURL = "https://www.kammerkoret-aurum.no"
-languageCode = "nb"
 theme = "aurum"
 
 ignoreLogs =["warning-goldmark-raw-html"]
@@ -10,6 +9,7 @@ buildFuture = true
 enableRobotsTXT = true
 
 defaultContentLanguage = "no"
+languageCode = "no-nb"
 [languages]
   [languages.no]
     title = "Kammerkoret Aurum"

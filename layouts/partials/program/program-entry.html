@@ -1,0 +1,13 @@
+{{ .title | upper }} <br />
+{{ with .composer }}
+    {{ . }}<br />
+{{ end }}
+{{ with .arranger }}
+    arr: {{ . }}<br />
+{{ end }}
+{{ with .text }}
+    tekst: {{ . }}<br />
+{{ end }}
+{{ with .solo }}
+    solist: {{ . }}<br />
+{{ end }}

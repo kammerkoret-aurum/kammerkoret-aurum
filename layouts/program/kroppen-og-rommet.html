@@ -42,6 +42,20 @@ p {
 
 #navimg {
   float: right;
+  -webkit-transform-origin: 100% 25%;
+  -moz-transform-origin: 100% 25%;
+  -ms-transform-origin: 100% 25%;
+  -o-transform-origin: 100% 25%;
+  transform-origin: 100% 25%;
+}
+
+#navimg2 {
+  float: right;
+  -webkit-transform-origin: 100% 25%;
+  -moz-transform-origin: 100% 25%;
+  -ms-transform-origin: 100% 25%;
+  -o-transform-origin: 100% 25%;
+  transform-origin: 100% 25%;
 }
 
 #programheader {
@@ -66,6 +80,16 @@ p {
     background-repeat: no-repeat;
 }
 
+.softrains {
+    height: 140vh;
+    background-color: beige;
+    background-image: url(/program/kroppen-og-rommet/regnskog.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .program {
   background-color: beige;
 }
@@ -79,6 +103,11 @@ p {
 #thedot {
   height: 60vh;
 }
+
+#therain {
+  height: 100vh;
+}
+
 #thecred {
   height: 30vh;
 }
@@ -102,10 +131,20 @@ video {
   </h1>
   </div>
 
-<div id="programdescription" class="d-flex pt-5 align-items-center"> 
-  <p>Konsertprogram for Kroppen og rommet<br />
-  Kjøpmannsgata Ung Kunst (23. mars 2025 kl 18).</p>
-</div>
+  <div id="programdescription" class="d-flex pt-5 align-items-center"> 
+    {{ with site.GetPage "." (printf "prosjekter/%s" (.Title | urlize))}}
+      <p>Konsertprogram for {{ .Title }}<br />
+        {{ .Params.venue }} <br />
+        {{ with .Date }}
+        (
+          {{ dateFormat "2." . }}
+          {{ index $.Site.Data.months (dateFormat "1" .) }}
+          {{ dateFormat "2006 kl 15" . }}
+        )
+        {{ end }}
+      </p>
+    {{end}}
+  </div>
 </div>
 
 <div>
@@ -126,43 +165,7 @@ video {
 </div>
 
 <div class="container d-flex flex-column align-content-center text-dark py-5 my-5"> 
-
-  <p>
-  <strong>Kammerkoret Aurum</strong> med dirigent <strong>Eva Holm Foosnæs</strong> ønsker velkommen til konsert!
-  </p>
-
-  <p>
-Sentralt i konserten står et nytt bestillingsverk av <strong>Heidi Skjerve</strong>, som belyser ulike kroppslige erfaringer.
-</p>
-
-<p>
- Et kor består av mange individuelle kropper, som til sammen utgjør én stor kropp.
- </p>
-
- <p>
- Dette samspillet ønsker vi å utforske i korets klangmuligheter - ulike <br />
- stemmeregistre, <br />
- harmonikk, <br />
- rytmikk<br /> 
- og <br />
-  bevegelse.
- </p>
-
- <p>
- Verkets satser blir knyttet musikalsk og tekstlig til kroppslige erfaringer og funksjoner. 
-</p>
-
-<p>
-I tillegg til Skjerve, står komponister som <strong>Ēriks Ešenvalds</strong>, <strong>Ståle Kleiberg</strong>, <strong>Eva Holm Foosnæs</strong> og <strong>Mäntyjärvi</strong> på programmet.
-</p>
-
-<p>
-Vi er stolte av å samarbeide med samtidsdanser og koreograf <strong>Marie Rechsteiner</strong>, som skal sette bevegelse til musikken.
-</p>
-
-<p>
-<strong>Velkommen!</strong>
-</p>
+  {{ .Content | safeHTML}}
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
@@ -170,6 +173,9 @@ Vi er stolte av å samarbeide med samtidsdanser og koreograf <strong>Marie Rechs
   <source src="/program/spaceblack/spaceblackpromo1.mp4">
 </video>
 </div>
+
+
+<!--{{ partial "program/program" . }}-->
 
 <div class="container d-flex flex-column align-items-center align-content-center justify-content-center serif program text-center py-5 my-5"> 
   <p class="py-3">
@@ -181,6 +187,7 @@ Tekst: Stein Mehren
   EG KAN RO<br />
 PUST, arr: Elisabeth Anvik<br />
 Tekst: Freddie Wadling<br />
+Solist: Astrid Grimstad Valheim
 </p>
   <p class="py-3">
 DIE STIMME DES KINDES<br />
@@ -196,19 +203,25 @@ THERE WILL COME SOFT RAINS<br />
   <p class="py-3">
 ODE TIL KROPPEN<br />
 Heidi Skjerve<br />
+<div class="small">
+ER KROPPEN DITT TEMPEL?<br />Solist: Karen Johanna Kviseth<br />
 <br />
-<span class="small">
-ER KROPPEN DITT TEMPEL?<br />
 SLITER DU MED ...?<br />
-KVILEPULS<br />
+<br />
+KVILEPULS<br />Solist: Anne Grete Nyseter<br />
+<br />
 BLOD, SVETTE OG TÅRER<br/>
-MIRAKEL<br />
-OVER FJELL<br />
-DIAFRAGMA</span>
+<br />
+MIRAKEL<br />Solist: Kari Sødal Gjestvang <br />
+<br />
+OVER FJELL<br />Solist: Andreas Tesaker<br />
+<br />
+DIAFRAGMA</div>
 </p>
   <p class="py-3">
 FLJOTAVIK<br />
 PUST, arr: Håvard Gravdal<br />
+Solist: Jon Kristian Bye
 </p>
 <img src="/program/kroppen-og-rommet/arm.png" class="arm" />
   <p class="py-3">
@@ -225,6 +238,39 @@ Tekst: William Shakespeare (fra Hamlet)
 <div class="d-flex flex-column justify-content-center video">
 <img src="/program/spaceblack/lightbowl.jpg">
 </div>
+
+
+
+<div class="container d-flex flex-column align-items-start align-content-start justify-content-start serif program py-5 my-5"> 
+  <h2>Marie Rechsteiner</h2>
+  <p>
+  <strong>Marie Rechsteiner</strong> er en norsk dansekunstner med base mellom Trondheim og Berlin.
+  En stor del av hennes arbeid er av tverrfaglig natur, der bevegelse er kombinert med lydkunst, videoprojeksjoner, objekter og stedsspesifikk, improvisert interaksjon.
+  Tematisk dreier hennes arbeider seg rundt aktuelle samfunnstema og ser på hvordan samfunnets diskurser manifesteres i kroppen og kan komme til syne i det koreografiske arbeidet.
+  Hun er en av grunnleggerne av studiokollektivet Garage – Werkstatt für Darstellende Künste, en produksjon- og visningsarena for det frie feltet i Berlin.
+  </p>
+  <img src="/program/kroppen-og-rommet/Marie.jpeg" class="img-fluid"/>
+</div>
+
+<img src="/program/kroppen-og-rommet/arm.png" id="navimg2" class="arm" />
+
+<div class="container d-flex flex-column align-items-start align-content-start justify-content-start serif program py-5 my-5"> 
+  <h2>Heidi Skjerve</h2>
+  <p>
+    <strong>Heidi Skjerve</strong> (f.1979) er en allsidig vokalist og komponist med utspring fra Jazzlinja ved NTNU.
+    Hun har gjort seg bemerket på Trondheimsscenen gjennom mange år med egne band og albumutgivelser som
+    «Songs from Thoreau’s Journal», «Jazz frå skogom» med John Pål Inderberg,
+    Vigleik Storaas og Trygve Fiske, vokalensemblet Trondheim Voices og som solist med bl.a. Luftforsvarets Musikkorps.  
+  </p>
+  <img src="/program/kroppen-og-rommet/P1030514 svarthvit.jpeg" class="img-fluid"/>
+</div>
+
+
+<div class="d-flex flex-column justify-content-center video">
+<img src="/program/kroppen-og-rommet/kroppen.jpg">
+</div>
+
+
 
 <div class="container d-flex flex-column align-content-center text-dark py-5 my-5"> 
 
@@ -272,26 +318,264 @@ Tekst: William Shakespeare (fra Hamlet)
 </p>
 
 <h3 class="serif pt-5"> SLITER DU MED ...?</h3>
-<p>Fine linjer eller rynker.
-
-  osv
+<p>
+  Fine linjer eller rynker<br />
+  Sliter du med akne?<br />
+  Håravfall og gule tenner<br />
+  Tør du ikke smile?<br />
+  <br />
+  Mindre spenst og mye stress<br />
+  Trøtt og energiløs?<br/>
+  Nedsatt sexlyst, mye press<br />
+  <br />
+  Litt for sliten, litt for tung<br />
+  Slik holder du deg ung!<br />
+  <br />
+  <br />
+  <span class="text-left">Appelsinhud</span><br />
+ <span class="text-right">Grevinneheng<br /></span>
+ <span class="text-left">Mammamage<br /></span>
+ <span class="text-right">Underlivsplage<br/></span>
+ <span class="text-left">Nedsatt lyst <br /></span>
+ <span class="text-right">Hengebryst<br/></span>
+ <span class="text-left">Tynnere hår<br /></span>
+ <span class="text-right">Gnissende lår<br /></span>
+ <span class="text-left">Spis mindre fett<br /></span>
+ <span class="text-right">Spis deg lett<br /></span>
+ <span class="text-left">Fiber er bra<br /></span>
+ <span class="text-right">Spis deg glad!<br /></span>
+ <span class="text-center">Skjønnhet kommer innenfra!<br /></span>
+  <br />
+  <br />
+  Botox<br />
+  Silikon<br />
+  Reduksjon<br />
+  Hylauron<br />
+  Injeksjon<br />
+  Rumpeløft<br />
+  Puppekløft <br />
+  Facelift<br />
+  Fillers<br />
+  Retinol<br />
+  Restylan<br />
+  Clynomyn<br />
+  med polynam<br />
+  Dokumentert effekt!<br />
+  <br />
+  <br />
+  Pumpe<br />
+  Sixpack<br />
+  Proteinshake<br />
+  Koffein<br />
+  Tynn og bleik <br />
+  Vitamin<br />
+  Alt for veik<br />
+  Disiplin<br />
+  Adrenalin<br />
+  Testosteron<br />
+  Håravfall<br />
+  Kondisjon<br />
+  Intervall<br />
+  Ambisjon<br />
+  Mosjon<br />
+  Muskeldefinisjon<br />
+  Naturlig sjarm<br />
+  Rottefjes<br />
+  Øm og varm<br />
+  Mye pes <br />
+  Musearm<br />
+  Rotteres<br />
+  Irritabel tarm<br />
+  Spis mindre brød<br />
+  Indre glød<br />
+  Ny diett<br />
+  Spis deg lett<br />
+  Spis mere fett<br />
+  Spis deg mett<br />
+  Sunt bondevett!<br />
+  Kolesterol<br />
+  Retinol<br />
+  Kortisol<br />
+  Anabol<br />
+  Sterkere ben <br />
+  Kollagen<br />
+  Slik får du sommerkroppen!<br />
+  Kropp som en gud!<br />
+  Glattere hud!<br />
+  Super smooth!<br />
+  Life is good!<br />
+  <br />
+  <br />
+  Litt for liten <br />
+  Litt for stor <br />
+  Litt for sliten<br />
+  Litt for tung <br />
+  Altfor gammel<br />
+  <br />
+  Slik holder du deg ung!
 </p>
 
 <h3 class="serif pt-5">KVILEPULS</h3>
+<p>
+Handa mi<br />
+søkjer<br />
+handa di<br />
+famlar, lengtar<br />
+finn saman <br />
+<br />
+Hald meg<br />
+hald varsamt<br />
+hald ømt<br />
+hald fast<br />
+hald rundt meg<br />
+<br />
+Kviler<br />
+inntil<br />
+din rygg<br />
+kjenner<br />
+du pustar
+</p>
+
 <h3 class="serif pt-5">BLOD, SVETTE OG TÅRER</h3>
+<p>
+  Blod<br />
+  Flyter<br />
+  Lymfe, galle, magesyre<br />
+  Utflod<br />
+  Renner<br />
+  Svette<br />
+  Renner<br />
+  Blodet bruser<br />
+  Pumper<br />
+  Forsats, sæd<br />
+  Spruter<br />
+  Drypper<br />
+  <br />
+  <br />
+
+  Blod<br />
+  Svette<br />
+  Tårer<br />
+  Renner<br />
+  Snørr<br />
+  Blod, svette, tårer<br />
+  <br />
+  <br />
+
+  Blod<br />
+  Flyter<br />
+  Leddvæske<br />
+  Spinalvæske<br />
+  Fostervann fosser<br />
+  Slim<br />
+  Blod<br />
+  Tårer <br />
+  Melk <br />
+  Spruter<br />
+  Drypper<br />
+</p>
 <h3 class="serif pt-5">MIRAKEL</h3>
+<p>
+Ja, kroppen min er eit tempel.<br />
+Eit heilagt rom for livets mysterium, <br />
+eit rom der mirakel kan hende. <br />
+<br />
+Kroppen min er eit luksushotell, <br />
+med basseng og eige gardsmeieri.<br />
+<br />
+
+Kroppen min er eit slott.<br />
+Her har prinsar og prinsesser levd i sus og dus.<br />
+<br />
+
+Det står støtt gjennom århundra, <br />
+til trass for at fasaden er umoderne og murpussen dryssar litt...<br />
+</p>
 <h3 class="serif pt-5">OVER FJELL</h3>
+<p>
+Eg gjekk<br />
+Eg gjekk gatelangs i ein framand by<br />
+Eg gjekk gjennom ein park under høge kviskrande tre<br />
+Eg gjekk langs ein haustgul vaiande åker<br />
+Eg gjekk barfot i sanda langs stranda<br />
+<br />
+
+Eg gjekk på mjuk mose mellom mørke bartre og sopp <br />
+Eg gjekk opp ein bratt, kronglete sti<br />
+Eg gjekk over ei duftande lyngkledt hei<br />
+Eg gjekk opp ei steinete ur <br />
+Eg gjekk på tur!<br />
+<br />
+
+Og beina dei bar meg gjennom kratt og skog<br />
+over lyng og myr <br />
+gjennom elv og vatn <br />
+over fjell!<br />
+<br />
+
+Ode til beina<br />
+som bær meg heim<br />
+</p>
 <h3 class="serif pt-5">DIAFRAGMA</h3>
 <p>
   Diafragma<br />
   Multifidus<br />
   Iliacus<br />
   Transversis abdominis<br />
+  <br />
+  Intercostales interni<br />
+  Intercostales externi<br />
+  <br />
+
+  Diafragma<br />
+  Multifidus<br />
+  Iliacus<br />
+  Oblicus internus<br />
+  <br />
+
+  Erector spinae <br />
+  Rectus abdominis<br />
+  Latissimus dorsi<br />
+  <br />
+  Serratus anterior<br />
+  <br />
+
+  Psoas major<br />
+  Quadratus lumborum<br />
+
 </p>
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
 <img src="/program/spaceblack/lightbowl.jpg">
+</div>
+
+<div class="container d-flex flex-column align-items-end pt-5 softrains overlay"> 
+  <h2 class="text-light serif">There Will Come Soft Rains<br />(War Time)</h2>
+  <span class="serif text-light">Sarah Teasdale</span>
+  <p id="therain" class="d-flex align-items-end text-light">
+There will come soft rains and the smell of the ground,<br />
+And swallows circling with their shimmering sound;<br />
+<br />
+And frogs in the pools singing at night,<br />
+And wild plum-trees in tremulous white;<br />
+<br />
+
+Robins will wear their feathery fire<br />
+Whistling their whims on a low fence-wire;<br />
+<br />
+
+And not one will know of the war, not one<br />
+Will care at last when it is done.<br />
+<br />
+
+Not one would mind, neither bird nor tree<br />
+If mankind perished utterly;<br />
+<br />
+
+And Spring herself, when she woke at dawn,<br />
+Would scarcely know that we were gone.<br />
+  </p>
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
@@ -336,7 +620,10 @@ Tekst: William Shakespeare (fra Hamlet)
   window.onscroll = function() {scrollRotate()};
   function scrollRotate() {
     var navimg = document.getElementById("navimg");
-    navimg.style.transform = "rotate("+ (window.pageYOffset/10-100) + "deg)"
+    navimg.style.transform = "rotate("+ (-window.pageYOffset/10+120) + "deg)"
+
+    var navimg2 = document.getElementById("navimg2");
+    navimg2.style.transform = "rotate("+ (window.pageYOffset) + "deg)"
   }
   </script>
 

@@ -1,0 +1,28 @@
+<div class="container d-flex flex-column align-items-center align-content-center justify-content-center serif program text-center py-5 my-5"> 
+    {{ $program := dict }}
+    {{ $path := "program.yml"}}
+
+    {{ with .Page.Resources.Get $path }}
+        {{ with . | transform.Unmarshal }}
+            {{ $program = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $program}}
+
+    <p class="py-3">
+        {{ partial "program/program-entry" . }}
+
+        {{ with .movements }}
+        <br />
+        <span class="small">
+        {{ range . }}
+            {{ partial "program/program-entry" . }}
+            <br />
+        {{ end }}
+        </span>
+        {{ end }}
+    </p>
+
+    {{ end }}
+</div>
