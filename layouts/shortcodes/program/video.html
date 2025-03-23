@@ -1,0 +1,8 @@
+{{ $folder := .Page.RelPermalink }}
+{{ with (.Get "src") }}
+<div class="d-flex flex-column justify-content-center video">
+<video controls controlslist="nodownload">
+  <source src="{{ $folder }}/{{ . }}">
+</video>
+</div>
+{{ end }}

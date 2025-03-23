@@ -1,10 +1,18 @@
 {{ define "main" }}
 <style>
 
+
+.navbar {
+ position: fixed;
+ top: 0px;
+ transition: top 0.5s ease-in-out;
+}
+
+
 body {
     background-image: url(/program/kroppen-og-rommet/arm.png);
-    background-position: center right;
     background-size: 65vw;
+    background-position: center right;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: white;
@@ -123,6 +131,32 @@ video {
 
 </style>
 
+  <nav class="navbar navbar-expand navbar-light" style="background-color: rgba(255,255,255,0.5);" role="navigation" aria-label="main navigation" id="navbar">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">
+            topp
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#program">
+            program
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#bio">
+            bioer
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#ode">
+            ode til kroppen
+          </a>
+        </li>
+      </ul>
+    </nav>
+
 <div class="container d-flex flex-column align-items-center align-content-center justify-content-center"> 
 
   <div id="programheader" class="d-flex pb-5 align-items-center">
@@ -168,16 +202,9 @@ video {
   {{ .Content | safeHTML}}
 </div>
 
-<div class="d-flex flex-column justify-content-center video">
-<video controls controlslist="nodownload">
-  <source src="/program/spaceblack/spaceblackpromo1.mp4">
-</video>
-</div>
-
-
 <!--{{ partial "program/program" . }}-->
 
-<div class="container d-flex flex-column align-items-center align-content-center justify-content-center serif program text-center py-5 my-5"> 
+<div id="program" class="container d-flex flex-column align-items-center align-content-center justify-content-center serif program text-center py-5 my-5"> 
   <p class="py-3">
   KROPPEN OG ROMMET<br />
 Ståle Kleiberg <br />
@@ -236,12 +263,13 @@ Tekst: William Shakespeare (fra Hamlet)
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
-<img src="/program/spaceblack/lightbowl.jpg">
+<img src="/program/kroppen-og-rommet/marie-kor.jpg">
 </div>
 
 
 
-<div class="container d-flex flex-column align-items-start align-content-start justify-content-start serif program py-5 my-5"> 
+<img src="/program/kroppen-og-rommet/arm.png" id="navimg2" class="arm" />
+<div id="bio" class="container d-flex flex-column align-items-start align-content-start justify-content-start serif program py-5 my-5"> 
   <h2>Marie Rechsteiner</h2>
   <p>
   <strong>Marie Rechsteiner</strong> er en norsk dansekunstner med base mellom Trondheim og Berlin.
@@ -252,7 +280,11 @@ Tekst: William Shakespeare (fra Hamlet)
   <img src="/program/kroppen-og-rommet/Marie.jpeg" class="img-fluid"/>
 </div>
 
-<img src="/program/kroppen-og-rommet/arm.png" id="navimg2" class="arm" />
+<div class="d-flex flex-column justify-content-center video">
+<img src="/program/kroppen-og-rommet/heidi-kor.jpg">
+</div>
+
+<img src="/program/kroppen-og-rommet/arm.png" class="arm revimg" />
 
 <div class="container d-flex flex-column align-items-start align-content-start justify-content-start serif program py-5 my-5"> 
   <h2>Heidi Skjerve</h2>
@@ -272,7 +304,7 @@ Tekst: William Shakespeare (fra Hamlet)
 
 
 
-<div class="container d-flex flex-column align-content-center text-dark py-5 my-5"> 
+<div id="ode" class="container d-flex flex-column align-content-center text-dark py-5 my-5"> 
 
   <p>
   <h1 class="yellow">Ode til kroppen</h1>
@@ -280,8 +312,7 @@ Tekst: William Shakespeare (fra Hamlet)
   </p>
 
   <p class="serif py-5">
-    Tekstene og musikken til Heidi Skjerves verk om kroppen er inspirert av
-    og tildels bygd på innspill fra koristene.
+    Dette er ein hyllest til kroppen, den ufullkomne, det du vil gøyme bort eller fikse på, men òg til alt som fungerer, heilt utan at du treng å tenkje på det, til dømes alle substansane som flyt rundt og smører maskineriet vårt på ulike vis, og alle musklane som er involverte i ein god innpust og ein bærande korklang! Eg vil òg sette søkelyset på korleis skjønnheitsindustrien tener gode pengar på å få oss til alltid å leite etter feil og manglar ved kroppane våre, og korleis straumen av kroppsfiksert innhald i media og sosiale media pregar sjølvbiletet vårt. Så eg spurde songarane i koret om kva slags forhald dei har til kroppen sin, og om det er noko ved kroppen dei faktisk er nøgde med? Svara eg fekk var i stor grad samanfallande med mine eigne svar, og desse har blitt til tekst og musikk. 
   </p>
 
 <h3 class="serif pt-5">ER KROPPEN DITT TEMPEL?</h3>
@@ -546,9 +577,11 @@ som bær meg heim<br />
 </p>
 </div>
 
+
 <div class="d-flex flex-column justify-content-center video">
-<img src="/program/spaceblack/lightbowl.jpg">
+<img src="/program/kroppen-og-rommet/beina.jpg">
 </div>
+
 
 <div class="container d-flex flex-column align-items-end pt-5 softrains overlay"> 
   <h2 class="text-light serif">There Will Come Soft Rains<br />(War Time)</h2>
@@ -579,16 +612,18 @@ Would scarcely know that we were gone.<br />
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
-<img src="/program/spaceblack/glass.jpg">
-</div>
-
-<div class="d-flex flex-column justify-content-center video">
-<img src="/program/spaceblack/glove.jpg">
+<img src="/program/kroppen-og-rommet/eva-heidi.jpg">
 </div>
 
 <div class="d-flex flex-column justify-content-center video">
 <video controls controlslist="nodownload">
-  <source src="/program/spaceblack/spaceblackpromo2.mp4">
+  <source src="/program/kroppen-og-rommet/promo3.mp4">
+</video>
+</div>
+
+<div class="d-flex flex-column justify-content-center video">
+<video controls controlslist="nodownload">
+  <source src="/program/kroppen-og-rommet/promo4.mp4">
 </video>
 </div>
 
@@ -617,14 +652,26 @@ Would scarcely know that we were gone.<br />
 </div>
 
 <script>
-  window.onscroll = function() {scrollRotate()};
   function scrollRotate() {
     var navimg = document.getElementById("navimg");
     navimg.style.transform = "rotate("+ (-window.pageYOffset/10+120) + "deg)"
 
-    var navimg2 = document.getElementById("navimg2");
-    navimg2.style.transform = "rotate("+ (window.pageYOffset) + "deg)"
   }
+  window.addEventListener("scroll", scrollRotate);
+
+  lastScrollTop;
+navbar = document.getElementById('navbar');
+window.addEventListener('scroll',function(){
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if(scrollTop > lastScrollTop){
+    navbar.style.top='-80px';
+  }
+  else{
+    navbar.style.top='0';
+  }
+  lastScrollTop = scrollTop;
+});
+
   </script>
 
 {{ end }}

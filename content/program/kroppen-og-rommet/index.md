@@ -4,6 +4,8 @@ type: "program"
 layout: "kroppen-og-rommet"
 ---
 
+{{< program/video src=promo1.mp4 >}}
+
 **Kammerkoret Aurum** med dirigent **Eva Holm Foosnæs** ønsker velkommen til konsert!
 
 Sentralt i konserten står et nytt bestillingsverk av **Heidi Skjerve**, som belyser ulike kroppslige erfaringer.
@@ -24,3 +26,5 @@ I tillegg til Skjerve, står komponister som **Ēriks Ešenvalds**, **Ståle Kle
 Vi er stolte av å samarbeide med samtidsdanser og koreograf **Marie Rechsteiner**, som skal sette bevegelse til musikken.
 
 **Velkommen!**
+
+{{< program/video src=promo2.mp4 >}}
