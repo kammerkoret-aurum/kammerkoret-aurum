@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{{ $currentLang := .Site.Language.Lang}}
+<html lang="{{$currentLang}}">
+  <body>
+    {{- block "main" . }}
+    {{- end }}
+
+  </body>
+</html>
