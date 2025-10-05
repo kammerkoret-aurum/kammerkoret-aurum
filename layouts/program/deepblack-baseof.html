@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 {{ $currentLang := .Site.Language.Lang}}
 <html lang="{{$currentLang}}">
+  {{- partial "head.html" . -}}
   <body>
-    {{- block "main" . }}
-    {{- end }}
+    {{ block "style" . }}
+    {{ end }}
 
+    {{ block "main" . }}
+    {{ end }}
+
+    {{- partial "footer.html" . -}}
   </body>
 </html>

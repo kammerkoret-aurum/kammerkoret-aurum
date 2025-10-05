@@ -1,80 +1,48 @@
-{{ define "main" }}
-<style>
-.parallax {
-height: 100vh;
-overflow-x: hidden;
-overflow-y: auto;
--webkit-perspective: 1px;
-perspective: 1px;
-perspective-origin-x: 100%;
-}
-.parallax__group {
-position: relative;
-height: 100vh;
-transform-style: preserve-3d;
--webkit-transform-style: preserve-3d;
-}
-.parallax__layer {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-transform-origin-x: 100%;
--webkit-transform-origin-x: 100%;
-}
-.parallax__layer--base {
--webkit-transform: translateZ(-2px) scale(3);
-transform: translateZ(-2px) scale(3);
-}
-.parallax__layer--back {
-// scale factor: 1 + (translateZ * -1) / perspective)
--webkit-transform: translateZ(0);
-transform: translateZ(0);
-height: 50%;
-transform-origin: center 100%;
--webkit-transform-origin: center 100%;
-}
-.parallax__layer--front {
-// scale factor: 1 + (translateZ * -1) / perspective)
--webkit-transform: translateZ(-10px) scale(11);
-transform: translateZ(-10px) scale(11);
-height: 50%;
-transform-origin: center 100%;
--webkit-transform-origin: center 100%;
-}
+{{ define "style" }}
+  {{ with .Resources.GetMatch "*.css" }}
+    <style>
+      {{ .Content | safeCSS }}
+    </style>
+  {{ end }}
+{{ end }}
 
-</style>
+{{ define "main" }}
 
 <div class="parallax">
   <div class="parallax__group">
-    <div class="parallax__layer parallax__layer--base">
+    <div class="parallax__layer parallax__layer--title p-5 text-light">
+      <h1>Deep Black</h1>
+      Background
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut laoreet eros. Fusce sollicitudin felis sed urna dictum, id pretium lorem feugiat. Phasellus mattis iaculis ultrices. Nulla euismod, purus nec tincidunt interdum, enim odio volutpat massa, sit amet dignissim justo magna vitae metus. Phasellus eget dolor felis. Mauris sollicitudin volutpat libero vel fringilla. Aliquam ex ante, pulvinar id pulvinar ac, consequat tempus lacus.
+    </div>
+
+  </div>
+  <div class="parallax__group">
+    <div class="parallax__layer parallax__layer--base p-5 text-light">
       <div>
-        Background
+        <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut laoreet eros. Fusce sollicitudin felis sed urna dictum, id pretium lorem feugiat. Phasellus mattis iaculis ultrices. Nulla euismod, purus nec tincidunt interdum, enim odio volutpat massa, sit amet dignissim justo magna vitae metus. Phasellus eget dolor felis. Mauris sollicitudin volutpat libero vel fringilla. Aliquam ex ante, pulvinar id pulvinar ac, consequat tempus lacus.
+        </p>
       </div>
       <div>
+        <p>
         Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
-
+        </p>
       </div>
       <div>
+        <p>
         Proin auctor at mauris sit amet semper. Ut bibendum fermentum magna quis tincidunt. Sed non mi vel ante porta efficitur eget quis nibh. Proin bibendum metus magna, vel luctus enim volutpat sed. Maecenas lacinia enim dui, quis consequat mauris cursus et. Quisque consectetur lobortis lorem at maximus. Maecenas orci risus, vehicula at felis quis, elementum pharetra dolor. Curabitur quis consectetur justo, eu sodales nisl. Integer suscipit malesuada felis gravida accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis gravida, ex a iaculis hendrerit, tortor augue imperdiet mauris, sed convallis arcu dui iaculis leo. Nullam vehicula elementum dui eget cursus.
-
-      </div>
-      <div>
-        Vestibulum sit amet arcu sed augue tempus faucibus. Quisque dignissim, sapien et commodo luctus, est quam dignissim ligula, venenatis commodo nisl leo quis dolor. Curabitur in eleifend purus. Nullam arcu mi, blandit in feugiat a, viverra nec turpis. Mauris finibus felis nec quam posuere, ac dignissim elit aliquet. Nullam interdum accumsan lorem ut sollicitudin. Etiam scelerisque sapien sit amet erat dictum, eget sagittis augue iaculis. Integer quam nunc, commodo non pulvinar non, rhoncus quis sem. Etiam a quam nunc. Vivamus sed tincidunt eros. Aenean a dolor a tellus ultricies hendrerit non et lorem. Praesent rutrum tempus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel posuere enim. Quisque sodales tortor et urna bibendum, sit amet egestas diam cursus. Praesent scelerisque dui massa.
-      </div>
-      <div>
-
-        Nulla facilisi. Sed volutpat massa vel metus ultricies cursus commodo quis ante. Nullam ligula elit, varius non risus at, ornare vestibulum elit. Aliquam imperdiet rutrum dui ac laoreet. Nam non dictum nibh. Fusce eu lectus at diam ultricies volutpat. Sed diam quam, rhoncus quis sollicitudin ut, pharetra nec purus. Proin placerat nulla ut efficitur tincidunt. Sed volutpat facilisis eros eget laoreet. Donec purus risus, malesuada a massa eget, aliquam scelerisque dui. Suspendisse urna turpis, finibus vel nisl a, tristique ultricies erat. Donec ac diam sit amet orci porta faucibus. Donec ut lorem eu nisl finibus finibus.
+        </p>
       </div>
     </div>
 
     <div class="parallax__layer parallax__layer--front">
-      <img src="/program/deepblack/Bobler 2.png">
+      <img src="/program/deepblack/Bobler1.png">
+      <img src="/program/deepblack/Bobler 2.png" class="img-mirror">
     </div>
     <div class="parallax__layer parallax__layer--back">
-      <img src="/program/deepblack/Bobler1.png">
+      <img src="/program/deepblack/Bobler 2.png">
+      <img src="/program/deepblack/Bobler1.png" class="img-mirror">
     </div>
   </div>
 </div>
