@@ -1,14 +1,19 @@
 /* Photo by <a href="https://unsplash.com/@mcovoy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Makoto Tsuka</a> on <a href="https://unsplash.com/photos/body-of-water-wG1FqkoxrOM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
 body {
-    background-image: url(/program/deepblack/makoto-tsuka-deepwater.jpg);
+/*    background-image: url(/program/deepblack/makoto-tsuka-deepwater.jpg);*/
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: black;
 
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
+
+h1 {
+  font-family: serif;
+}
+
       
 .parallax {
 height: 100vh;

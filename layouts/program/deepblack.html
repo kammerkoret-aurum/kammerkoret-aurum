@@ -7,13 +7,179 @@
 {{ end }}
 
 {{ define "main" }}
+<style>
 
+
+section {
+  height: 150vh;
+  align-items: end;
+  justify-content: right;
+  padding: 2rem;
+}
+
+@keyframes parallax {
+from {
+  background-position: bottom 0px center;
+}
+to {
+  background-position: bottom 100px center;
+}
+
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#program {
+  background-image: url(/program/deepblack/deep-black-program.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 250vh;
+}
+
+#quote {
+  background-image: url(/program/deepblack/deep-black-program.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 150vh;
+}
+
+section.water {
+  background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
+  background-position: top top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  animation: parallax linear;
+  animation-timeline: scroll();
+  position: relative;
+}
+
+@keyframes float {
+from {
+  top: 50%;
+} to {
+  top: 55%;
+}
+}
+
+.water-content {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  animation: float linear;
+  animation-timeline: scroll();
+}
+.water-content > * {
+  position: relative;
+}
+
+@keyframes bubble {
+from {
+  background-position: bottom -200px left;
+}
+to {
+  background-position: bottom -100px left;
+}
+
+}
+
+.bubbles-front {
+  position: absolute;
+  top: 50%;
+  animation: bubble linear;
+  animation-timeline: scroll();
+}
+
+</style>
+
+<main class="d-flex flex-column">
+<section class="d-flex flex-column water text-light">
+  <div class="water-content">
+      <h1>DEEP BLACK</h1>
+      <p>
+      Konsertprogram for Deep Black-konsertene i Trondheim
+      16. november 2025 kl 18 og kl 20.30.
+      </p>
+  </div>
+  <div class="bubbles-front">
+      <img src="/program/deepblack/Bobler 2.png">
+  </div>
+</section>
+<section class="d-flex flex-column text-light" id="program">
+    {{ partial "program/program.html" . }}
+</section>
+<section class="d-flex flex-column text-light water">
+  <div class="bubbles-front">
+  </div>
+  <div class="water-content">
+  Another section with some other text.
+  </div>
+</section>
+<section class="d-flex flex-column text-light" id="quote">
+  <p>
+        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
+  </p>
+</section>
+<section class="d-flex flex-column text-light water">
+  <div class="bubbles-front">
+      <img src="/program/deepblack/Bobler1.png">
+  </div>
+  <div class="water-content">
+  Another section with some other text.
+        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
+  </div>
+</section>
+<section class="d-flex flex-column text-light">
+  <p>
+        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
+  </p>
+</section>
+
+<section class="d-flex flex-column align-items-center align-content-center justify-content-center text-light text-center py-5 my-5 water"> 
+  <p>
+  Dirigent<br />
+  Eva Holm Foosnæs
+  </p>
+
+  <p>
+  Lysdesign<br />
+  Sune Schjelderup
+  </p>
+
+  <p>
+  Lydlandskap<br />
+  Jørgen Meyer
+  </p>
+  
+  <p>
+  Bilder og video<br />
+  Kasper Eliassen
+  </p>
+
+  <p>
+  Utforming nettprogram<br />
+  Hilde Aas Nøst
+  </p>
+
+</section>
+
+</main>
+
+
+<!--
 <div class="parallax">
-  <div class="parallax__group">
+  <div class="parallax__group text-light">
+    {{ .Content }}
     <div class="parallax__layer parallax__layer--title p-5 text-light">
       <h1>Deep Black</h1>
-      Background test
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut laoreet eros. Fusce sollicitudin felis sed urna dictum, id pretium lorem feugiat. Phasellus mattis iaculis ultrices. Nulla euismod, purus nec tincidunt interdum, enim odio volutpat massa, sit amet dignissim justo magna vitae metus. Phasellus eget dolor felis. Mauris sollicitudin volutpat libero vel fringilla. Aliquam ex ante, pulvinar id pulvinar ac, consequat tempus lacus.
     </div>
 
   </div>
@@ -21,7 +187,7 @@
     <div class="parallax__layer parallax__layer--base p-5 text-light">
       <div>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut laoreet eros. Fusce sollicitudin felis sed urna dictum, id pretium lorem feugiat. Phasellus mattis iaculis ultrices. Nulla euismod, purus nec tincidunt interdum, enim odio volutpat massa, sit amet dignissim justo magna vitae metus. Phasellus eget dolor felis. Mauris sollicitudin volutpat libero vel fringilla. Aliquam ex ante, pulvinar id pulvinar ac, consequat tempus lacus.
+          PARALLAX_LAYER_BASE
         </p>
       </div>
       <div>
@@ -46,6 +212,7 @@
     </div>
   </div>
 </div>
+-->
 
 
 {{ end }}
