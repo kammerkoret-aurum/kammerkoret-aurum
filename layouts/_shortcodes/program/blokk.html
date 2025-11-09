@@ -1,0 +1,39 @@
+<style>
+.serif {
+  font-family: serif;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+}
+
+p {
+  font-size: 1.2em;
+}
+.softrains {
+    height: 140vh;
+    background-color: beige;
+    background-image: url({{.Get "background-image"}});
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#therain {
+  height: 100vh;
+}
+
+</style>
+
+
+<div class="d-flex flex-column align-items-end pt-5 softrains overlay"> 
+  <h2 class="text-light serif">{{ with .Get "title" }} {{.| safeHTML}}{{ end }}</h2>
+  <span class="serif text-light">{{ .Get "author" }}</span>
+
+
+  <p id="therain" class="d-flex align-items-end text-light">
+  {{ .Inner | .Page.RenderString }}
+  </p>
+</div>
+

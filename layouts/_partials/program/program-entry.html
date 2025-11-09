@@ -11,3 +11,9 @@
 {{ with .solo }}
     solist: {{ . }}<br />
 {{ end }}
+{{ with .solos }}
+    solister: 
+      {{ range . }}
+        {{ . }}<br />
+      {{ end }}
+{{ end }}
