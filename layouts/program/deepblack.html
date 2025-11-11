@@ -23,10 +23,11 @@ section {
 
 @keyframes parallax {
 from {
-  background-position: bottom 0px center;
+  transform:  translateY(0);
 }
+
 to {
-  background-position: bottom 100px center;
+  transform: translateY(calc(100% + 650vh));
 }
 
 }
@@ -52,13 +53,13 @@ to {
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
-  height: 150vh;
+  height: 200vh;
 }
 
 section.water {
   background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
-  background-position: top top;
-  background-size: cover;
+  background-position: bottom bottom;
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   animation: parallax linear;
@@ -66,11 +67,12 @@ section.water {
   position: relative;
 }
 
-@keyframes float {
+@keyframes text {
 from {
-  top: 50%;
-} to {
-  top: 55%;
+  transform:  translateY(0);
+}
+to {
+  transform: translateY(calc(100% + 100vh));
 }
 }
 
@@ -78,7 +80,7 @@ from {
   text-align: right;
   position: absolute;
   top: 50%;
-  animation: float linear;
+  animation: text linear;
   animation-timeline: scroll();
 }
 .water-content > * {
@@ -87,11 +89,12 @@ from {
 
 @keyframes bubble {
 0% {
-  transform: translateX(0);
+  transform: translateX(0) translateY(0);
+  opacity: 0.8;
 }
 
 100% {
-  transform: translateX(calc(-100% - 100vw));
+  transform: translateX(calc(-100% - 100vw)) translateY(calc(-100% - 500vh));
 }
 
 }
@@ -118,6 +121,24 @@ from {
       <img src="/program/deepblack/Bobler 2.png">
   </div>
 </section>
+<section class="d-flex flex-column text-light" id="quote">
+  <div class="d-flex flex-column justify-content-center picture">
+  <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
+  </div>
+    <p class="overlay p-5">
+      Kammerkoret Aurum<br />
+      med dirigent Eva Holm Foosnæs<br />
+      ønsker velkommen til<br />
+      <strong>DEEP BLACK</strong>!
+      <br />
+      <br />
+      Deep Black er den tredje mørkekonserten i rekken, etter Pitch Black og Space Black.
+      <br />
+      <br />
+      Bli med oss på ferd ned i musikkens og havets metaforiske dyp
+ med både etablerte og nyskrevne verker i båten.
+    </p>
+</section>
 <section class="d-flex flex-column text-light" id="program">
     {{ partial "program/program.html" . }}
 </section>
@@ -125,10 +146,13 @@ from {
   <div class="bubbles-front">
   </div>
   <div class="d-flex flex-column justify-content-center picture">
-  <img class="img-fluid" src="/program/deepblack/DSC09928.jpg">
+  <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
   </div>
 </section>
 <section class="d-flex flex-column text-light" id="quote">
+  <div class="d-flex flex-column justify-content-center picture">
+  <img class="img-fluid" src="/program/deepblack/DSC09928.jpg">
+  </div>
   <p>
         Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
   </p>
