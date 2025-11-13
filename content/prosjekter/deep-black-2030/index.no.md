@@ -1,7 +1,7 @@
 ---
 category: konsert
-issoldout: false
-isfewleft: false
+issoldout: true
+isfewleft: true
 eventimg: deep-black-fb-arrtekst.png
 title: Deep Black
 date: 2025-11-16T20:30:00+0100
