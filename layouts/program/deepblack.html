@@ -18,6 +18,17 @@ html {
   overscroll-behavior-y: none;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/program/deepblack/deep-black-program-2.png);
+    z-index: -1;
+}
+
 .picture {
   height: 100vh;
   align-items: center;
@@ -56,7 +67,7 @@ to {
 }
 
 #quote {
-  background-image: url(/program/deepblack/deep-black-program.png);
+  background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -120,10 +131,11 @@ to {
 }
 
 img .bgimage {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
+  zorder: -1;
 }
 
 </style>
@@ -143,6 +155,9 @@ img .bgimage {
 </section>
 <section class="d-flex flex-column text-light" id="quote">
   <div class="d-flex flex-column justify-content-center picture">
+      <!--
+      <img class="bgimage" src="/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg">
+-->
   <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
   </div>
     <p class="overlay p-5">
