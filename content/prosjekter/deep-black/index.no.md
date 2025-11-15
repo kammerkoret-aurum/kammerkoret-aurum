@@ -1,6 +1,6 @@
 ---
 category: konsert
-issoldout: true
+issoldout: false
 isfewleft: true
 eventimg: deep-black-fb-arrtekst.png
 title: Deep Black
