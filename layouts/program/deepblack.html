@@ -60,20 +60,77 @@ to {
   background-image: url(/program/deepblack/deep-black-program.png);
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
   height: 250vh;
+}
+#velkommen {
+  background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200vh;
 }
 
 #quote {
   background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 120vh;
+}
+
+#quotedikt {
+  background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+#klipper {
+  background-image: url(/program/deepblack/klipper2.jpg);
+  background-position: center left;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
   height: 200vh;
+}
+
+#endnotes {
+  background-image: url(/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
 }
 
 section.water {
@@ -153,12 +210,9 @@ img .bgimage {
       <img src="/program/deepblack/Bobler 2.png">
   </div>
 </section>
-<section class="d-flex flex-column text-light" id="quote">
+<section class="d-flex flex-column text-light" id="velkommen">
   <div class="d-flex flex-column justify-content-center picture">
-      <!--
-      <img class="bgimage" src="/program/deepblack/makoto-tsuka-deepwater-dimmed.jpg">
--->
-  <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
+    <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
   </div>
     <p class="overlay p-5">
       Kammerkoret Aurum<br />
@@ -177,37 +231,61 @@ img .bgimage {
 <section class="d-flex flex-column text-light" id="program">
     {{ partial "program/program.html" . }}
 </section>
-<section class="d-flex flex-column text-light">
-  <div class="bubbles-front">
-  </div>
+<section class="d-flex flex-column text-light" id="quotedikt">
   <div class="d-flex flex-column justify-content-center picture">
-  <img class="img-fluid" src="/program/deepblack/DSC09909.jpg">
+      <h2>Livet är värt att leva!</h2>
+    <span class="serif ">Ebba Lindqvist</span>
   </div>
 </section>
 <section class="d-flex flex-column text-light" id="quote">
   <div class="d-flex flex-column justify-content-center picture">
-  <img class="img-fluid" src="/program/deepblack/DSC09928.jpg">
-  </div>
-  <p>
-        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
-  </p>
-</section>
-<section class="d-flex flex-column text-light water">
-  <div class="bubbles-front">
-      <img src="/program/deepblack/Bobler1.png">
-  </div>
-  <div class="water-content">
-  Another section with some other text.
-        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
+    <img class="img-fluid" src="/program/deepblack/DSC09928.jpg">
   </div>
 </section>
-<section class="d-flex flex-column text-light">
-  <p>
-        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
-  </p>
-</section>
+  <section>
+<div id="klipper" class="container d-flex flex-column align-items-end pt-5"> 
+  <h2 class="text-dark serif">Ved Havet</h2>
+  <span class="serif text-dark">Johan Sebastian Welhaven (1845)</span>
+  <p  class="d-flex align-items-end text-dark  py-2">
+        Ved det mægtige Hav, hvor Kysten er steil <br />
+        er Verden lukt ude, der seer du i Speil<br />
+        dit Tankeliv. <br />
+        Af Havet kan stige<br />
+        et Længselens Rige <br />
+        ved Aandens tryllende Bliv.<br/>
+        <br/>
+    </p>
+  <p  class="d-flex align-items-end text-dark  py-2">
+        Mens Bølgerne glide og nynne dertil,<br />
+        kan du vugges og bæres saa langt du vil<br />
+        i Tankens Baad.<br />
+        Ja, langt fra de trange<br />
+        Døgntummelens Gange,<br />
+        med al deres Latter og Graad.<br />
+        <br />
+    </p>
+  <p  class="d-flex align-items-end text-dark  py-2">
+        De Syner, der stige af Vandenes Skjød,<br />
+        skal farves og aande i Morgenens Glød<br />
+        og mildere Luft.<br />
+        Ja, Fjelde og Taarne,<br />
+        af Bølgerne baarne,<br />
+        skal svøbes i Rosernes Duft.<br />
+        <br />
+    </p>
+  <p  class="d-flex align-items-end text-dark  py-2">
+        Langt ude, hvor Palmerne møde dit Blik,<br />
+        der voxer en Drue med lindrende Drik<br />
+        for al din Kval.<br />
+        O, bring den tilbage,<br />
+        naar hjem du maa drage<br />
+        til Savnets lukkede Dal!<br />
+    </p>
+</div>
+  </section>
 
-<section class="d-flex flex-column align-items-center align-content-center justify-content-center text-light text-center py-5 my-5 water"> 
+<section id="endnotes" class="d-flex flex-column align-items-center align-content-center justify-content-center text-light text-center py-5 my-5"> 
+    
   <p>
   Dirigent<br />
   Eva Holm Foosnæs
@@ -236,47 +314,6 @@ img .bgimage {
 </section>
 
 </main>
-
-
-<!--
-<div class="parallax">
-  <div class="parallax__group text-light">
-    {{ .Content }}
-    <div class="parallax__layer parallax__layer--title p-5 text-light">
-      <h1>Deep Black</h1>
-    </div>
-
-  </div>
-  <div class="parallax__group">
-    <div class="parallax__layer parallax__layer--base p-5 text-light">
-      <div>
-        <p>
-          PARALLAX_LAYER_BASE
-        </p>
-      </div>
-      <div>
-        <p>
-        Aliquam erat volutpat. Quisque in ipsum egestas, ultricies tellus in, tempor felis. Vestibulum lobortis vehicula accumsan. Nullam eu nisi dolor. Maecenas eleifend, orci in malesuada placerat, metus leo tempus urna, eget venenatis sapien neque ac odio. Nam iaculis porta tortor eu luctus. Donec ac ante ac ex pretium suscipit ornare sed velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec efficitur tempor nulla vel ornare. Maecenas tincidunt tellus in diam porttitor aliquet. Maecenas lorem ligula, mattis eget interdum in, sollicitudin eget turpis. Ut nec quam libero. Morbi porta arcu sit amet ex fermentum iaculis. Mauris enim mi, viverra ut augue et, ultrices ultricies elit.
-        </p>
-      </div>
-      <div>
-        <p>
-        Proin auctor at mauris sit amet semper. Ut bibendum fermentum magna quis tincidunt. Sed non mi vel ante porta efficitur eget quis nibh. Proin bibendum metus magna, vel luctus enim volutpat sed. Maecenas lacinia enim dui, quis consequat mauris cursus et. Quisque consectetur lobortis lorem at maximus. Maecenas orci risus, vehicula at felis quis, elementum pharetra dolor. Curabitur quis consectetur justo, eu sodales nisl. Integer suscipit malesuada felis gravida accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis gravida, ex a iaculis hendrerit, tortor augue imperdiet mauris, sed convallis arcu dui iaculis leo. Nullam vehicula elementum dui eget cursus.
-        </p>
-      </div>
-    </div>
-
-    <div class="parallax__layer parallax__layer--front">
-      <img src="/program/deepblack/Bobler1.png">
-      <img src="/program/deepblack/Bobler 2.png" class="img-mirror">
-    </div>
-    <div class="parallax__layer parallax__layer--back">
-      <img src="/program/deepblack/Bobler 2.png">
-      <img src="/program/deepblack/Bobler1.png" class="img-mirror">
-    </div>
-  </div>
-</div>
--->
 
 
 {{ end }}

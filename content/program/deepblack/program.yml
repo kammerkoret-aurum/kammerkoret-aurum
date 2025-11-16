@@ -1,23 +1,23 @@
 - title: "Ved Havet"
-  composer: "M. W. Peterson-Berger"
-  text: "I. S. C. Welhaven"
+  composer: "W. Peterson-Berger"
+  text: "J. S. C. Welhaven"
 
-- title: "Tre dikt"
+- title: "Tre dikt av Ebba Lindqvist"
   composer: "Alfred Janson"
   text: "Ebba Lindqvist"
   movements:
-    - title: "Vi som är födda vid havet" 
-    - title: Katarsis
-    - title: Vägarna vet jag därhemma
+    - title: "1. Vi som är födda vid havet" 
+    - title: 2. Katarsis
+    - title: 3. Vägarna vet jag därhemma
 
-- title: "Abr Mirabad"
-  composer: "Folketone fra Iran"
+- title: "Abr Mibarad"
+  composer: "Sohrab Pournazori"
   text: "Amir Khusrau"
   arranger: Eva Holm Foosnæs
   solo: Keivan Sayyar
 
-- title: "Malu"
-  composer: Hans Blok
+- title: "Mālu"
+  composer: "Hans Sampath Blok (urfremføring)"
   solos:
     - Karen Johanna Kviseth
     - Christian Sletta
@@ -25,17 +25,19 @@
     - Idunn Vindspoll
 
 - title: There will come soft rains
-  composer: Eriks Ešenvalds
+  composer: Е̄riks Ešenvalds
   text: Sara Teasdale
 
 - title: Knølkvalen
   composer: Odd Johan Overøye
+  text: Marit Kaldhol
 
 - title: Neptunus
-  composer: Ostrzyga
+  composer: Michael Ostrzyga
 
 - title: Trilo
-  arranger: Alo Møller
+  composer: trad.
+  arranger: Ale Møller
 
 - title: Fljotavik
   composer: Sigur Rós
