@@ -2,7 +2,7 @@
 category: konsert
 issoldout: false
 isfewleft: false
-eventimg: 1671123376_dsc06230.1788677928.webp
+eventimg: dsc06230.jpg
 title: Aurum 20 år
 date: 2026-11-06T20:00:00+0100
 price: 300 / 200
